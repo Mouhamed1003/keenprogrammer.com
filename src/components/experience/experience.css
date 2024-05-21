@@ -1,0 +1,166 @@
+section {
+    margin-top: 4rem;
+}
+.experience {
+    padding-top: 2rem;
+    user-select: none;
+}
+#experience h2 {
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    text-shadow: 2px 2px 5px black;
+}
+#experience h3 {
+    text-shadow: none;
+}
+.experience h5 {
+    color: wheat;
+}
+.experience_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    transition: background-color 0.3s ease;/* Ajoutez une transition pour l'animation de couleur */
+    transition: background-color 2.3s; /* Ajout de la transition */ 
+}
+.experience_container > div {
+    background: var(--color-bg);
+    padding: 2.4rem 5rem;
+    padding-bottom: 2rem;
+    border-radius: 2rem;
+    border: 1px dashed var(--color-primary);
+    transition: var(--transition);
+}
+.experience_container > div:hover {
+    background: rgba(0, 0, 0, 0.804);
+    border-color: var(--color-primary);
+    cursor: default;
+    animation: pulse 12.05s infinite; /* Ajout de l'animation sur le survol */
+}
+.experience_container > div:hover {
+    border-color: var(--color-primary);
+    cursor: default;
+    animation: pulse 5.05s infinite, rotateCard 2s forwards; /* Ajoutez l'animation rotateCard */
+    transform: scale(1.1); /* Zoom de 10% */
+    transition: transform 5.5s ease; /* Ajoutez une transition pour une animation fluide */
+}
+@keyframes rotateCard {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.experience_container > div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+}
+.experience_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1.5rem;
+}
+.experience_details {
+    display: flex;
+}
+.experience_details-icon {
+    margin-top: 6px;
+    color: var(--color-primary);
+    font-size: 130%;
+}
+.langue-icon1{
+    font-size: 145%;
+    color: yellow;
+}
+.langue-icon2{
+    font-size: 125%;
+    color: #61dbfb;
+}
+.langue-icon3{
+    font-size: 135%;
+    color: #0769AD;
+}
+.langue-icon4{
+    font-size: 125%;
+    color: #a6120d;
+}
+.langue-icon5{
+    font-size: 125%;
+    color: #FF5733;
+}
+.langue-icon6{
+    font-size: 155%;
+    color: #264de4;
+    border-radius: 30%;
+}
+.langue-icon7{
+    font-size: 125%;
+    color: aqua;
+}
+.langue-icon8{
+    font-size: 155%;
+    color: #864ae2;
+}
+.langue-icon9{
+    font-size: 155%;
+    color: #309430;
+}
+.langue-icon10{
+    font-size: 145%;
+    color: #2bda2b;
+}
+.langue-icon11{
+    font-size: 155%;
+    color: black;
+    background-color: white;
+    border-radius: 50% 50% 0% 50%;
+}
+.langue-icon12{
+    font-size: 175%;
+    color: #6638e7;
+}
+.langue-icon13{
+    font-size: 155%;
+    color: #f2450b;
+}
+.langue-icon14{
+    font-size: 2.2rem;
+    color: #e49a10;
+}
+.langue-icon15{
+    font-size: 125%;
+    color: #93ca13;
+}
+.langue-icon16{
+    font-size: 175%;
+    color: #0f7bef;
+}
+/*@ ============== LES MEDIAS QUERYS " Medium device "((( Les Respensives a moyenne taille: tablette ))) ================ */
+@media screen and (max-width: 1024px) {
+    .experience_container {
+        grid-template-columns: 1fr;
+    }
+    #experience {
+        margin-top: 30rem;
+    }
+    .experience_container > div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+    .experience_content {
+        padding: 1rem;
+    }
+}
+/*@ ============== LES MEDIAS QUERYS " Medium device "((( Les Respensives a moyenne taille: tablette ))) ================ */
+@media screen and (max-width: 600px) {
+    .experience_container {
+        gap: 1rem;
+    }
+    .experience_container > div {
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+}

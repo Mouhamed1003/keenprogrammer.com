@@ -1,0 +1,127 @@
+section {
+    user-select: none;
+    padding: 2rem;
+    margin-top: 4rem;
+}
+#services h2 {
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    text-shadow: 2px 2px 5px black;
+}
+.services_container {
+    display: flex;
+    justify-content: center; /* Centre les éléments horizontalement */
+    
+}
+.service_row {
+    display: flex;
+    flex-direction: row; /* Aligne les éléments horizontalement */
+    justify-content: center; /* Centre les éléments horizontalement */
+    padding: 3vw; /* Utilisation de vw pour les marges, s'adapte à la largeur de la vue */
+    border-radius: 2rem;
+    transition: var(--transition);
+    position: relative;
+    width: 100%;
+}
+.service {
+    margin-left: 0.5px; /* Espacement entre les services */
+    margin-right: 0.5px; /* Espacement entre les services */
+    padding: 1rem;
+    border-radius: 0 0 2rem 2rem;
+}
+.services h5 {
+    color: wheat;
+}
+.ensemble {   
+    background: var(--color-bg);
+    border-radius: 3rem 3rem 2rem 2rem;
+    padding: 10px 20px; /* Utilisation d'une seule propriété pour définir les marges intérieures */
+    text-align: left;
+    max-height: 600px; /* Hauteur maximale de la carte */
+    overflow: auto; /* Ajout d'une barre de défilement si le contenu dépasse */
+    font-weight: bold;
+    border: 10px solid var(--color-primary);
+    width: 20rem; /* Augmenter la largeur de la carte au survol */
+    height: auto; /* Ajuster automatiquement la hauteur en fonction du contenu */
+}
+/* Empêcher le texte de dépasser la bordure */
+.ensemble h3,
+.ensemble span {
+    word-wrap: break-word; /* Permet au texte de se casser pour s'ajuster à la largeur de la carte */
+    max-width: 100%; /* Assurez-vous que le texte ne dépasse pas la largeur de la carte */
+    overflow: hidden; /* Masquer le texte qui dépasse */
+    text-overflow: ellipsis; /* Ajouter des points de suspension si le texte est trop long */
+}
+.service_head {
+    background: var(--color-primary);
+    padding: 8px;
+    margin: 15px;
+    margin-left: 22px;
+    border-radius: 0rem 0rem 2rem 2rem;
+}
+.service_head h3 {
+    color: black;
+    font-size: 10x;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: none;
+}
+.service_head:hover {
+    box-shadow: 0 0rem 1rem rgba(255, 255, 255, 0.984);
+}
+.service_list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.service_list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.service_list span {
+    user-select: text;
+    font-size: clamp(0.9rem, 3.5vw, 1.1rem);
+    margin-top: 4px;
+    margin-right: 15px;
+    padding-left: 3px;
+}
+.service_list span:hover {
+    border: 0px solid transparent;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.549);
+    padding-left: 3px;
+    color: green;
+}
+.service_list-icon {
+    color: green;
+    font-size: 4em; 
+    margin-right: 3px
+}
+/* Styles pour les petits écrans et tablettes */
+@media screen and (max-width: 1024px) {
+.service_row {
+        flex-direction: column; 
+        padding: 0;
+        margin-top: 2rem;
+        margin: 0rem;
+        margin-left: 13.5px;
+        align-items: center;
+    }
+    .services {
+        padding-top: 37rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    .services {
+        padding-top: 40rem;
+    }
+    .service_row {
+        margin-left: 12px;
+    }
+}
+@media screen and (max-width: 200px) {
+    #services h5 {
+        margin-top: 2rem;
+    }
+}

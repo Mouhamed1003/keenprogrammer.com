@@ -1,0 +1,36 @@
+input[type="color"] {
+    border: none;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+
+input[type="color"]::-webkit-color-swatch {
+    border: none;
+}
+
+/* ColorPicker.css */
+.theme-picker {
+    width: 35px;
+    height: 35px;
+    position: fixed;
+    top: 13%;
+    padding: 6px;
+    right: 5%;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color:  #ffffff; /* Utilisez la variable --color-bg pour définir la couleur de fond, avec la valeur de secours #ffffff (blanc) */
+}
+
+/* Vous pouvez utiliser les variables CSS personnalisées pour les couleurs dans vos autres fichiers CSS */
+body {
+    background-color: var(--color-bg);
+    color: var(--text-color); /* Utilisez la variable pour la couleur du texte */
+}
+
+.shadowed {
+    box-shadow: 0 0 10px var(--color-shadow); /* Utilisez la variable pour l'ombre */
+    color: var(--text-color); /* Utilisez la variable pour la couleur du texte */
+    filter: drop-shadow(0px 0px 5px var(--color-shadow)); /* Appliquer la couleur sélectionnée aux ombres */
+}

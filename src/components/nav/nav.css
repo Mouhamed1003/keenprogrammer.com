@@ -1,0 +1,41 @@
+nav {
+    background: rgba(0, 0, 0, 0.3);
+    width: max-content;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 48.5%;
+    transform: translateX(-43%);
+    bottom: 1.5rem;
+    display: flex;
+    gap: 0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+}
+nav a {
+    background: transparent;
+    padding: 0.9rem;
+    border-radius: 50%;
+    display: flex;
+    color: var(--color-primary);
+    font-size: 1.1rem;
+    transition: background-color 2.3s; /* Ajout de la transition */
+}
+nav a:hover {
+    background: rgba(0, 0, 0, 0.3);
+    animation: pulse 2.05s infinite; /* Ajout de l'animation sur le survol */
+}
+nav a.active:hover {
+    color: rgb(255, 255, 255);
+}
+nav a.active {
+    background: var(--color-primary);
+    color: var(--color-bg);
+}
+/* Animation de feu d'artifice */
+@keyframes pulse {
+    50% { text-shadow: 0 0 10px #0e46f0f9, 0 0 20px #1cef05, 0 0 30px #fffffffd; }
+    50% { box-shadow: 0 0 50px #000000, 0 0 100px #fdfdfdf3, 0 0 150px rgb(0, 255, 251); }
+    100% { box-shadow: 0 0 10px #fdfdfdf3, 0 0 20px #163cfbf8, 0 0 30px rgb(8, 130, 139); }
+}

@@ -1,0 +1,225 @@
+section {
+    margin-top: 4rem;
+}
+.permettre-selection { 
+    user-select: none; /* Empêche la sélection de texte sur tout le corps de la page */
+}
+
+.apropos {
+    padding-top: 2rem;
+    user-select: none; /* Empêche la sélection de texte sur tout le corps de la page */
+
+}
+#apropos h2 {
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    text-shadow: 2px 2px 5px black;
+}
+.apropos h5 {
+    color: wheat;
+
+}
+
+.btn.btn-primary {
+    color: white;
+}
+
+.apropos_container {
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+}
+
+.apropos_moi {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: transparent;/* background: var(--color-primary); Rouge */
+    display: grid;
+    place-items: center;
+    overflow: visible;/* Permettre le dépassement du contenu de la carte */
+    transition: background-color 0.3s ease;/* Ajoutez une transition pour l'animation de couleur */
+}
+
+.apropos_moi {
+    font-size: 1.05rem;
+    transition: background-color 2.3s; /* Ajout de la transition */
+    animation: pulse 12.05s infinite; /* Ajout de l'animation sur le survol */
+    border: 1px dashed var(--color-primary);
+}
+
+.apropos_moi:hover {
+    background: linear-gradient(90deg, rgba(0, 128, 0, 0.592), rgba(255, 217, 0, 0.565), rgba(255, 0, 0, 0.54));/* background: var(--color-primary); Rouge */
+    animation: pulse 7.5s infinite; /* Ajout de l'animation sur le survol */
+}
+
+/* Animation de feu d'artifice */
+@keyframes pulse {
+    50% { text-shadow: 0 0 10px #0e46f0f9, 0 0 20px #1cef05, 0 0 30px #fffffffd; }
+    50% { box-shadow: 0 0 50px #000000, 0 0 100px #fdfdfdf3, 0 0 150px rgb(0, 255, 251); }
+    100% { box-shadow: 0 0 10px #fdfdfdf3, 0 0 20px #163cfbf8, 0 0 30px rgb(8, 130, 139); }
+}
+
+.apropos_moi-image img {
+    border-radius: 2rem;
+    transition: transform 0.3s ease;/* Ajoutez une transition pour une animation fluide */
+}
+
+.apropos_moi-image:hover img {
+    transform: rotate(10deg);/* Appliquez la rotation sur le survol de la carte */
+}
+
+.my_nationality {
+    color: white;
+}
+.my_nationality:hover {
+    color: black;
+    border: 0px solid transparent;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.549);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.apropos_moi .etoile {
+    color: green;/* Vert */
+    padding-bottom: 0.5rem;
+}
+
+/* concernant le signe etoile (( The star symbol )) */
+
+@keyframes shine {
+    0% {
+        opacity: 0.5;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.5);
+    }
+
+    100% {
+        opacity: 0.5;
+        transform: scale(1);
+    }
+}
+
+.apropos_moi .etoile {
+    animation: shine 3s infinite alternate;
+}
+
+/*? concernant the cards (( les cartes )) */
+
+.apropos_cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.apropos_card {
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+    transition: var(--transition);
+    
+}
+
+.apropos_card:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+    backdrop-filter: blur(25px);
+}
+
+.apropos_icon {
+    color: var(--color-primary);
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+
+.apropos_card strong {
+    font-size: 1.95rem;
+    display: block;
+}
+
+.apropos_card small {
+    font-size: 0.999rem;
+    color: var(--color-light);
+}
+
+.apropos_content p {
+    margin: 1rem 0 1.6rem;
+    color: var(--color-light);
+    background: var(--color-bg-variant);
+    padding: 15px;
+    border: 5px solid var(--color-primary);
+    border-radius: 40px 0px 40px 0px;
+    font-weight: bold;
+    font-size: 18px;
+    width: 560px;
+}
+
+.apropos_content p:hover {
+    margin: 1rem 0 1.6rem;
+    color: white;
+    margin-left: 0;
+    margin-right: 0;
+    background:  rgba(0, 0, 0, 0.828);
+    padding: 15px;
+    border: 5px solid var(--color-primary);
+    border-radius: 0px 40px 0px 40px;
+    font-weight: bold;
+    width: 560px;
+
+}
+
+/*@ ============== LES MEDIAS QUERYS " Medium device "((( Les Respensives a moyenne taille: tablette ))) ================ */
+@media screen and (max-width: 1024px) {
+    .apropos_container {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    #apropos {
+        padding-top: 0.5rem;
+    }
+
+    .apropos_moi {
+        width: 40%;
+        margin: 2rem auto 2rem 2rem;
+    }
+
+    .apropos_content p {
+        margin: 1rem 0 1.5rem;
+    }
+}
+
+/*@ ============== LES MEDIAS QUERYS " Medium device "((( Les Respensives a moyenne taille: tablette ))) ================ */
+@media screen and (max-width: 600px) {
+    .apropos_moi {
+        width: 65%;
+        margin: 0 auto 3rem;
+    }
+
+    .apropos_cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .apropos_content {
+        text-align: center;
+    }
+
+    .apropos_content p {
+        margin: 1.5rem 0;
+    }
+
+    .apropos_card{
+        margin-left: 1rem;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+

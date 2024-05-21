@@ -1,0 +1,67 @@
+#portfolio {
+    margin-top: 4rem;
+}
+#portfolio h5 {
+    color: wheat;
+}
+#portfolio h2 {
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    text-shadow: 2px 2px 5px black;
+}
+.portfolio_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    width: 60rem;
+}
+.portfolio_item {
+    background: var(--color-bg-variant);
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    box-shadow: 1px 1px 12px white;
+    transition: transform 1s ease; /* Transition douce */
+}
+.portfolio_item:hover {
+    border-color: var(--color-primary-variant);
+    background: rgba(10, 38, 2, 0.843);
+    transform: scale(1.1); /* Zoom sur le survol */
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+.portfolio_item-image {
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.portfolio_item h3 {
+    margin: 1.2rem 0 2rem;
+}
+.portfolio_item-cta {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+/*@ ============== LES MEDIAS QUERYS " Medium device "((( Les Respensives a moyenne taille: tablette ))) ================ */
+@media screen and (max-width: 1024px) {
+    #portfolio {
+        padding-top: 100rem;
+        height: 100vh;
+    }
+    .portfolio_container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        width: 35rem;
+        margin: 0vw;
+        margin-left: 14vw;
+    }
+}
+@media screen and (max-width: 900px) {
+    .portfolio_container {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        width: 25rem;
+        margin-left: 0vw;
+    }
+}

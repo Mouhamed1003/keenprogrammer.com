@@ -1,13 +1,191 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box; /* Utilisez une valeur valide pour box-sizing */
+    list-style: none;
+    text-decoration: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Ici les Variable des couleurs et autres . Mr Yassine 2 ! */
+:root {
+    --color-bg: rgba(4, 30, 31, 0.8);;
+    --color-bg-variant: rgb(4, 30, 31);
+    --color-primary: #4db5ff;
+    --color-primary-variant: rgba(77, 181, 255, 0.4);
+    --color-white: #fff;
+    --color-light: rgba(255, 255, 255, 0.6);
+
+    --transition: all 400ms ease;
+
+    --container-width-lg: 60%;
+    --container-width-md: 74%;
+    --container-width-sm: 90%;
+
+    --color-shadow: rgba(0, 0, 0, 0.2); /* Couleur de l'ombre par défaut */
+    --text-color: var(--color-primary); /* Couleur du texte par défaut */
+}
+
+/* Appliquer l'ombre aux éléments avec la classe .shadowed */
+.shadowed {
+    box-shadow: 0 0 10px var(--color-shadow); /* Utilisez la variable pour l'ombre */
+    filter: drop-shadow(0px 0px 5px var(--color-shadow)); /* Appliquer la couleur sélectionnée aux ombres */
+}
+
+/* Ignorer les textes pour l'ombre */
+.text-light, h1, h2, h3, h4, h5, p, a, li {
+    /* box-shadow: none !important; */
+    filter: none !important;
+}
+
+html {
+    scroll-behavior: smooth; /* Ajoutez cette règle pour activer le défilement fluide */
+    touch-action: manipulation; /* Gardez cette règle pour la manipulation des gestes tactiles */
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: var(--color-bg);
+    color: var(--color-white);
+    line-height: 1.7;
+    background-image: url(../src/images/bg-google.jpg);
+    background-attachment: fixed;
+    
+}
+.permettre-selection {
+    user-select: none; /* Empêche la sélection de texte sur tout le corps de la page */
+}
+
+/*% ============== STYLES GENERALES ================ */
+.container {
+    width: 60%; /* Remplacez par width: var(--container-width-lg); */
+    margin: 0 auto; /* Conservez tel quel */
+}
+
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5 {
+    font-weight: 900;
+    text-shadow: 1px 1px 12px rgb(227, 13, 113);
+    color: white;
+}
+
+h5 {
+    box-shadow: 0px 12px 30px 0px rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px black;
+    border-radius: 20px;
+    border: 3px solid white;
+    margin-left: 13vw;
+    margin-right: 13vw;
+    font-size: 1.5rem; /* Ajoutez cette propriété pour définir la taille de la police */
+}
+
+h1 {
+    font-size: 2.5;
+}
+
+section {
+    margin-top: 8rem;
+    height: 100vh;
+}
+
+section > h2, section > h5 {
+    text-align: center;
+    color: var(--color-light);
+}
+
+section > h2 {
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+}
+
+.text-light {
+    color: var(--color-light);
+}
+
+a {
+    color: var(--color-primary);
+    transition: var(--transition);
+}
+
+a:hover {
+    color: var(--color-white);
+}
+
+.btn {
+    width: max-content;
+    display: inline-block;
+    color: var(--color-primary);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+}
+
+.btn:hover {
+    background: var(--color-primary);
+    color: var(--color-white);
+    border-color: transparent;
+}
+
+.btn-primary {
+    background-color: var(--color-primary);
+    color: var(--color-bg);
+}
+
+.btn-primary:hover {
+    background: transparent;
+    color: var(--color-white);
+    border: 1px solid var(--color-primary);
+}
+
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+/*@ ============== LES MEDIAS QUERYS " Medium device "((( Les Respensives a moyenne taille: tablette ))) ================ */
+@media screen and (max-width: 1024px) {
+    .container {
+        width: var(--container-width-sm);
+    }
+
+    section {
+        margin-top: 6rem;
+    }
+
+    body {
+        font-size: 18px;
+    }
+}
+
+/*@ ============== LES MEDIAS QUERYS " Small device "((( Les Respensives a petite taille: teléphone))) ================ */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        width: var(--container-width-sm);
+    }
+
+    section > h2 {
+        margin-bottom: 2rem;
+    }
+
+    body {
+        font-size: 16px;
+    }
 }

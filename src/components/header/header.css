@@ -1,0 +1,175 @@
+header {
+    height: 100vh;
+    padding-top: 0.5rem;
+    overflow: hidden;
+    user-select: none;
+}
+#header{
+    padding-top: 0rem;
+    margin-top: 0rem;
+}
+#header h1 {
+    color: rgb(4, 9, 48);
+    text-shadow: 1px 1px 12px #fff;
+}
+#header h1 span{
+    color: white;
+}
+#header h3 {
+    color:#fff;
+    text-shadow: 1px 1px 12px rgb(227, 13, 113);
+    font-size: 150%;
+}
+.text-light-function {
+    font-weight: bold;
+    font-size: large;
+    color: white;
+}
+.header_container {
+    text-align: center;
+    height: 95%;
+    position: relative;
+}
+/*@ ============== CTA (Curriculum Vitae )================ */
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+.icon-load {
+    font-size: 20px;
+}
+/*@ ============== HEADER SOCIALS (Reseaux sociaux )================ */
+.header_socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    right: 70rem;
+    bottom: 7.9rem;
+    font-size: 14rem;
+    text-shadow: 1px 1px 12px #fff;
+    color: var(--color-primary);
+}
+.header_socials a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+.header_socials a:hover {
+    color: var(--color-white);
+}
+.header_socials a:hover {
+    text-decoration: underline;
+}
+.header_socials::after {
+    content: "";
+    width: 2px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+/*@ ============== MA PHOTO (Presentation faciale )================ */
+.maphoto {
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 3rem 3rem;
+    overflow: hidden;
+    padding: 5rem 2.5rem 2.5rem 2.5rem;
+    animation: pulse 14.05s infinite; /* Ajout de l'animation sur le survol */
+
+}
+.maphoto {
+    padding: 0.9rem;
+    display: flex;
+    color: var(--color-primary);
+    font-size: 1.1rem;
+    transition: background-color 1.03s; /* Ajout de la transition */
+}
+.icons {
+    display: flex;
+    align-items: center; /* Aligne les icônes verticalement */
+    justify-content: space-between; /* Espace les icônes horizontalement */
+}
+.maphoto:hover {
+    background: rgba(0, 0, 0, 0.3);
+    animation: pulse 2.9s infinite; /* Ajout de l'animation sur le survol */
+}
+.maphoto:hover {
+    color: rgb(255, 255, 255);
+    background: transparent;
+}
+
+.maphoto {    
+    background: rgba(104, 246, 246, 0.534); 
+    color: var(--color-bg);
+}
+.maphoto img {
+    border-radius: 2rem;
+}
+/* Animation de feu d'artifice */
+@keyframes pulse {
+    50% { text-shadow: 0 0 10px #0e46f0f9, 0 0 20px #1cef05, 0 0 30px #fffffffd; }
+    50% { box-shadow: 0 0 50px #000000, 0 0 100px #fdfdfdf3, 0 0 150px rgb(0, 255, 251); }
+    100% { box-shadow: 0 0 10px #fdfdfdf3, 0 0 20px #163cfbf8, 0 0 30px rgb(8, 130, 139); }
+}
+/*@ ============== Scoll down (defiler vers le bas )================ */
+.scroll_down {
+    position: absolute;
+    right: -6rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    bottom: 12.5rem;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+@keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 5; }
+}
+.scroll_down {
+    animation: pulse 2s infinite;
+}
+/* ========== MEDIA QUERIES - Taille moyenne des appareils (Tablettes) ========== */
+@media screen and (max-width: 1990px) {
+    header {
+        height: 100vh;
+        padding-top: 1.5rem;
+    }
+    .header_container {
+        padding-top: 4rem; 
+    }
+    .cta {
+        margin-top: 1rem; 
+    }
+    .header_socials {
+        left: 1rem; 
+        bottom: 0.1rem; 
+        font-size: 1.5rem; 
+    }
+    .maphoto {
+        width: 18rem; 
+        height: 25rem; 
+        left: calc(50% - 9rem); 
+        margin-top: 3rem; 
+        border-radius: 10rem 10rem 2rem 2rem; 
+        padding: 4rem 1rem 1rem 1rem; 
+    }
+    .scroll_down {
+        display: flex; 
+        bottom: 4rem;
+    }
+}
+/* ========== MEDIA QUERIES - Taille des appareils extrêmement petits (Mobiles) ========== */
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+    }    
+}
