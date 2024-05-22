@@ -34,7 +34,7 @@ header {
 .cta {
     margin-top: 0rem;
     display: flex;
-    gap: 2rem;
+    gap: 5rem;
     justify-content: center;
 }
 .cta a {
