@@ -123,12 +123,10 @@ section {
     background: var(--color-bg-variant);
     border: 1px solid transparent;
     border-radius: 1rem;
-    padding: 1rem;
-    padding-bottom: 0.05;
-    padding-top: 0.05;
+    padding: 1rem 0;
     text-align: center;
     transition: var(--transition);
-    width: 20px;
+    width: 165px;
 }
 
 .apropos_card:hover {
