@@ -9,8 +9,8 @@ return (
         id="svg5"
         version="1.1"
         viewBox="-5 -5 278 56"
-        width="465"
-        height="300"
+        width="200"
+        height="150"
     >
         <defs>
         <filter id="blur">
