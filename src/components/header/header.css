@@ -42,8 +42,8 @@ header {
 }
 /*@ ============== MA PHOTO (Presentation faciale )================ */
 .maphoto {
-    width: 22rem;
-    height: 30rem;
+    width: 15rem;
+    height: 25rem;
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
