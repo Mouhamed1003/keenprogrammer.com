@@ -111,7 +111,7 @@ section {
 
 /*? concernant the cards (( les cartes )) */
 .apropos_content {
-    width: 35%;
+    width: 25%;
 }
 .apropos_cards {
     display: grid;
