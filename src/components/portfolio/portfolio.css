@@ -18,6 +18,7 @@
     gap: 1rem;
     width: 60rem;
     align-items: center;
+    margin-left: 15.5rem;
 }
 .portfolio_item {
     background: var(--color-bg-variant);
