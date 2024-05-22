@@ -9,10 +9,13 @@
     margin-top: 1.3rem;
     text-shadow: 2px 2px 5px black;
 }
+.container {
+        margin: auto;
+}
 .portfolio_container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2.5rem;
+    gap: 1.5rem;
     width: 60rem;
 }
 .portfolio_item {
