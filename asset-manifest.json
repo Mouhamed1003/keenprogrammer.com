@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/keenprogrammer.com/static/css/main.b5d07539.css",
+    "main.css": "/keenprogrammer.com/static/css/main.928609ae.css",
     "main.js": "/keenprogrammer.com/static/js/main.b54ee39d.js",
     "static/media/maphoto3.png": "/keenprogrammer.com/static/media/maphoto3.c9ae1786ca259f8210c5.png",
     "static/media/moi2.png": "/keenprogrammer.com/static/media/moi2.c4058fabd02bb75c1b65.png",
     "static/media/moncv.pdf": "/keenprogrammer.com/static/media/moncv.369b7368d448ece8a402.pdf",
     "static/media/portfolio5.png": "/keenprogrammer.com/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
-    "static/media/bg-google.jpg": "/keenprogrammer.com/static/media/bg-google.68912a2e5a6d7495d867.jpg",
     "static/media/portfolio2.jpg": "/keenprogrammer.com/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
     "static/media/portfolio6.jpg": "/keenprogrammer.com/static/media/portfolio6.72d1107e313049cf15a7.jpg",
     "static/media/portfolio1.jpg": "/keenprogrammer.com/static/media/portfolio1.f5e72352e5aa840702b8.jpg",
     "static/media/portfolio3.jpg": "/keenprogrammer.com/static/media/portfolio3.cbab42559fe73e73906f.jpg",
     "static/media/portfolio4.jpg": "/keenprogrammer.com/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
     "index.html": "/keenprogrammer.com/index.html",
-    "main.b5d07539.css.map": "/keenprogrammer.com/static/css/main.b5d07539.css.map",
+    "main.928609ae.css.map": "/keenprogrammer.com/static/css/main.928609ae.css.map",
     "main.b54ee39d.js.map": "/keenprogrammer.com/static/js/main.b54ee39d.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5d07539.css",
+    "static/css/main.928609ae.css",
     "static/js/main.b54ee39d.js"
   ]
 }
