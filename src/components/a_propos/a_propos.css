@@ -162,7 +162,7 @@ section {
     border: 5px solid var(--color-primary);
     border-radius: 40px 0px 40px 0px;
     font-weight: bold;
-    font-size: 0.5rem;
+    font-size: 0.999rem;
     width: 545px;
 }
 
