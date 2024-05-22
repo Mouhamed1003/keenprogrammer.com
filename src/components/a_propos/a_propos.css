@@ -1,18 +1,18 @@
 section {
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 .permettre-selection { 
     user-select: none; /* Empêche la sélection de texte sur tout le corps de la page */
 }
 
 .apropos {
-    padding-top: 2rem;
+    padding-top: 1rem;
     user-select: none; /* Empêche la sélection de texte sur tout le corps de la page */
-
+    width: 70%;
 }
 #apropos h2 {
     margin-top: 1rem;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
     text-shadow: 2px 2px 5px black;
 }
 .apropos h5 {
