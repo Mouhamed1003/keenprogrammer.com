@@ -44,6 +44,7 @@ header {
 .maphoto {
     width: 15rem;
     height: 25rem;
+    align-items: center;
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
