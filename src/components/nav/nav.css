@@ -2,12 +2,12 @@ nav {
     background: rgba(0, 0, 0, 0.3);
     width: max-content;
     display: block;
-    padding: 0.7rem 1.7rem;
+    padding: 0.5rem 1rem; /* Réduit la valeur de padding */
     z-index: 2;
     position: fixed;
     left: 48.5%;
     transform: translateX(-43%);
-    bottom: 1.5rem;
+    bottom: 1rem;
     display: flex;
     gap: 0.8rem;
     border-radius: 3rem;
@@ -15,7 +15,7 @@ nav {
 }
 nav a {
     background: transparent;
-    padding: 0.9rem;
+    padding: 0.5rem; /* Réduit la valeur de padding */
     border-radius: 50%;
     display: flex;
     color: var(--color-primary);
