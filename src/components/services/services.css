@@ -17,7 +17,7 @@ section {
     display: flex;
     flex-direction: row; /* Aligne les éléments horizontalement */
     justify-content: center; /* Centre les éléments horizontalement */
-    padding: 3vw; /* Utilisation de vw pour les marges, s'adapte à la largeur de la vue */
+    padding: 0vw; /* Utilisation de vw pour les marges, s'adapte à la largeur de la vue */
     border-radius: 2rem;
     transition: var(--transition);
     position: relative;
