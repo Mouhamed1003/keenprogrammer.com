@@ -153,7 +153,7 @@ section {
 }
 
 .apropos_content p {
-    margin: .5rem 0 .4rem;
+    margin: 1rem 0 1.6rem;
     color: var(--color-light);
     background: var(--color-bg-variant);
     padding: 15px;
