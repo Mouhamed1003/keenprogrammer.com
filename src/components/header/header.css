@@ -47,9 +47,9 @@ header {
     align-items: center;
     gap: 0.8rem;
     position: absolute;
-    right: 70rem;
+    right: 67rem;
     bottom: 7.9rem;
-    font-size: 14rem;
+    font-size: 2.5rem;
     text-shadow: 1px 1px 12px #fff;
     color: var(--color-primary);
 }
@@ -138,7 +138,7 @@ header {
     animation: pulse 2s infinite;
 }
 /* ========== MEDIA QUERIES - Taille moyenne des appareils (Tablettes) ========== */
-@media screen and (max-width: 1990px) {
+@media screen and (max-width: 1024px) {
     header {
         height: 100vh;
         padding-top: 1.5rem;
