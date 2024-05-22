@@ -47,7 +47,7 @@ header {
     align-items: center;
     gap: 0.8rem;
     position: absolute;
-    right: 67rem;
+    right: 96%;
     bottom: 7.9rem;
     font-size: 2.5rem;
     text-shadow: 1px 1px 12px #fff;
@@ -141,10 +141,6 @@ header {
 @media screen and (max-width: 1024px) {
     header {
         height: 100vh;
-        padding-top: 1.5rem;
-    }
-    .header_container {
-        padding-top: 4rem; 
     }
     .cta {
         margin-top: 1rem; 
