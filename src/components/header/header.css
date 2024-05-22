@@ -40,35 +40,6 @@ header {
 .icon-load {
     font-size: 20px;
 }
-/*@ ============== HEADER SOCIALS (Reseaux sociaux )================ */
-.header_socials {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.8rem;
-    position: absolute;
-    right: 96%;
-    bottom: 2rem;
-    font-size: 2.5rem;
-    text-shadow: 1px 1px 12px #fff;
-    color: var(--color-primary);
-}
-.header_socials a {
-    color: var(--color-primary);
-    text-decoration: none;
-}
-.header_socials a:hover {
-    color: var(--color-white);
-}
-.header_socials a:hover {
-    text-decoration: underline;
-}
-.header_socials::after {
-    content: "";
-    width: 2px;
-    height: 2rem;
-    background: var(--color-primary);
-}
 /*@ ============== MA PHOTO (Presentation faciale )================ */
 .maphoto {
     width: 22rem;
@@ -116,6 +87,35 @@ header {
     50% { box-shadow: 0 0 50px #000000, 0 0 100px #fdfdfdf3, 0 0 150px rgb(0, 255, 251); }
     100% { box-shadow: 0 0 10px #fdfdfdf3, 0 0 20px #163cfbf8, 0 0 30px rgb(8, 130, 139); }
 }
+/*@ ============== HEADER SOCIALS (Reseaux sociaux )================ */
+.header_socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    right: 96%;
+    bottom: 0rem;
+    font-size: 1rem;
+    text-shadow: 1px 1px 12px #fff;
+    color: var(--color-primary);
+}
+.header_socials a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+.header_socials a:hover {
+    color: var(--color-white);
+}
+.header_socials a:hover {
+    text-decoration: underline;
+}
+.header_socials::after {
+    content: "";
+    width: 2px;
+    height: 2rem;
+    background: var(--color-primary);
+}
 /*@ ============== Scoll down (defiler vers le bas )================ */
 .scroll_down {
     position: absolute;
@@ -123,7 +123,7 @@ header {
     bottom: 5rem;
     transform: rotate(90deg);
     font-weight: 300;
-    bottom: 12.5rem;
+    bottom: 1rem;
     font-size: 1.5rem;
     border-radius: 15px;
     padding-left: 15px;
