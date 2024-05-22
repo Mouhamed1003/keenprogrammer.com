@@ -160,7 +160,7 @@ section {
     border: 5px solid var(--color-primary);
     border-radius: 40px 0px 40px 0px;
     font-weight: bold;
-    font-size: 36%;
+    font-size: 6em;
     width: 545px;
 }
 
@@ -174,8 +174,6 @@ section {
     border: 5px solid var(--color-primary);
     border-radius: 0px 40px 0px 40px;
     font-weight: bold;
-    width: 545px;
-
 }
 
 /*@ ============== LES MEDIAS QUERYS " Medium device "((( Les Respensives a moyenne taille: tablette ))) ================ */
