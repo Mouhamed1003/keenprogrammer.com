@@ -54,7 +54,8 @@ useEffect(() => {
   }, []);
 
   return (
-    <header id='header'>
+    <section id='header'>
+    <header>
       <div className="container header_container">
         <h3>Hello Everyone<FaHandHoldingHeart />, I'm</h3>
         <h1><span><IoSparklesSharp/><FaHandHoldingHeart /> {"{ "}</span>{typedName}<span>{" }"} <FaHandsHelping /> </span></h1>
@@ -90,6 +91,7 @@ useEffect(() => {
           <a href="#footer" className='scroll_down pulse'>Scroll Down---<PiArrowFatLinesRightFill /></a>
       </div> 
     </header>
+    </section>
   )
 }
 
