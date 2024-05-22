@@ -32,7 +32,7 @@ header {
 }
 /*@ ============== CTA (Curriculum Vitae )================ */
 .cta {
-    margin-top: 2.5rem;
+    margin-top: 0rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
@@ -42,7 +42,7 @@ header {
 }
 /*@ ============== MA PHOTO (Presentation faciale )================ */
 .maphoto {
-    width: 20rem;
+    width: 23rem;
     height: 20rem;
     position: absolute;
     left: calc(50% - 11rem);
