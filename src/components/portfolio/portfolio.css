@@ -27,7 +27,7 @@
     box-shadow: 1px 1px 12px white;
     transition: transform 1s ease; /* Transition douce */
     width: 18rem;
-    height: 30.5rem;
+    height: 27rem;
 }
 .portfolio_item:hover {
     border-color: var(--color-primary-variant);
@@ -41,7 +41,8 @@
     overflow: hidden;
 }
 .portfolio_item h3 {
-    margin: 1.2rem 0 2rem;
+    margin: 1rem 0 1rem;
+    font-size: smaller;
 }
 .portfolio_item-cta {
     display: flex;
