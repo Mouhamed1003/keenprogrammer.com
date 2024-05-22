@@ -1,13 +1,13 @@
 section {
-    margin-top: 4rem;
+    margin-top: 0rem;
 }
 .experience {
-    padding-top: 2rem;
+    padding-top: 0rem;
     user-select: none;
 }
 #experience h2 {
     margin-top: 1rem;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
     text-shadow: 2px 2px 5px black;
 }
 #experience h3 {
@@ -19,14 +19,13 @@ section {
 .experience_container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 5rem;
+    gap: 6rem;
     transition: background-color 0.3s ease;/* Ajoutez une transition pour l'animation de couleur */
     transition: background-color 2.3s; /* Ajout de la transition */ 
 }
 .experience_container > div {
     background: var(--color-bg);
-    padding: 2.4rem 5rem;
-    padding-bottom: 2rem;
+    padding: 1rem 2rem 1rem 2rem;
     border-radius: 2rem;
     border: 1px dashed var(--color-primary);
     transition: var(--transition);
