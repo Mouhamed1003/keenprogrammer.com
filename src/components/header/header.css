@@ -96,7 +96,7 @@ header {
     position: absolute;
     right: 96%;
     bottom: 0rem;
-    font-size: 1rem;
+    font-size: 1.4rem;
     text-shadow: 1px 1px 12px #fff;
     color: var(--color-primary);
 }
@@ -119,11 +119,11 @@ header {
 /*@ ============== Scoll down (defiler vers le bas )================ */
 .scroll_down {
     position: absolute;
-    right: -6%;
+    right: -9%;
     transform: rotate(90deg);
     font-weight: 300;
-    font-size: 1.5rem;
-    bottom: 3rem;
+    font-size: 1.2rem;
+    bottom: 4rem;
     border-radius: 15px;
     padding-left: 15px;
     padding-right: 15px;
