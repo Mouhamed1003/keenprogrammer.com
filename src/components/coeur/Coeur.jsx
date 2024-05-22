@@ -28,7 +28,7 @@ return (
             filter="url(#text-shadow)" /* Apply the text shadow filter */
           />
         </g>
-        <g id="layer2" transform="translate(29.1 -127.42)">
+        <g id="layer2" transform="translate(29.1 -110.42)">
           <path
             filter="url(#blur)"
             id="point"
