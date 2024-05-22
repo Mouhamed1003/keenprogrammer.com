@@ -57,7 +57,7 @@ header {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -30%); /* Ajustez cette valeur pour descendre l'image de N% */
+    transform: translate(-50%, -20%); /* Ajustez cette valeur pour descendre l'image de N% */
     border-radius: 12rem 12rem 3rem 3rem;
     overflow: hidden;
     padding: 5rem 2.5rem 2.5rem 2.5rem;
