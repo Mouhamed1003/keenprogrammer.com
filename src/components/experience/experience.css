@@ -2,7 +2,7 @@ section {
     margin-top: 0rem;
 }
 .experience {
-    padding-top: 0rem;
+    padding-top: 3.5rem;
     user-select: none;
 }
 #experience h2 {
@@ -15,7 +15,6 @@ section {
 }
 .experience h5 {
     color: wheat;
-    margin-top: 3.5rem;
 }
 .experience_container {
     display: grid;
