@@ -62,7 +62,7 @@ header {
     overflow: hidden;
     padding: 5rem 2.5rem 2.5rem 2.5rem;
     animation: pulse 14.05s infinite; /* Ajout de l'animation sur le survol */
-    padding: 0.9rem;
+    padding-top: 3.4rem;
     display: flex;
     color: var(--color-primary);
     font-size: 1.1rem;
