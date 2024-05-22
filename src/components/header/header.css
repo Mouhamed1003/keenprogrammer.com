@@ -60,7 +60,7 @@ header {
     transform: translate(-50%, -20%); /* Ajustez cette valeur pour descendre l'image de N% */
     border-radius: 12rem 12rem 3rem 3rem;
     overflow: hidden;
-    padding: 5rem 2.5rem 2.5rem 2.5rem;
+    padding: 3rem 0.5rem 0.5rem 0.5rem;
     animation: pulse 14.05s infinite; /* Ajout de l'animation sur le survol */
 /*     padding-top: 3.4rem; */
     display: flex;
