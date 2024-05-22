@@ -161,7 +161,7 @@ section {
     border-radius: 40px 0px 40px 0px;
     font-weight: bold;
     font-size: 36%;
-    width: 530%;
+    width: 545px;
 }
 
 .apropos_content p:hover {
@@ -174,7 +174,7 @@ section {
     border: 5px solid var(--color-primary);
     border-radius: 0px 40px 0px 40px;
     font-weight: bold;
-    width: 530px;
+    width: 545px;
 
 }
 
