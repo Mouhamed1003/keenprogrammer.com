@@ -96,7 +96,7 @@ header {
     position: absolute;
     right: 96%;
     bottom: 0rem;
-    font-size: 1.5%;
+    font-size: 35%;
     text-shadow: 1px 1px 12px #fff;
     color: var(--color-primary);
 }
