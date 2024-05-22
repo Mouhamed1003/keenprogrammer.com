@@ -27,7 +27,7 @@ section {
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
-    width: 70%;
+    width: 50%;
 }
 
 .apropos_moi {
