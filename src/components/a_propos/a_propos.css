@@ -26,7 +26,7 @@ section {
 .apropos_container {
     display: grid;
     grid-template-columns: 35% 50%;
-    gap: 15%;
+    gap: 9%;
     width: 70%;
 }
 
@@ -110,12 +110,13 @@ section {
 }
 
 /*? concernant the cards (( les cartes )) */
-
+.apropos_content {
+    width: 35%;
+}
 .apropos_cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
-    width: 35%;
 }
 
 .apropos_card {
