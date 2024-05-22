@@ -32,11 +32,15 @@ header {
 }
 /*@ ============== CTA (Curriculum Vitae )================ */
 .cta {
-    width: 30%;
     margin-top: 0rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
+}
+.cta a {
+    width: 25%;
+    padding: 0;
+    margin: 0;
 }
 .icon-load {
     font-size: 20px;
