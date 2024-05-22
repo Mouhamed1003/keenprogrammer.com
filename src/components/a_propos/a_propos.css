@@ -26,7 +26,7 @@ section {
 .apropos_container {
     display: grid;
     grid-template-columns: 35% 50%;
-    gap: 9%;
+    gap: 5%;
     width: 70%;
 }
 
