@@ -11,7 +11,7 @@ section {
 }
 #apropos h2 {
     margin-top: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     text-shadow: 2px 2px 5px black;
 }
 .apropos h5 {
@@ -29,7 +29,7 @@ section {
     gap: 5%;
 }
 .apropos_content {
-    width: 15%;
+    width: 8%;
 }
 
 .apropos_moi {
@@ -116,14 +116,14 @@ section {
 .apropos_cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
+    gap: 1.2rem;
 }
 
 .apropos_card {
     background: var(--color-bg-variant);
     border: 1px solid transparent;
     border-radius: 1rem;
-    padding: 1rem;
+    padding: 0.5rem;
     text-align: center;
     transition: var(--transition);
     
@@ -143,12 +143,12 @@ section {
 }
 
 .apropos_card strong {
-    font-size: 1.95rem;
+    font-size: 1rem;
     display: block;
 }
 
 .apropos_card small {
-    font-size: 0.999rem;
+    font-size: 0.5rem;
     color: var(--color-light);
 }
 
@@ -160,8 +160,8 @@ section {
     border: 5px solid var(--color-primary);
     border-radius: 40px 0px 40px 0px;
     font-weight: bold;
-    font-size: 18px;
-    width: 560px;
+    font-size: 11px;
+    width: 500px;
 }
 
 .apropos_content p:hover {
@@ -174,7 +174,7 @@ section {
     border: 5px solid var(--color-primary);
     border-radius: 0px 40px 0px 40px;
     font-weight: bold;
-    width: 560px;
+    width: 500px;
 
 }
 
