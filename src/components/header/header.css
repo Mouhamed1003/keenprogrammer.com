@@ -96,7 +96,7 @@ header {
     position: absolute;
     right: 96%;
     bottom: 0rem;
-    font-size: 35%;
+    font-size: 1rem;
     text-shadow: 1px 1px 12px #fff;
     color: var(--color-primary);
 }
@@ -122,8 +122,8 @@ header {
     right: -6%;
     transform: rotate(90deg);
     font-weight: 300;
-    font-size: 2rem;
-    bottom: 4rem;
+    font-size: 1.5rem;
+    bottom: 3rem;
     border-radius: 15px;
     padding-left: 15px;
     padding-right: 15px;
