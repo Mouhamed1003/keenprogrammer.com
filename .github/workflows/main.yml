@@ -10,27 +10,35 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: '14'
+      - name: Cache node_modules
+        uses: actions/cache@v2
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
 
-    - name: Install dependencies
-      run: npm install
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
 
-    - name: Build the project
-      run: npm run build
+      - name: Install dependencies
+        run: npm install
 
-    - name: Set up Git
-      run: |
-        git config --global user.email "Mohamadoudiouf20@gmail.com"
-        git config --global user.name "Mohamadou DIOUF"
+      - name: Build the project
+        run: npm run build
 
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.DIOUF_TOKEN_SECRET }}
-        publish_dir: ./build
+      - name: Set up Git
+        run: |
+          git config --global user.email "Mohamadoudiouf20@gmail.com"
+          git config --global user.name "Mohamadou DIOUF"
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.DIOUF_TOKEN_SECRET }}
+          publish_dir: ./build
