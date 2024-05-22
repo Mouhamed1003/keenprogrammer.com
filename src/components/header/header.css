@@ -32,6 +32,7 @@ header {
 }
 /*@ ============== CTA (Curriculum Vitae )================ */
 .cta {
+    width: 30%;
     margin-top: 0rem;
     display: flex;
     gap: 1.2rem;
