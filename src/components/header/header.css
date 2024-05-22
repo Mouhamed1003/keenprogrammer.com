@@ -48,7 +48,7 @@ header {
     gap: 0.8rem;
     position: absolute;
     right: 96%;
-    bottom: 7.9rem;
+    bottom: 2rem;
     font-size: 2.5rem;
     text-shadow: 1px 1px 12px #fff;
     color: var(--color-primary);
