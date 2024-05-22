@@ -15,11 +15,11 @@ nav {
 }
 nav a {
     background: transparent;
-    padding: 0.5rem; /* Réduit la valeur de padding */
+    padding: 0.6rem; /* Réduit la valeur de padding */
     border-radius: 50%;
     display: flex;
     color: var(--color-primary);
-    font-size: 0.5rem;
+    font-size: 0.9rem;
     transition: background-color 2.3s; /* Ajout de la transition */
 }
 nav a:hover {
