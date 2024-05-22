@@ -57,7 +57,9 @@ header {
     display: flex;
     color: var(--color-primary);
     font-size: 1.1rem;
-    transition: background-color 1.03s; /* Ajout de la transition */
+    transition: background-color 1.03s; /* Ajout de la transition */    
+    background: rgba(104, 246, 246, 0.534); 
+    color: var(--color-bg);
 }
 .icons {
     display: flex;
@@ -65,17 +67,9 @@ header {
     justify-content: space-between; /* Espace les icônes horizontalement */
 }
 .maphoto:hover {
-    background: rgba(0, 0, 0, 0.3);
     animation: pulse 2.9s infinite; /* Ajout de l'animation sur le survol */
-}
-.maphoto:hover {
     color: rgb(255, 255, 255);
     background: transparent;
-}
-
-.maphoto {    
-    background: rgba(104, 246, 246, 0.534); 
-    color: var(--color-bg);
 }
 .maphoto img {
     border-radius: 2rem;
