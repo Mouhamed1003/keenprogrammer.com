@@ -50,6 +50,36 @@ const data = [
       person: "Jacob Levi",
       review: "Je suis très reconnaissante envers l'équipe de ce site pour leur excellent travail. Ils ont su transformer mes idées en réalité avec une grande efficacité et professionnalisme. Leur expertise en développement web m'a permis d'atteindre mes objectifs commerciaux avec succès."
     },
+    {
+      id: 6,
+      image: AVTR1,
+      person: "Marie Dupont",
+      review: "Le service fourni par cette équipe a été exceptionnel. Leur rapidité et leur professionnalisme ont fait de notre collaboration un véritable succès. Je recommande fortement leurs services."
+    },
+    {
+      id: 7,
+      image: AVTR2,
+      person: "John Doe",
+      review: "Travailler avec cette équipe a été une expérience formidable. Leur expertise et leur attention aux détails ont fait toute la différence dans notre projet. Je suis très satisfait du résultat final."
+    },
+    {
+      id: 8,
+      image: AVTR3,
+      person: "Anna Smith",
+      review: "Je suis ravie du site web qu'ils ont développé pour moi. Leur capacité à comprendre mes besoins et à les transformer en un produit fini de haute qualité est remarquable. Merci beaucoup pour votre travail incroyable !"
+    },
+    {
+      id: 9,
+      image: AVTR4,
+      person: "Omar Sy",
+      review: "Cette équipe a su répondre à mes attentes avec une grande efficacité. Leur professionnalisme et leur dévouement sont vraiment impressionnants. Je les recommande sans hésitation pour tout projet de développement."
+    },
+    {
+      id: 10,
+      image: AVTR5,
+      person: "Emily Johnson",
+      review: "Le résultat final a dépassé mes attentes. Leur expertise et leur créativité ont fait de notre collaboration un succès retentissant. Je suis très reconnaissante pour leur excellent travail."
+    },
   ];
 
   return (
