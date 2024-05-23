@@ -222,15 +222,6 @@ textarea {
 /*==========================FORM============================ */
 
 /*@ ============== LES MEDIAS QUERYS " Medium device "((( Les Respensives a moyenne taille: tablette ))) ================ */
-@media screen and (max-width: 1700px) {
-    .container.contact_container {
-        width: 88%;
-    }
-
-    .contact_option {
-        text-align: left;
-    }
-}
 
 @media screen and (max-width: 1024px) {
     .container.contact_container {
@@ -238,9 +229,15 @@ textarea {
         gap: 2rem;
         width: var(--container-wiidth-sm);
     }
+    .container.contact_container {
+        width: 88%;
+    }
 
     #contact {
         margin-top: 1rem;
+    }
+    .contact_option {
+        text-align: left;
     }
 }
 
