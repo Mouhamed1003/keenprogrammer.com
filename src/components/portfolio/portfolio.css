@@ -49,7 +49,7 @@
 .portfolio_item-cta {
     display: flex;
     gap: 1rem;
-    margin-bottom: .35rem;
+    margin-bottom: 0.1rem;
     padding-top: 0.5px;
     padding-bottom: 0.5px;
 }
