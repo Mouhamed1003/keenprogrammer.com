@@ -50,6 +50,8 @@
     display: flex;
     gap: 1rem;
     margin-bottom: 0.1rem;
+}
+.portfolio_item-cta a {
     padding-top: 0.5px;
     padding-bottom: 0.5px;
 }
