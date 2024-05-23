@@ -52,8 +52,8 @@
     margin-bottom: 0.1rem;
 }
 .portfolio_item-cta a {
-    padding-top: 0.5px;
-    padding-bottom: 0.5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 /*@ ============== LES MEDIAS QUERYS " Medium device "((( Les Respensives a moyenne taille: tablette ))) ================ */
 @media screen and (max-width: 1024px) {
