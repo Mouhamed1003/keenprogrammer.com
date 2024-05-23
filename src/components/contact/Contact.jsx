@@ -61,7 +61,7 @@ const Contact = () => {
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="name" onPaste={handlePaste}  placeholder="Votre nom et prénom..." required autoComplete="off"/>
           <input type="email" name="email" onPaste={handlePaste} placeholder="Votre Adresse mail..." required autoComplete="off"/>
-          <textarea name="message" rows="7" onPaste={handlePaste} placeholder="Votre Message..." required ></textarea>
+          <textarea name="message" cols="" rows="5" onPaste={handlePaste} placeholder="Votre Message..." required ></textarea>
           <button type="submit" className="btnEnvoyer btn-primary">Envoyer le message</button>
           <button type="reset" className="btnEffacer btn-primary">Effacer tous les champs</button>
          {/* Partie position de la notification */}
