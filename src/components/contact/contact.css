@@ -193,15 +193,11 @@ textarea {
     padding: 0.5rem;
     background: linear-gradient(to right, #09e80d, transparent, #09e80d, transparent, #09e80d);
     color: white;
-    margin-top: 4rem;
 }
 
 .btnEnvoyer:hover {
     background: linear-gradient(to right, transparent, #09e80d, transparent, #09e80d, transparent);
     border: 3px solid white;
-    font-size: 18px;
-    font-weight: bold;
-    color: white;
 }
 
 .btnEffacer {
@@ -213,8 +209,6 @@ textarea {
     padding: 0.5rem;
     background: linear-gradient(to right, red, transparent, red, transparent, red);
     color: white;
-    margin-top: 1.5rem;
-    
 }
 .btnEffacer:hover {
     background: linear-gradient(to right, transparent, red, transparent, red, transparent);
