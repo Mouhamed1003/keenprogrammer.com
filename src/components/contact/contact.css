@@ -146,8 +146,7 @@ form {
     flex-direction: column;
     gap: 1rem;
     border: 3px solid white;
-    padding: 1.5rem;
-    padding-bottom: 0rem;
+    padding: 1rem 1rem;
     border-radius: 2rem;
     background: rgba(0, 0, 0, 0.459);
 }
@@ -207,9 +206,6 @@ textarea {
 .btnEffacer:hover {
     background: linear-gradient(to right, transparent, red, transparent, red, transparent);
     border: 3px solid white;
-    font-size: 18px;
-    font-weight: bold;
-    color: white;
 }
 
 /*==========================FORM============================ */
