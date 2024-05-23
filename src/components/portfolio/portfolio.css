@@ -48,7 +48,7 @@
 }
 .portfolio_item-cta {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     margin-bottom: 0.1rem;
 }
 .portfolio_item-cta a {
