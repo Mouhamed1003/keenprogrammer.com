@@ -85,7 +85,7 @@ const data = [
   return (
     <section id='temoignages'>
       <h5>Review from clients</h5>
-      <h2>Temoignages de mes clients</h2>
+      <h2>Quelques témoignages de mes clients</h2>
       <Swiper 
         className="container temoignages_container" 
         effect={'cards'} 
