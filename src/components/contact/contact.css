@@ -66,7 +66,7 @@ section {
     position: absolute;
     top: calc(6% - 2.5px);
     /* Positionner le trait au milieu de la hauteur du parent */
-    left: 42%;
+    left: 41.7%;
     /* Positionner le trait à 20% de la largeur du parent */
     width: 7.4%;
     /* Largeur du trait pour remplir horizontalement le parent */
