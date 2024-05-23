@@ -9,7 +9,7 @@
   margin-bottom: 1rem;
   text-shadow: 2px 2px 5px black;
 }
-.container.temoignages_container {
+Swiper .container.temoignages_container {
   width: 10%;
   height: 30%;
 }
