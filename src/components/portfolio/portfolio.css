@@ -50,7 +50,8 @@
     display: flex;
     gap: 1rem;
     margin-bottom: .35rem;
-    padding: .5px;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
 }
 /*@ ============== LES MEDIAS QUERYS " Medium device "((( Les Respensives a moyenne taille: tablette ))) ================ */
 @media screen and (max-width: 1024px) {
