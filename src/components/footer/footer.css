@@ -183,12 +183,12 @@ section a:hover {
   text-shadow: 1px 1px 12px rgb(227, 13, 113);
 }
 /*@ ============== LES MEDIAS QUERYS " Medium device "((( Les Respensives a moyenne taille: tablette ))) ================ */
-@media screen and (min-width: 1000px) and (max-width: 1800px) {
+@media screen and (min-width: 900px) and (max-width: 1024px) {
   .footer_copyright {
     padding-top: 16rem; /* Ajoute une marge en haut */
   }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
   .footer_copyright {
     padding-top: 0rem; /* Réinitialise la marge en haut */
     margin-right: 1rem;
