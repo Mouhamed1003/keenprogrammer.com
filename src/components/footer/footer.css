@@ -110,10 +110,12 @@ section a:hover {
 
 .footer_socials #a1{
   box-shadow: 1px 1px 5px white;
+  font-size: 2.7vh;
 }
 .footer_socials #a1:hover {
   background: rgb(40, 85, 248);
   box-shadow: 1px 1px 5px black;
+  font-size: 3vh;
 }
 .footer_socials #a2{
   box-shadow: 1px 1px 5px white;
