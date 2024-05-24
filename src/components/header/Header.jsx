@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './header.css';
 import CTA from './CTA';
-import MAPHOTO from '../../images/me.png';
+import MAPHOTO from '../../images/moi2.png';
 import HeaderSocials from './HeaderSocials';
 import { PiArrowFatLinesRightFill } from "react-icons/pi";
 // import { FcApproval } from "react-icons/fc";
