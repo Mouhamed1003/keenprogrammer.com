@@ -106,7 +106,11 @@ section a:hover {
   gap: 2rem;
   margin-bottom: 0rem;
   font-size: 2.7vh;
-  
+}
+.footer_socials:hover {
+  gap: 2rem;
+  font-size: 2rem;
+  padding: 0.5rem;
 }
 .footer_socials #a1{
   box-shadow: 1px 1px 5px white;
@@ -170,8 +174,6 @@ section a:hover {
 }
 .footer_socials a:hover {
   background: rgba(0, 0, 0, 0.313);
-  font-size: 2rem;
-  padding: 0.5rem;
 }
 .footer_copyright {
   user-select: none;
