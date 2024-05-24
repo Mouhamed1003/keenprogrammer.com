@@ -243,10 +243,11 @@ header {
         font-size: 1.1rem; /* Réduire la taille de la police */
     }
     .maphoto {
-        width: 14rem; /* Réduire la largeur */
+        width: 12rem; /* Réduire la largeur */
         height: 20rem; /* Réduire la hauteur */
-        left: calc(50% - 7rem); /* Centrer horizontalement */
+        left: calc(50% - 0rem); /* Centrer horizontalement */
         margin-top: 1rem; /* Ajouter de la marge en haut */
+        top: 29rem;
         border-radius: 7rem 7rem 2rem 2rem;
         padding: 2rem 0.5rem 0.5rem 0.5rem;
     }
@@ -267,7 +268,9 @@ header {
     .scroll_down {
         display: flex; /* Afficher */
         align-items: center; /* Centrer horizontalement */
+        flex-direction: row-reverse;
         justify-content: center; /* Centrer verticalement */
         bottom: 4rem; /* Décaler vers le bas */
+        color: white;
     }
 }
