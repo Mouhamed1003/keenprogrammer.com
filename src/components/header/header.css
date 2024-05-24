@@ -32,6 +32,8 @@ header {
     font-weight: bold;
     font-size: calc(1vw + 1em); /* Utilisation d'une combinaison de vw et em */
     color: white;
+    white-space: nowrap; /* Empêche le retour à la ligne */
+
 }
 
 .header_container {
@@ -166,9 +168,6 @@ header {
 @media screen and (max-width: 1024px) {
     header {
         height: 100vh;
-    }
-    .text-light-function {
-        white-space: nowrap; /* Empêche le retour à la ligne */
     }
     .cta {
         margin-top: 1rem; /* Ajout de marge en haut */
