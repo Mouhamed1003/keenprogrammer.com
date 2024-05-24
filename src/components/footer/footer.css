@@ -97,14 +97,16 @@ section a:hover {
   flex-wrap: wrap;
   justify-content: center;
   gap: 3.5rem;
-  margin: 0.5rem 0rem 6rem;
-    font-size: 2.7vh;
+  margin: 0.5rem 0rem 3rem;
+  font-size: 2.7vh;
 }
 .footer_socials {
   display: flex;
   justify-content: center;
   gap: 2rem;
-  margin-bottom: 3rem;
+  margin-bottom: 0rem;
+  font-size: 2.7vh;
+  
 }
 .footer_socials #a1{
   box-shadow: 1px 1px 5px white;
@@ -159,15 +161,16 @@ section a:hover {
 .footer_socials a {
   background: var(--color-primary);
   color: white;
-  padding: 0.8rem;
-  margin-top: 5rem;
+  padding: 0.5rem;
+  margin-top: 0rem;
   border-radius: 0.7rem;
   display: flex;
   border: 1px solid transparent;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 .footer_socials a:hover {
   background: rgba(0, 0, 0, 0.313);
+  font-size: 1.5rem;
 }
 .footer_copyright {
   user-select: none;
