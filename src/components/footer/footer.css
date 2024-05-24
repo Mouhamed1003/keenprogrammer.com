@@ -170,7 +170,7 @@ section a:hover {
 }
 .footer_socials a:hover {
   background: rgba(0, 0, 0, 0.313);
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 .footer_copyright {
   user-select: none;
