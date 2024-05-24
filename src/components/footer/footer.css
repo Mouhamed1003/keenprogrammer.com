@@ -110,56 +110,75 @@ section a:hover {
 
 .footer_socials #a1{
   box-shadow: 1px 1px 5px white;
-  font-size: 2.7vh;
+  transition: transform 0.3s ease;
 }
 .footer_socials #a1:hover {
   background: rgb(40, 85, 248);
   box-shadow: 1px 1px 5px black;
-  font-size: 3vh;
+  transform: scale(1.1);
 }
+
 .footer_socials #a2{
   box-shadow: 1px 1px 5px white;
+  transition: transform 0.3s ease;
 }
 .footer_socials #a2:hover {
   background: rgb(56, 59, 72);
   box-shadow: 1px 1px 5px black;
+  transform: scale(1.1);
 }
+
 .footer_socials #a3{
   box-shadow: 1px 1px 5px white;
+  transition: transform 0.3s ease;
 }
 .footer_socials #a3:hover {
-  background:  rgb(1, 1, 175);
+  background: rgb(1, 1, 175);
   box-shadow: 1px 1px 5px black;
+  transform: scale(1.1);
 }
+
 .footer_socials #a4{
   box-shadow: 1px 1px 5px white;
+  transition: transform 0.3s ease;
 }
 .footer_socials #a4:hover {
   background: rgb(233, 71, 128);
   box-shadow: 1px 1px 5px black;
+  transform: scale(1.1);
 }
+
 .footer_socials #a5{
   box-shadow: 1px 1px 5px white;
+  transition: transform 0.3s ease;
 }
 .footer_socials #a5:hover {
   background: #000;
   box-shadow: 1px 1px 5px black;
   color: white;
+  transform: scale(1.1);
 }
+
 .footer_socials #a6{
   box-shadow: 1px 1px 5px white;
+  transition: transform 0.3s ease;
 }
 .footer_socials #a6:hover {
   background: #14f114;
   box-shadow: 1px 1px 5px black;
+  transform: scale(1.1);
 }
+
 .footer_socials #a7{
   box-shadow: 1px 1px 5px white;
+  transition: transform 0.3s ease;
 }
 .footer_socials #a7:hover {
   background: #58b1b1;
   box-shadow: 1px 1px 5px black;
+  transform: scale(1.1);
 }
+
 .footer_socials a {
   background: var(--color-primary);
   color: white;
