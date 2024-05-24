@@ -32,7 +32,7 @@ header {
 
 .text-light-function {
     font-weight: bold;
-    font-size: calc(1vw + 0.3em); /* Utilisation d'une combinaison de vw et em */
+    font-size: calc(1vw + 0.5em; /* Utilisation d'une combinaison de vw et em */
     color: white;
     white-space: nowrap; /* Empêche le retour à la ligne */
 
