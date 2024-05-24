@@ -16,6 +16,8 @@ header {
     white-space: nowrap; /* Empêche le texte de se couper */
     overflow: hidden; /* Cache le dépassement du texte */
     text-overflow: ellipsis; /* Ajoute des points de suspension si le texte est trop long */
+    font-size: calc(0.8vw + 0.2em); /* Utilisation d'une combinaison de vw et em */
+    
 }
 
 #header h1 span {
