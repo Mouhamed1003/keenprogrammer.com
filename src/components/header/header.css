@@ -183,7 +183,7 @@ header {
     .maphoto {
         width: 18rem; /* Réduire la largeur */
         height: 25rem; /* Réduire la hauteur */
-        left: calc(50% - 9rem); /* Centrer horizontalement */
+        left: calc(50% - 0rem); /* Centrer horizontalement */
         margin-top: 3rem; /* Ajouter de la marge en haut */
         border-radius: 10rem 10rem 2rem 2rem;
         padding: 4rem 1rem 1rem 1rem;
@@ -204,7 +204,7 @@ header {
     .maphoto {
         width: 16rem; /* Réduire la largeur */
         height: 22rem; /* Réduire la hauteur */
-        left: calc(50% - 8rem); /* Centrer horizontalement */
+        left: calc(50% - 0rem); /* Centrer horizontalement */
         margin-top: 2rem; /* Ajouter de la marge en haut */
         border-radius: 8rem 8rem 2rem 2rem;
         padding: 3rem 1rem 1rem 1rem;
