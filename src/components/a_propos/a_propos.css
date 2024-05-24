@@ -44,7 +44,7 @@ section {
     font-size: 1.05rem;
     transition: background-color 2.3s; /* Ajout de la transition */
     animation: pulse 12.05s infinite; /* Ajout de l'animation sur le survol */
-    border: 4px dashed var(--color-primary);
+    border: 4px dotted var(--color-primary);
     max-width: 100%;
     height: 85%;
     padding: 3rem;
