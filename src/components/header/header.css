@@ -167,29 +167,29 @@ header {
         height: 100vh;
     }
     .cta {
-        margin-top: 1rem;
-        flex-direction: column;
-        gap: 2rem;
+        margin-top: 1rem; /* Ajout de marge en haut */
+        flex-direction: column; /* Changer la direction des éléments enfants en colonne */
+        gap: 2rem; /* Ajout d'un espace entre les éléments enfants */
     }
     .cta a {
-        width: 80%;
+        width: 80%; /* Réduire la largeur des boutons */
     }
     .header_socials {
-        left: 1rem;
-        bottom: 0.1rem;
-        font-size: 1.5rem;
+        left: 1rem; /* Décaler vers la gauche */
+        bottom: 0.1rem; /* Décaler vers le bas */
+        font-size: 1.5rem; /* Réduire la taille de la police */
     }
     .maphoto {
-        width: 18rem;
-        height: 25rem;
-        left: calc(50% - 9rem);
-        margin-top: 3rem;
+        width: 18rem; /* Réduire la largeur */
+        height: 25rem; /* Réduire la hauteur */
+        left: calc(50% - 9rem); /* Centrer horizontalement */
+        margin-top: 3rem; /* Ajouter de la marge en haut */
         border-radius: 10rem 10rem 2rem 2rem;
         padding: 4rem 1rem 1rem 1rem;
     }
     .scroll_down {
-        display: flex;
-        bottom: 4rem;
+        display: flex; /* Afficher */
+        bottom: 4rem; /* Décaler vers le bas */
     }
 }
 
@@ -199,27 +199,27 @@ header {
         height: 100vh;
     }
     .maphoto {
-        width: 16rem;
-        height: 22rem;
-        left: calc(50% - 8rem);
-        margin-top: 2rem;
+        width: 16rem; /* Réduire la largeur */
+        height: 22rem; /* Réduire la hauteur */
+        left: calc(50% - 8rem); /* Centrer horizontalement */
+        margin-top: 2rem; /* Ajouter de la marge en haut */
         border-radius: 8rem 8rem 2rem 2rem;
         padding: 3rem 1rem 1rem 1rem;
     }
     .cta {
-        flex-direction: column;
-        gap: 1rem;
+        flex-direction: column; /* Changer la direction des éléments enfants en colonne */
+        gap: 1rem; /* Ajout d'un espace entre les éléments enfants */
     }
     .cta a {
-        width: 80%;
+        width: 80%; /* Réduire la largeur des boutons */
     }
     .scroll_down {
-        display: none;
+        display: none; /* Masquer */
     }
     .header_socials {
-        bottom: 1rem;
-        left: 0.5rem;
-        font-size: 1.2rem;
+        bottom: 1rem; /* Décaler vers le bas */
+        left: 0.5rem; /* Décaler vers la gauche */
+        font-size: 1.2rem; /* Réduire la taille de la police */
     }
 }
 
@@ -227,33 +227,33 @@ header {
 @media screen and (max-width: 390px) {
     header {
         height: 100vh;
-        padding-top: 0.5rem;
+        padding-top: 0.5rem; /* Ajouter de la marge en haut */
     }
     .header_container {
-        height: 90%;
+        height: 90%; /* Réduire la hauteur */
     }
     .header_socials {
-        font-size: 1.1rem;
+        font-size: 1.1rem; /* Réduire la taille de la police */
     }
     .maphoto {
-        width: 14rem;
-        height: 20rem;
-        left: calc(50% - 7rem);
-        margin-top: 1rem;
+        width: 14rem; /* Réduire la largeur */
+        height: 20rem; /* Réduire la hauteur */
+        left: calc(50% - 7rem); /* Centrer horizontalement */
+        margin-top: 1rem; /* Ajouter de la marge en haut */
         border-radius: 7rem 7rem 2rem 2rem;
         padding: 2rem 0.5rem 0.5rem 0.5rem;
     }
     .cta {
-        flex-direction: column;
-        gap: 0.5rem;
+        flex-direction: column; /* Changer la direction des éléments enfants en colonne */
+        gap: 0.5rem; /* Ajout d'un espace entre les éléments enfants */
     }
     .cta a {
-        width: 90%;
+        width: 90%; /* Réduire la largeur des boutons */
     }
     #header h1 {
-        font-size: 1.5rem;
+        font-size: 1.5rem; /* Réduire la taille de la police */
     }
     #header h3 {
-        font-size: 1.2rem;
+        font-size: 1.2rem; /* Réduire la taille de la police */
     }
 }
