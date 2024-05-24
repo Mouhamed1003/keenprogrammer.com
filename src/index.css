@@ -5,52 +5,45 @@
     padding: 0;
     border: 0;
     outline: 0;
-    box-sizing: border-box; /* Utilisez une valeur valide pour box-sizing */
+    box-sizing: border-box;
     list-style: none;
     text-decoration: none;
 }
 
-/* Ici les Variable des couleurs et autres . Mr Yassine 2 ! */
+/* Variables des couleurs et autres */
 :root {
-    --color-bg: rgba(4, 30, 31, 0.8);;
+    --color-bg: rgba(4, 30, 31, 0.8);
     --color-bg-variant: rgb(4, 30, 31);
     --color-primary: #4db5ff;
     --color-primary-variant: rgba(77, 181, 255, 0.4);
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
-
     --transition: all 400ms ease;
-
     --container-width-lg: 60%;
     --container-width-md: 74%;
     --container-width-sm: 90%;
-
-    --color-shadow: rgba(0, 0, 0, 0.2); /* Couleur de l'ombre par défaut */
-    --text-color: var(--color-primary); /* Couleur du texte par défaut */
+    --color-shadow: rgba(0, 0, 0, 0.2);
+    --text-color: var(--color-primary);
 }
 
-/* Appliquer l'ombre aux éléments avec la classe .shadowed */
+/* Styles globaux */
 .shadowed {
-    box-shadow: 0 0 10px var(--color-shadow); /* Utilisez la variable pour l'ombre */
-    filter: drop-shadow(0px 0px 5px var(--color-shadow)); /* Appliquer la couleur sélectionnée aux ombres */
+    box-shadow: 0 0 10px var(--color-shadow);
+    filter: drop-shadow(0px 0px 5px var(--color-shadow));
 }
 
-/* Ignorer les textes pour l'ombre */
 .text-light, h1, h2, h3, h4, h5, p, a, li {
-    /* box-shadow: none !important; */
     filter: none !important;
 }
 
 html {
-    scroll-behavior: smooth; /* Ajoutez cette règle pour activer le défilement fluide */
-    touch-action: manipulation; /* Gardez cette règle pour la manipulation des gestes tactiles */
+    scroll-behavior: smooth;
+    touch-action: manipulation;
 }
-
 
 ::-webkit-scrollbar {
     display: none;
 }
-
 
 body {
     font-family: "Poppins", sans-serif;
@@ -59,24 +52,19 @@ body {
     line-height: 1.7;
     background-image: url(../src/images/bg-texture.png);
     background-attachment: fixed;
-    
 }
+
 .permettre-selection {
-    user-select: none; /* Empêche la sélection de texte sur tout le corps de la page */
+    user-select: none;
 }
 
-/*% ============== STYLES GENERALES ================ */
+/* Styles généraux */
 .container {
-    width: 60%; /* Remplacez par width: var(--container-width-lg); */
-    margin: 0 auto; /* Conservez tel quel */
+    width: var(--container-width-lg);
+    margin: 0 auto;
 }
 
-
-h1, 
-h2, 
-h3, 
-h4, 
-h5 {
+h1, h2, h3, h4, h5 {
     font-weight: 900;
     text-shadow: 1px 1px 12px rgb(227, 13, 113);
     color: white;
@@ -89,11 +77,11 @@ h5 {
     border: 3px solid white;
     margin-left: 13vw;
     margin-right: 13vw;
-    font-size: 1rem; /* Ajoutez cette propriété pour définir la taille de la police */
+    font-size: 1rem;
 }
 
 h1 {
-    font-size: 2.5;
+    font-size: 2.5rem;
 }
 
 section {
@@ -158,12 +146,10 @@ img {
     object-fit: cover;
 }
 
-
-
-/*@ ============== LES MEDIAS QUERYS " Medium device "((( Les Respensives a moyenne taille: tablette ))) ================ */
+/* Media queries pour appareils de taille moyenne (tablettes) */
 @media screen and (max-width: 1024px) {
     .container {
-        width: var(--container-width-sm);
+        width: var(--container-width-md);
     }
 
     section {
@@ -175,10 +161,10 @@ img {
     }
 }
 
-/*@ ============== LES MEDIAS QUERYS " Small device "((( Les Respensives a petite taille: teléphone))) ================ */
+/* Media queries pour appareils de taille moyenne et petite (phablettes, petits laptops) */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .container {
-        width: var(--container-width-sm);
+        width: var(--container-width-md);
     }
 
     section > h2 {
@@ -187,5 +173,41 @@ img {
 
     body {
         font-size: 16px;
+    }
+}
+
+/* Media queries pour petits appareils (smartphones) */
+@media screen and (max-width: 768px) {
+    .container {
+        width: var(--container-width-sm);
+    }
+
+    section {
+        margin-top: 4rem;
+    }
+
+    body {
+        font-size: 16px;
+    }
+}
+
+/* Media queries spécifiques pour les petits smartphones comme l'iPhone 12 Pro */
+@media screen and (max-width: 430px) {
+    .container {
+        width: var(--container-width-sm);
+        padding: 0 1rem;
+    }
+
+    section {
+        margin-top: 2rem;
+    }
+
+    section > h2, section > h5 {
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+    }
+
+    body {
+        font-size: 14px;
     }
 }
