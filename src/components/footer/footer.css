@@ -107,11 +107,7 @@ section a:hover {
   margin-bottom: 0rem;
   font-size: 2.7vh;
 }
-.footer_socials:hover {
-  gap: 2rem;
-  font-size: 2rem;
-  padding: 0.5rem;
-}
+
 .footer_socials #a1{
   box-shadow: 1px 1px 5px white;
 }
@@ -173,7 +169,14 @@ section a:hover {
   font-size: 1.8rem;
 }
 .footer_socials a:hover {
+  padding: 0.5rem;
+  margin-top: 0rem;
+  border-radius: 0.7rem;
+  display: flex;
+  border: 1px solid transparent;
   background: rgba(0, 0, 0, 0.313);
+  padding: 0.5rem;
+  font-size: 2rem;
 }
 .footer_copyright {
   user-select: none;
