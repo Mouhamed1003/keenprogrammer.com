@@ -87,7 +87,7 @@ section a:hover {
 .footer_logo {
   font-size: 2.5rem;
   font-weight: bold;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   display: inline-block;
   color:#fff;
   text-shadow: 1px 1px 12px rgb(227, 13, 113);
@@ -96,15 +96,14 @@ section a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 6rem;
-  margin: 0 auto 3rem;
-  margin-top: 6rem;
-  margin-bottom: 6rem;
+  gap: 3.5rem;
+  margin: 0.5rem 0rem 6rem;
+    font-size: 2.7vh;
 }
 .footer_socials {
   display: flex;
   justify-content: center;
-  gap: 3rem;
+  gap: 2rem;
   margin-bottom: 3rem;
 }
 .footer_socials #a1{
@@ -165,20 +164,20 @@ section a:hover {
   border-radius: 0.7rem;
   display: flex;
   border: 1px solid transparent;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .footer_socials a:hover {
   background: rgba(0, 0, 0, 0.313);
 }
 .footer_copyright {
   user-select: none;
-  font-size: 1.3rem;
-  font-weight: bold;
-  margin-bottom: 5rem;
+  font-size: 1.2rem;
+  font-weight: 900;
   margin-right: 2rem;
   text-align: right;
   color: black;
-  padding-top: 8rem;
+  margin-top: 27.5rem;
+  margin-bottom: 2rem;
   color:#fff;
   text-shadow: 1px 1px 12px rgb(227, 13, 113);
 }
