@@ -167,6 +167,9 @@ header {
     header {
         height: 100vh;
     }
+    .text-light-function {
+        white-space: nowrap; /* Empêche le retour à la ligne */
+    }
     .cta {
         margin-top: 1rem; /* Ajout de marge en haut */
         margin-left: 10.5rem;
@@ -201,6 +204,9 @@ header {
 @media screen and (max-width: 600px) {
     header {
         height: 100vh;
+    }
+    .text-light-function {
+        white-space: nowrap; /* Empêche le retour à la ligne */
     }
     .maphoto {
         width: 16rem; /* Réduire la largeur */
@@ -237,6 +243,9 @@ header {
     header {
         height: 100vh;
         padding-top: 0.5rem; /* Ajouter de la marge en haut */
+    }
+    .text-light-function {
+        white-space: nowrap; /* Empêche le retour à la ligne */
     }
     .header_container {
         height: 90%; /* Réduire la hauteur */
