@@ -59,7 +59,7 @@ useEffect(() => {
       <div className="container header_container">
         <h3>Hello Everyone<FaHandHoldingHeart />, I'm</h3>
         <h1><span><IoSparklesSharp/><FaHandHoldingHeart /> {"{ "}</span>{typedName}<span>{" }"} <FaHandsHelping /> </span></h1>
-        <h5 className="text-light-function">FullStack Engineer Developer </h5>
+        <h5 className="text-light-function">FullStack Developer Engineer</h5>
         <div className="icons">
             <FaReact size={80} style={{ transform: `rotate(${rotationDegree}deg)` }} />
             <FaReact size={50} style={{ transform: `rotate(${rotationDegree}deg)` }} />
