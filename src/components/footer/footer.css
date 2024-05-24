@@ -114,6 +114,7 @@ section a:hover {
 .footer_socials #a1:hover {
   background: rgb(40, 85, 248);
   box-shadow: 1px 1px 5px black;
+  font-size: 2rem;
 }
 .footer_socials #a2{
   box-shadow: 1px 1px 5px white;
@@ -121,6 +122,7 @@ section a:hover {
 .footer_socials #a2:hover {
   background: rgb(56, 59, 72);
   box-shadow: 1px 1px 5px black;
+  font-size: 2rem;
 }
 .footer_socials #a3{
   box-shadow: 1px 1px 5px white;
@@ -128,6 +130,7 @@ section a:hover {
 .footer_socials #a3:hover {
   background:  rgb(1, 1, 175);
   box-shadow: 1px 1px 5px black;
+  font-size: 2rem;
 }
 .footer_socials #a4{
   box-shadow: 1px 1px 5px white;
@@ -135,6 +138,7 @@ section a:hover {
 .footer_socials #a4:hover {
   background: rgb(233, 71, 128);
   box-shadow: 1px 1px 5px black;
+  font-size: 2rem;
 }
 .footer_socials #a5{
   box-shadow: 1px 1px 5px white;
@@ -143,6 +147,7 @@ section a:hover {
   background: #000;
   box-shadow: 1px 1px 5px black;
   color: white;
+  font-size: 2rem;
 }
 .footer_socials #a6{
   box-shadow: 1px 1px 5px white;
@@ -150,6 +155,7 @@ section a:hover {
 .footer_socials #a6:hover {
   background: #14f114;
   box-shadow: 1px 1px 5px black;
+  font-size: 2rem;
 }
 .footer_socials #a7{
   box-shadow: 1px 1px 5px white;
@@ -157,6 +163,7 @@ section a:hover {
 .footer_socials #a7:hover {
   background: #58b1b1;
   box-shadow: 1px 1px 5px black;
+  font-size: 2rem;
 }
 .footer_socials a {
   background: var(--color-primary);
@@ -167,16 +174,6 @@ section a:hover {
   display: flex;
   border: 1px solid transparent;
   font-size: 1.8rem;
-}
-.footer_socials a:hover {
-  padding: 0.5rem;
-  margin-top: 0rem;
-  border-radius: 0.7rem;
-  display: flex;
-  border: 1px solid transparent;
-  background: rgba(0, 0, 0, 0.313);
-  padding: 0.5rem;
-  font-size: 2rem;
 }
 .footer_copyright {
   user-select: none;
