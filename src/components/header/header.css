@@ -52,7 +52,7 @@ header {
 }
 /*@ ============== MA PHOTO (Presentation faciale )================ */
 .maphoto {
-    width: 20rem;
+    width: 17rem;
     height: 25rem;
     position: absolute;
     left: 50%;
@@ -62,7 +62,6 @@ header {
     overflow: hidden;
     padding: 3rem 0.5rem 0.5rem 0.5rem;
     animation: pulse 14.05s infinite; /* Ajout de l'animation sur le survol */
-/*     padding-top: 3.4rem; */
     display: flex;
     color: var(--color-primary);
     font-size: 1.1rem;
