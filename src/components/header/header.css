@@ -64,7 +64,6 @@ header {
     justify-content: space-between;
 }
 
-/* Ma photo (Présentation faciale) */
 .maphoto {
     /* Les styles existants restent inchangés */
     width: 17rem;
@@ -85,11 +84,6 @@ header {
     transition: background-color 1.03s;
     background: rgba(104, 246, 246, 0.534);
 }
-.maphoto:hover {
-    animation: pulse 2.9s infinite;
-    color: rgb(255, 255, 255);
-    background: transparent;
-}
 
 .maphoto img {
     /* Les styles existants restent inchangés */
@@ -97,6 +91,12 @@ header {
     height: 100%;
     object-fit: cover;
     border-radius: 2rem;
+}
+
+.maphoto:hover {
+    animation: pulse 2.9s infinite;
+    color: rgb(255, 255, 255);
+    background: transparent;
 }
 
 /* Animation de feu d'artifice */
