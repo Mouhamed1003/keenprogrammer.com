@@ -169,11 +169,12 @@ header {
     }
     .cta {
         margin-top: 1rem; /* Ajout de marge en haut */
+        margin-left: 10.5rem;
         flex-direction: column; /* Changer la direction des éléments enfants en colonne */
         gap: 2rem; /* Ajout d'un espace entre les éléments enfants */
     }
     .cta a {
-        width: 80%; /* Réduire la largeur des boutons */
+        width: 60%; /* Réduire la largeur des boutons */
     }
     .header_socials {
         left: 1rem; /* Décaler vers la gauche */
