@@ -172,13 +172,13 @@ section a:hover {
 }
 .footer_copyright {
   user-select: none;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: bold;
   margin-bottom: 5rem;
   margin-right: 2rem;
   text-align: right;
   color: black;
-  padding-top: 22.5rem;
+  padding-top: 8rem;
   color:#fff;
   text-shadow: 1px 1px 12px rgb(227, 13, 113);
 }
