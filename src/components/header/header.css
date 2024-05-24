@@ -93,6 +93,7 @@ header {
     border-radius: 2rem;
 }
 
+
 .maphoto:hover {
     animation: pulse 2.9s infinite;
     color: rgb(255, 255, 255);
