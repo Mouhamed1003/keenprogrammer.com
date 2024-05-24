@@ -13,6 +13,9 @@ header {
 #header h1 {
     color: rgb(4, 9, 48);
     text-shadow: 1px 1px 12px #fff;
+    white-space: nowrap; /* Empêche le texte de se couper */
+    overflow: hidden; /* Cache le dépassement du texte */
+    text-overflow: ellipsis; /* Ajoute des points de suspension si le texte est trop long */
 }
 
 #header h1 span {
