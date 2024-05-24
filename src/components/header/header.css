@@ -30,7 +30,7 @@ header {
 
 .text-light-function {
     font-weight: bold;
-    font-size: calc(1vw + 1em); /* Utilisation d'une combinaison de vw et em */
+    font-size: calc(1vw + 0.3em); /* Utilisation d'une combinaison de vw et em */
     color: white;
     white-space: nowrap; /* Empêche le retour à la ligne */
 
@@ -204,6 +204,9 @@ header {
     header {
         height: 100vh;
     }
+    .text-light-function {
+        font-size: calc(1vw - 0.5em);
+    }
     .maphoto {
         width: 16rem; /* Réduire la largeur */
         height: 22rem; /* Réduire la hauteur */
@@ -239,6 +242,9 @@ header {
     header {
         height: 100vh;
         padding-top: 0.5rem; /* Ajouter de la marge en haut */
+    }
+    .text-light-function {
+        font-size: calc(1vw - 0.5em);
     }
     .header_container {
         height: 90%; /* Réduire la hauteur */
