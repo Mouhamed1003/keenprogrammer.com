@@ -32,8 +32,8 @@
     height: 27rem;
 }
 .portfolio_item:hover {
-    border-color: #0A6075;
-    background: rgba(10, 38, 2, 0.843);
+    border-color: var(--color-primary-variant);
+    background: #0A6075;
     transform: scale(1.1); /* Zoom sur le survol */
     color: white;
     text-shadow: 2px 2px 5px black;
