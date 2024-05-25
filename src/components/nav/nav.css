@@ -4,15 +4,16 @@ nav {
     display: block;
     padding: 0.5rem 1rem; /* Réduit la valeur de padding */
     z-index: 2;
-    position: fixed;
-    left: 48.5%;
-    transform: translateX(-43%);
+    position: fixed; /* Rendre la navigation fixe */
+    left: 50%;
+    transform: translateX(-50%);
     bottom: 1rem;
     display: flex;
     gap: 0.5rem;
     border-radius: 3rem;
     backdrop-filter: blur(15px);
 }
+
 nav a {
     background: transparent;
     padding: 0.6rem; /* Réduit la valeur de padding */
@@ -22,20 +23,69 @@ nav a {
     font-size: 0.9rem;
     transition: background-color 2.3s; /* Ajout de la transition */
 }
+
 nav a:hover {
     background: rgba(0, 0, 0, 0.3);
     animation: pulse 2.05s infinite; /* Ajout de l'animation sur le survol */
 }
+
 nav a.active:hover {
     color: rgb(255, 255, 255);
 }
+
 nav a.active {
     background: var(--color-primary);
     color: var(--color-bg);
 }
+
 /* Animation de feu d'artifice */
 @keyframes pulse {
     50% { text-shadow: 0 0 10px #0e46f0f9, 0 0 20px #1cef05, 0 0 30px #fffffffd; }
     50% { box-shadow: 0 0 50px #000000, 0 0 100px #fdfdfdf3, 0 0 150px rgb(0, 255, 251); }
     100% { box-shadow: 0 0 10px #fdfdfdf3, 0 0 20px #163cfbf8, 0 0 30px rgb(8, 130, 139); }
+}
+
+/* Media Queries - Tablettes */
+@media screen and (max-width: 1024px) {
+    nav {
+        width: max-content; /* Conserver la largeur maximale */
+        padding: 0.3rem 0.7rem; /* Réduire légèrement le padding */
+        left: 50%; /* Centrer horizontalement */
+        transform: translateX(-50%); /* Centrer horizontalement */
+        bottom: 1.5rem; /* Ajuster la position verticale */
+    }
+    nav a {
+        padding: 0.5rem; /* Ajuster le padding */
+        font-size: 0.8rem; /* Réduire la taille de la police */
+    }
+}
+
+/* Media Queries - Mobiles */
+@media screen and (max-width: 600px) {
+    nav {
+        width: max-content; /* Conserver la largeur maximale */
+        padding: 0.2rem 0.5rem; /* Réduire le padding */
+        left: 50%; /* Centrer horizontalement */
+        transform: translateX(-50%); /* Centrer horizontalement */
+        bottom: 1rem; /* Ajuster la position verticale */
+    }
+    nav a {
+        padding: 0.4rem; /* Ajuster le padding */
+        font-size: 0.7rem; /* Réduire la taille de la police */
+    }
+}
+
+/* Media Queries - iPhone 12 Pro */
+@media screen and (max-width: 390px) {
+    nav {
+        width: max-content; /* Conserver la largeur maximale */
+        padding: 0.1rem 0.3rem; /* Réduire le padding */
+        left: 50%; /* Centrer horizontalement */
+        transform: translateX(-50%); /* Centrer horizontalement */
+        bottom: 0.5rem; /* Ajuster la position verticale */
+    }
+    nav a {
+        padding: 0.3rem; /* Ajuster le padding */
+        font-size: 0.6rem; /* Réduire la taille de la police */
+    }
 }
