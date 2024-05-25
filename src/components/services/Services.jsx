@@ -12,6 +12,7 @@ const Services = () => {
           <div className='service_row'>
             <article className='service'>
               <div className='ensemble'>
+                <div className="div_Fixed">
               <div className="service_head">
                 <h3>UI/UX Design</h3>
               </div>
@@ -89,6 +90,7 @@ const Services = () => {
                   <span>Élaboration de guides de style pour maintenir la cohérence visuelle du produit.</span>
                 </li>
               </ul>
+              </div>
               </div>
             </article>
 
