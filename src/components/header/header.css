@@ -35,7 +35,7 @@ header {
     font-size: calc(1vw + 0.3em); /* Utilisation d'une combinaison de vw et em */
     color: white;
     white-space: nowrap; /* Empêche le retour à la ligne */
-
+    font-family: "Dancing Script", cursive;
 }
 
 .header_container {
