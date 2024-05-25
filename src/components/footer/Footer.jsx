@@ -22,13 +22,13 @@ const Footer = () => {
       </ul>
 
       <div className='footer_socials'>
-        <a id='a1' href="https://linkedin.com" target='_blank' rel="noreferrer"><FaLinkedin /></a>
-        <a id='a2' href="https://github.com" target='_blank' rel="noreferrer"><FaGithubSquare /></a>
-        <a id='a3' href="https://facebook.com" target='_blank' rel="noreferrer"><FaFacebook /></a>
-        <a id='a4' href="https://instagram.com" target='_blank' rel="noreferrer"><FaInstagram /></a>
-        <a id='a5' href="https://twitter.com" target='_blank' rel="noreferrer"><FaXTwitter /></a>
+        <a id='a1' href="https://www.linkedin.com/in/mohamadou-diouf-974b90218/" target='_blank' rel="noreferrer"><FaLinkedin /></a>
+        <a id='a2' href="https://github.com/Mouhamed1003/keenprogrammer.com" target='_blank' rel="noreferrer"><FaGithubSquare /></a>
+        <a id='a3' href="https://web.facebook.com/profile.php?id=100009399596087" target='_blank' rel="noreferrer"><FaFacebook /></a>
+        <a id='a4' href="https://www.instagram.com/ammethdiouf/" target='_blank' rel="noreferrer"><FaInstagram /></a>
+        <a id='a5' href="https://x.com/MOHAMADOUDIOUF1" target='_blank' rel="noreferrer"><FaXTwitter /></a>
         <a id='a6' href="https://whatsapp.com" target='_blank' rel="noreferrer"><FaWhatsapp /></a>
-        <a id='a7' href="https://telegram.com" target='_blank' rel="noreferrer"><FaTelegram /></a>
+        <a id='a7' href="https://t.me/Mouhameth_Diouf1003" target='_blank' rel="noreferrer"><FaTelegram /></a>
       </div>
       <Coeur/>
       <div className='footer_copyright'>
