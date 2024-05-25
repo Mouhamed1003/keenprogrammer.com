@@ -61,7 +61,9 @@ section {
     border-radius: 0rem 0rem 2rem 2rem;
 }
 .div_Fixed {
-    
+    position: sticky;
+    z-index: 2;
+    top: 14px;
 }
 .service_head h3 {
     color: black;
