@@ -47,8 +47,8 @@ body {
 /* Media Queries - Mobiles */
 @media screen and (max-width: 600px) {
     .theme-picker {
-        top: 8%; /* Ajuster la position pour les mobiles */
-        right: 3%; /* Ajuster la position pour les mobiles */
+        right: 35%;
+        top: 3%;
     }
 }
 
