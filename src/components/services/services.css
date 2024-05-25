@@ -36,13 +36,13 @@ section {
 .ensemble {   
     background: var(--color-bg);
     border-radius: 3rem 3rem 2rem 2rem;
-    padding: 10px 20px; /* Utilisation d'une seule propriété pour définir les marges intérieures */
+    padding: 0px 20px; /* Utilisation d'une seule propriété pour définir les marges intérieures */
     text-align: left;
-    max-height: 600px; /* Hauteur maximale de la carte */
+    max-height: 550px; /* Hauteur maximale de la carte */
     overflow: auto; /* Ajout d'une barre de défilement si le contenu dépasse */
-    font-weight: bold;
-    border: 10px solid var(--color-primary);
-    width: 20rem; /* Augmenter la largeur de la carte au survol */
+    font-weight: 550;
+    border: 7px solid #0c0e0f;
+    width: 18rem; /* Augmenter la largeur de la carte au survol */
     height: auto; /* Ajuster automatiquement la hauteur en fonction du contenu */
 }
 /* Empêcher le texte de dépasser la bordure */
@@ -56,16 +56,17 @@ section {
 .service_head {
     background: var(--color-primary);
     padding: 8px;
-    margin: 15px;
-    margin-left: 22px;
+    margin: 14px;
     border-radius: 0rem 0rem 2rem 2rem;
 }
 .service_head h3 {
     color: black;
-    font-size: 10x;
+    font-size: 1.3vw;
     text-align: center;
     font-weight: bold;
     text-shadow: none;
+    padding: 5px;
+    margin-bottom: 0;
 }
 .service_head:hover {
     box-shadow: 0 0rem 1rem rgba(255, 255, 255, 0.984);
@@ -77,13 +78,11 @@ section {
 }
 .service_list li {
     display: flex;
-    align-items: center;
-    margin-bottom: 5px;
+    align-items: baseline;
 }
 .service_list span {
     user-select: text;
     font-size: clamp(0.9rem, 3.5vw, 1.1rem);
-    margin-top: 4px;
     margin-right: 15px;
     padding-left: 3px;
 }
