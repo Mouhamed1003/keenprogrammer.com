@@ -56,6 +56,6 @@ body {
 @media screen and (max-width: 390px) {
     .theme-picker {
         top: 6%; /* Ajuster la position pour l'iPhone 12 Pro */
-        right: 2%; /* Ajuster la position pour l'iPhone 12 Pro */
+        right: 41%; /* Ajuster la position pour l'iPhone 12 Pro */
     }
 }
