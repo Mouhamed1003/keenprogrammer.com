@@ -1,6 +1,7 @@
 section {
     margin-top: 2rem;
     margin-bottom: 0;
+    font-family: "Sedan SC", serif;
 }
 .permettre-selection { 
     user-select: none; /* Empêche la sélection de texte sur tout le corps de la page */
