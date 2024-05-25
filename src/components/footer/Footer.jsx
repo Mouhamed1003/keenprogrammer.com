@@ -10,7 +10,7 @@ const Footer = () => {
 
   return (
     <section id='footer'>
-      <a href='#footer' className='footer_logo' >KEEN PROGRAMMER</a>
+      <a href='#footer' className='footer_logo' >TO KEEN PROGRAMMER</a>
       
       <ul className='permalinks'>
         <li><a href='#header'>Home</a></li>
