@@ -1,3 +1,4 @@
+/* Style par défaut pour le sélecteur de couleur */
 input[type="color"] {
     border: none;
 }
@@ -9,7 +10,7 @@ input[type="color"]::-webkit-color-swatch-wrapper {
 input[type="color"]::-webkit-color-swatch {
     border: none;
 }
- 
+
 /* ColorPicker.css */
 .theme-picker {
     width: 35px;
@@ -20,7 +21,7 @@ input[type="color"]::-webkit-color-swatch {
     right: 5%;
     border-radius: 50%;
     overflow: hidden;
-    background-color:  #ffffff; /* Utilisez la variable --color-bg pour définir la couleur de fond, avec la valeur de secours #ffffff (blanc) */
+    background-color: #ffffff; /* Utilisez la variable --color-bg pour définir la couleur de fond, avec la valeur de secours #ffffff (blanc) */
 }
 
 /* Vous pouvez utiliser les variables CSS personnalisées pour les couleurs dans vos autres fichiers CSS */
@@ -33,4 +34,28 @@ body {
     box-shadow: 0 0 10px var(--color-shadow); /* Utilisez la variable pour l'ombre */
     color: var(--text-color); /* Utilisez la variable pour la couleur du texte */
     filter: drop-shadow(0px 0px 5px var(--color-shadow)); /* Appliquer la couleur sélectionnée aux ombres */
+}
+
+/* Media Queries - Tablettes */
+@media screen and (max-width: 1024px) {
+    .theme-picker {
+        top: 10%; /* Ajuster la position pour les tablettes */
+        right: 4%; /* Ajuster la position pour les tablettes */
+    }
+}
+
+/* Media Queries - Mobiles */
+@media screen and (max-width: 600px) {
+    .theme-picker {
+        top: 8%; /* Ajuster la position pour les mobiles */
+        right: 3%; /* Ajuster la position pour les mobiles */
+    }
+}
+
+/* Media Queries - iPhone 12 Pro */
+@media screen and (max-width: 390px) {
+    .theme-picker {
+        top: 6%; /* Ajuster la position pour l'iPhone 12 Pro */
+        right: 2%; /* Ajuster la position pour l'iPhone 12 Pro */
+    }
 }
