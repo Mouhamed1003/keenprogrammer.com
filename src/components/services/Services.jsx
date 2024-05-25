@@ -12,9 +12,10 @@ const Services = () => {
           <div className='service_row'>
             <article className='service'>
               <div className='ensemble'>
-                <div className="div_Fixed">
+              <div className="div_Fixed">
               <div className="service_head">
                 <h3>UI/UX Design</h3>
+              </div>
               </div>
               <ul className='service_list'>
                 <li>
@@ -91,14 +92,14 @@ const Services = () => {
                 </li>
               </ul>
               </div>
-              </div>
             </article>
 
             <article className='service'>
             <div className='ensemble'>
-
+              <div className="div_Fixed">
               <div className="service_head">
                 <h3>Développement Web</h3>
+              </div>
               </div>
               <ul className='service_list'>
                 <li>
@@ -179,8 +180,10 @@ const Services = () => {
 
             <article className='service'>
             <div className='ensemble'>
+              <div className="div_Fixed">
               <div className="service_head">
               <h3>Création de Contenu</h3>
+              </div>
               </div>
               <ul className='service_list'>
                 <li>
