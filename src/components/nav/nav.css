@@ -4,7 +4,7 @@ nav {
     display: block;
     padding: 0.5rem 1rem; /* Réduit la valeur de padding */
     z-index: 2;
-    position: fixed; /* Rendre la navigation fixe */
+    position: sticky; /* Rendre la navigation fixe */
     left: 50%;
     transform: translateX(-50%);
     bottom: 1rem;
