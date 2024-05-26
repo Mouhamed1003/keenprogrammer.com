@@ -60,16 +60,18 @@ section {
     100% { box-shadow: 0 0 10px #fdfdfdf3, 0 0 20px #163cfbf8, 0 0 30px rgb(8, 130, 139); }
 }
 
+
 .apropos_moi-image img {
-    width: 19rem;
-    padding-right: 1.6rem;
+    width: 100%;
+    max-width: 19rem;
     border-radius: 2rem;
-    transition: transform 0.3s ease;/* Ajoutez une transition pour une animation fluide */
+    transition: transform 0.3s ease;
 }
 
 .apropos_moi-image:hover img {
     transform: rotate(10deg);
 }
+
 
 .my_nationality {
     color: white;
