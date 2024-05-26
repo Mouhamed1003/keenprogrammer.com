@@ -61,16 +61,22 @@ section {
 }
 
 
+.apropos_moi-image {
+    perspective: 1000px; /* Ajoute une perspective pour l'effet 3D */
+}
+
 .apropos_moi-image img {
     width: 100%;
     max-width: 19rem;
     border-radius: 2rem;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease; /* Transition pour une animation fluide */
 }
 
 .apropos_moi-image:hover img {
-    transform: rotate(10deg);
+    transform: matrix3d(0.8, 0.1, 0.1, 0, -0.1, 0.9, 0.1, 0, 0.1, -0.1, 1, 0, 0, 0, 0, 1);
+    /* Exemple de transformation 3D avec matrix3d */
 }
+
 
 
 .my_nationality {
