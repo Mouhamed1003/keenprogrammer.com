@@ -1,51 +1,44 @@
-/* Style pour la section */
+/* Styles de base pour la section et les éléments de l'apropos */
 section {
     margin-top: 2rem;
     margin-bottom: 0;
     font-family: "Sedan SC", serif;
 }
 
-/* Désactivation de la sélection de texte sur tout le corps de la page */
-.permettre-selection { 
-    user-select: none;
+.permettre-selection {
+    user-select: none; /* Empêche la sélection de texte sur tout le corps de la page */
 }
 
-/* Styles pour la section "À propos" */
 .apropos {
     padding-top: 1rem;
-    user-select: none;
+    user-select: none; /* Empêche la sélection de texte sur tout le corps de la page */
 }
 
-/* Styles pour les en-têtes h2 dans la section "À propos" */
 #apropos h2 {
     margin-top: 1rem;
     margin-bottom: 1rem;
     text-shadow: 2px 2px 5px black;
 }
 
-/* Styles pour les sous-titres h5 dans la section "À propos" */
 .apropos h5 {
     color: wheat;
 }
 
-/* Styles pour les boutons primaires */
 .btn.btn-primary {
     color: white;
 }
 
-/* Styles pour le conteneur de la section "À propos" */
+/* Styles pour la section 'À propos de moi' */
 .apropos_container {
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 5%;
 }
 
-/* Styles pour le contenu de la section "À propos" */
 .apropos_content {
     width: 8%;
 }
 
-/* Styles pour la carte "À propos de moi" */
 .apropos_moi {
     aspect-ratio: 0;
     border-radius: 2rem;
@@ -66,7 +59,6 @@ section {
     align-content: center;
 }
 
-/* Styles pour l'animation de la carte "À propos de moi" au survol */
 .apropos_moi:hover {
     background: linear-gradient(90deg, rgba(0, 128, 0, 0.592), rgba(255, 217, 0, 0.565), rgba(255, 0, 0, 0.54));
     animation: pulse 7.5s infinite;
@@ -79,7 +71,6 @@ section {
     100% { box-shadow: 0 0 10px #fdfdfdf3, 0 0 20px #163cfbf8, 0 0 30px rgb(8, 130, 139); }
 }
 
-/* Styles pour l'image dans la carte "À propos de moi" */
 .apropos_moi-image img {
     width: 19rem;
     padding-right: 1.6rem;
@@ -87,17 +78,14 @@ section {
     transition: transform 0.3s ease;
 }
 
-/* Animation de rotation de l'image au survol */
 .apropos_moi-image:hover img {
     transform: rotate(10deg);
 }
 
-/* Styles pour la nationalité */
 .my_nationality {
     color: white;
 }
 
-/* Styles pour la nationalité au survol */
 .my_nationality:hover {
     color: black;
     border: 0px solid transparent;
@@ -107,41 +95,18 @@ section {
     padding-right: 5px;
 }
 
-/* Styles pour l'icône d'étoile */
 .apropos_moi .etoile {
     color: green;
     padding-bottom: 0.5rem;
 }
 
-/* Animation de l'icône d'étoile */
-@keyframes shine {
-    0% {
-        opacity: 0.5;
-        transform: scale(1);
-    }
-    50% {
-        opacity: 1;
-        transform: scale(1.5);
-    }
-    100% {
-        opacity: 0.5;
-        transform: scale(1);
-    }
-}
-
-/* Animation d'éclat de l'icône d'étoile */
-.apropos_moi .etoile {
-    animation: shine 3s infinite alternate;
-}
-
-/* Styles pour les cartes "À propos" */
+/* Styles pour la carte 'À propos de moi' */
 .apropos_cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.2rem;
 }
 
-/* Styles pour les cartes individuelles "À propos" */
 .apropos_card {
     background: var(--color-bg-variant);
     border: 1px solid transparent;
@@ -152,7 +117,6 @@ section {
     width: 165px;
 }
 
-/* Styles pour les cartes individuelles "À propos" au survol */
 .apropos_card:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
@@ -160,26 +124,22 @@ section {
     backdrop-filter: blur(25px);
 }
 
-/* Styles pour les icônes dans les cartes "À propos" */
 .apropos_icon {
     color: var(--color-primary);
     font-size: 2.4rem;
     margin-bottom: 0.5rem;
 }
 
-/* Styles pour le texte fort dans les cartes "À propos" */
 .apropos_card strong {
     font-size: 1.5rem;
     display: block;
 }
 
-/* Styles pour le texte de taille réduite dans les cartes "À propos" */
 .apropos_card small {
     font-size: 1rem;
     color: var(--color-light);
 }
 
-/* Styles pour le contenu dans la section "À propos" */
 .apropos_content p {
     margin: 1rem 0 1.6rem;
     color: var(--color-light);
@@ -192,20 +152,19 @@ section {
     width: 545px;
 }
 
-/* Styles pour le contenu dans la section "À propos" au survol */
 .apropos_content p:hover {
     margin: 1rem 0 1.6rem;
     color: white;
     margin-left: 0;
     margin-right: 0;
-    background: rgba(0, 0, 0,.828);
+    background: rgba(0, 0, 0, 0.828);
     padding: 15px;
     border: 5px solid var(--color-primary);
     border-radius: 0px 40px 0px 40px;
     font-weight: bold;
 }
 
-/* Media Queries pour les tablettes */
+/* Media Queries pour les tailles d'écran */
 @media screen and (max-width: 1024px) {
     .apropos_container {
         grid-template-columns: 1fr;
@@ -226,7 +185,6 @@ section {
     }
 }
 
-/* Media Queries pour les petits écrans (smartphones) */
 @media screen and (max-width: 600px) {
     .apropos_moi {
         width: 65%;
@@ -246,27 +204,8 @@ section {
         margin: 1.5rem 0;
     }
 
-    .apropos_card{
+    .apropos_card {
         margin-left: 1rem;
         grid-template-columns: 1fr 1fr;
     }
 }
-
-/* Media Queries spécifiques pour l'iPhone 12 Pro */
-@media screen and (max-width: 390px) {
-    /* Placez ici vos styles spécifiques pour l'iPhone 12 Pro */
-    .service_head {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        background-color: rgba(0, 0, 0, 0.3);
-        padding: 1rem;
-        z-index: 999;
-    }
-
-    .service_list {
-        padding-top: 4rem; /* Pour compenser la zone fixe en haut */
-    }
-}
-
