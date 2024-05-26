@@ -11,15 +11,15 @@
     text-shadow: 2px 2px 5px black;
 }
 .container {
-        margin: auto;
+    margin: auto;
 }
 .portfolio_container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
-/*     width: 60rem; */
     align-items: center;
-    margin-left: 15.2rem;
+    margin: 0 auto;
+    padding: 0 1rem; /* Ajout d'un padding pour les petits écrans */
 }
 .portfolio_item {
     background: var(--color-bg-variant);
@@ -29,8 +29,9 @@
     transition: var(--transition);
     box-shadow: 1px 1px 12px white;
     transition: transform 1s ease; /* Transition douce */
-    width: 18rem;
-    height: 27rem;
+    width: 100%;
+    max-width: 18rem; /* Limiter la largeur maximale des items */
+    height: auto; /* Ajuster automatiquement la hauteur */
 }
 .portfolio_item:hover {
     background: #00000099;
@@ -44,7 +45,7 @@
     overflow: hidden;
 }
 .portfolio_item h3 {
-    margin: 1rem 0rem 1.6rem 0rem;
+    margin: 1rem 0 1.6rem 0;
     font-size: smaller;
 }
 .portfolio_item-cta {
@@ -54,27 +55,53 @@
 }
 .portfolio_item-cta a {
     padding-top: 0.3rem;
-    padding-bottom:  0.3rem;
+    padding-bottom: 0.3rem;
 }
-/*@ ============== LES MEDIAS QUERYS " Medium device "((( Les Respensives a moyenne taille: tablette ))) ================ */
+
+/* Medium devices (tablettes) */
 @media screen and (max-width: 1024px) {
     #portfolio {
-        padding-top: 100rem;
-        height: 100vh;
+        padding-top: 4rem;
+        height: auto; /* Ajuster automatiquement la hauteur */
     }
     .portfolio_container {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
-        width: 35rem;
-        margin: 0vw;
-        margin-left: 14vw;
+        width: auto;
+        margin-left: 0;
     }
 }
-@media screen and (max-width: 900px) {
+
+/* Small devices (smartphones) */
+@media screen and (max-width: 600px) {
     .portfolio_container {
-        grid-template-columns: 1fr 1fr;
-        gap: 2rem;
-        width: 25rem;
-        margin-left: 0vw;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        width: auto;
+        margin-left: 0;
+    }
+    .portfolio_item {
+        width: 100%; /* Prendre toute la largeur disponible */
+    }
+}
+
+/* Very small devices (iPhone 12 Pro) */
+@media screen and (max-width: 390px) {
+    .portfolio_container {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+        width: auto;
+        margin-left: 0;
+        padding: 0 0.5rem; /* Réduire le padding pour les très petits écrans */
+    }
+    .portfolio_item {
+        width: 100%; /* Prendre toute la largeur disponible */
+    }
+    .portfolio_item h3 {
+        font-size: small;
+    }
+    .portfolio_item-cta {
+        flex-direction: column; /* Empiler les boutons verticalement */
+        gap: 0.5rem;
     }
 }
