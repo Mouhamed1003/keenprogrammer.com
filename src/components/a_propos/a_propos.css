@@ -197,10 +197,12 @@ section {
     .apropos_moi {
         width: 100%;
         margin: 0 auto 1rem;
+        height: 30rem;
     }
     .apropos_cards {
         grid-template-columns: 1fr;
         gap: 1rem;
+        margin-top: 2rem;
     }
     .apropos_content {
         text-align: center;
@@ -247,6 +249,7 @@ section {
         display: grid; /* Utilisation de la grille pour les cartes */
         grid-template-columns: 1fr 1fr; /* Deux colonnes égales */
         gap: 1rem; /* Espace entre les cartes */
+        margin-top: 2.5rem;
     }
 
     .apropos_card {
