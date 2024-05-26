@@ -61,14 +61,16 @@ section {
 }
 
 .apropos_moi-image img {
-    width: 100%; /* Faire en sorte que l'image remplisse la largeur de son conteneur */
-    height: 15rem; /* Permettre à la hauteur de l'image de s'ajuster automatiquement pour maintenir les proportions */
+    width: 100%; /* Assurez-vous que l'image remplit la largeur de son conteneur */
     border-radius: 2rem;
     transition: transform 0.3s ease;
+    transform-origin: center bottom; /* Définir le point de transformation en bas-centre */
 }
+
 .apropos_moi-image:hover img {
-    transform: scale(1.6); /* Agrandir légèrement l'image au survol */
+    transform: scaleY(1.1); /* Agrandir seulement sur l'axe vertical */
 }
+
 
 .my_nationality {
     color: white;
