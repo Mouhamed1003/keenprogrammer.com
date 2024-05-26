@@ -213,4 +213,8 @@ section {
         grid-template-columns: 1fr;
         gap: 1rem;
     }
+    .experience {
+    padding-top: 35rem;
+    user-select: none;
+}
 }
