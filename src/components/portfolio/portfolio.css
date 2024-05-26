@@ -96,7 +96,7 @@
         grid-template-columns: 1fr;
         gap: 1.5rem;
         width: auto;
-        margin-left: 2.2rem;
+        margin-left: 1.5rem;
         padding: 0 0.5rem; /* Réduire le padding pour les très petits écrans */
     }
     .portfolio_item {
