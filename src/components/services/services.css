@@ -4,6 +4,10 @@ section {
     padding: 1rem;
     margin-top: 4rem;
 }
+.container {
+    position: relative;
+}
+
 #services h2 {
     margin-top: 1rem;
     margin-bottom: 0rem;
@@ -32,6 +36,9 @@ section {
 }
 .services h5 {
     color: wheat;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: nowrap;
 }
 .ensemble {   
     background: var(--color-bg);
@@ -123,7 +130,7 @@ section {
 /* Styles pour les petits écrans */
 @media screen and (max-width: 600px) {
     .services {
-        padding-top: 2rem;
+        padding-top: 64rem;
     }
     .service_row {
         margin-left: 0;
@@ -132,10 +139,19 @@ section {
         margin: 0.5rem 0;
         width: 90%; /* Largeur de la carte pour petits écrans */
     }
+    .service_head h3 {
+        font-size: 1rem;
+    }
+    .services h5 {
+        font-size: 1rem;
+    }
 }
 
 /* Styles pour les très petits écrans, y compris iPhone 12 Pro */
 @media screen and (max-width: 390px) {
+    .services {
+        padding-top: 64rem;
+    }
     .service_row {
         margin-left: 0;
     }
@@ -147,7 +163,10 @@ section {
         font-size: 1rem;
     }
     .service_list-icon {
-        font-size: 1.5em;
+        font-size: 2em;
+    }
+    .services h5 {
+        font-size: 1rem;
     }
 }
 
