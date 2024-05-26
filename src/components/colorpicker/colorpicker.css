@@ -1,6 +1,10 @@
 /* Style par défaut pour le sélecteur de couleur */
 input[type="color"] {
-    border: none;
+/*     border: none; */
+    padding: 1rem;
+}
+input#selectColorTheme {
+    background-color: black;
 }
 
 input[type="color"]::-webkit-color-swatch-wrapper {
@@ -31,9 +35,9 @@ body {
 }
 
 .shadowed {
-    box-shadow: 0 0 10px var(--color-shadow); /* Utilisez la variable pour l'ombre */
+    box-shadow: 0 0 90px #ffffff; /* Utilisez la variable pour l'ombre */
     color: var(--text-color); /* Utilisez la variable pour la couleur du texte */
-    filter: drop-shadow(0px 0px 5px var(--color-shadow)); /* Appliquer la couleur sélectionnée aux ombres */
+    filter: drop-shadow(0rem 0rem 5px #ffffff); /* Appliquer la couleur sélectionnée aux ombres */
 }
 
 /* Media Queries - Tablettes */
