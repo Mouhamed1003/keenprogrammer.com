@@ -1,11 +1,11 @@
-/* Styles de base pour la section et les éléments de l'apropos */
+/* Styles généraux */
 section {
     margin-top: 2rem;
     margin-bottom: 0;
     font-family: "Sedan SC", serif;
 }
 
-.permettre-selection {
+.permettre-selection { 
     user-select: none; /* Empêche la sélection de texte sur tout le corps de la page */
 }
 
@@ -28,7 +28,6 @@ section {
     color: white;
 }
 
-/* Styles pour la section 'À propos de moi' */
 .apropos_container {
     display: grid;
     grid-template-columns: 35% 50%;
@@ -100,7 +99,25 @@ section {
     padding-bottom: 0.5rem;
 }
 
-/* Styles pour la carte 'À propos de moi' */
+@keyframes shine {
+    0% {
+        opacity: 0.5;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.5);
+    }
+    100% {
+        opacity: 0.5;
+        transform: scale(1);
+    }
+}
+
+.apropos_moi .etoile {
+    animation: shine 3s infinite alternate;
+}
+
 .apropos_cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -149,61 +166,50 @@ section {
     border-radius: 40px 0px 40px 0px;
     font-weight: bold;
     font-size: .9rem;
-    width: 545px;
+    width: 100%;
+    max-width: 545px;
 }
 
 .apropos_content p:hover {
-    margin: 1rem 0 1.6rem;
     color: white;
-    margin-left: 0;
-    margin-right: 0;
     background: rgba(0, 0, 0, 0.828);
-    padding: 15px;
-    border: 5px solid var(--color-primary);
     border-radius: 0px 40px 0px 40px;
-    font-weight: bold;
 }
 
-/* Media Queries pour les tailles d'écran */
+/* Media Queries - Tablettes */
 @media screen and (max-width: 1024px) {
     .apropos_container {
         grid-template-columns: 1fr;
         gap: 0;
     }
-
     #apropos {
         padding-top: 0.5rem;
     }
-
     .apropos_moi {
         width: 40%;
         margin: 2rem auto 2rem 2rem;
     }
-
     .apropos_content p {
         margin: 1rem 0 1.5rem;
     }
 }
 
+/* Media Queries - Mobiles */
 @media screen and (max-width: 600px) {
     .apropos_moi {
         width: 65%;
         margin: 0 auto 3rem;
     }
-
     .apropos_cards {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
     }
-
     .apropos_content {
         text-align: center;
     }
-
     .apropos_content p {
         margin: 1.5rem 0;
     }
-
     .apropos_card {
         margin-left: 1rem;
         grid-template-columns: 1fr 1fr;
@@ -215,27 +221,22 @@ section {
     .apropos_container {
         display: block; /* Changement de la disposition en bloc pour empêcher le débordement */
     }
-
     .apropos_moi {
         width: 100%; /* Ajustement de la largeur à 100% */
         margin: 0 auto 1rem; /* Centrez l'élément et réduisez la marge en bas */
         padding: 1rem; /* Réduction du rembourrage */
     }
-
     .apropos_content p {
         width: 100%; /* Ajustement de la largeur à 100% */
         margin: 1rem 0; /* Réduction de la marge */
     }
-
     .apropos_card {
         width: calc(50% - 0.5rem); /* Ajustement de la largeur des cartes à 50% avec une marge */
         margin-bottom: 1rem; /* Ajout d'une marge inférieure */
     }
-
     .apropos h5 {
         color: wheat;
         overflow: hidden; /* Empêcher le dépassement du texte */
-        text-overflow: ellipsis; /* Ajouter des points de suspension en cas de dépassement */
         white-space: nowrap; /* Empêcher le texte de passer à la ligne */
     }
 }
