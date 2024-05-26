@@ -35,7 +35,7 @@ section {
 }
 
 .apropos_content {
-    width: 8%;
+    width: 100%;
 }
 
 .apropos_moi {
@@ -238,5 +238,6 @@ section {
         color: wheat;
         overflow: hidden; /* Empêcher le dépassement du texte */
         white-space: nowrap; /* Empêcher le texte de passer à la ligne */
+        text-overflow: ellipsis; /* Ajouter des points de suspension en cas de dépassement */
     }
 }
