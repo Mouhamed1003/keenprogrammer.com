@@ -32,9 +32,8 @@
     transition: var(--transition);
     box-shadow: 1px 1px 12px white;
     transition: transform 1s ease; /* Transition douce */
-    width: 100%;
-    max-width: 18rem; /* Limiter la largeur maximale des items */
-    height: auto; /* Ajuster automatiquement la hauteur */
+    width: 18rem;
+    height: 27rem;
 }
 .portfolio_item:hover {
     background: #00000099;
