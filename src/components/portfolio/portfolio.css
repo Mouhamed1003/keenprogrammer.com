@@ -86,6 +86,12 @@
     .portfolio_item {
         width: 100%; /* Prendre toute la largeur disponible */
     }
+    #portfolio h2 {
+        margin-bottom: .5rem;
+        margin-top: 1.3rem;
+        text-shadow: 2px 2px 5px black;
+        margin-left: 2rem;
+    }
     #portfolio h5 {
         font-size: 1rem;
         margin-left: 4rem;
