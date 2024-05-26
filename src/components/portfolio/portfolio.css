@@ -23,6 +23,7 @@
     align-items: center;
     margin: 0 auto;
     padding: 0 1rem; /* Ajout d'un padding pour les petits écrans */
+    right: 3rem;
 }
 .portfolio_item {
     background: var(--color-bg-variant);
