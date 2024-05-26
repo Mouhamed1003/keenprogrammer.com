@@ -60,22 +60,24 @@ section {
     100% { box-shadow: 0 0 10px #fdfdfdf3, 0 0 20px #163cfbf8, 0 0 30px rgb(8, 130, 139); }
 }
 
-.apropos_moi-image {
-    perspective: 1000px; /* Ajoute une perspective pour l'effet 3D */
-    overflow: hidden; /* S'assure que l'image ne dépasse pas la bordure de l'élément parent */
+.apropos_moi {
+    width: 19rem; /* Définir la largeur de la carte */
+    height: 19rem; /* Définir la hauteur de la carte */
+    border-radius: 2rem;
+    overflow: hidden; /* Masquer tout contenu dépassant de la carte */
 }
 
 .apropos_moi-image img {
-    width: 100%;
-    max-width: 19rem;
+    width: 100%; /* Faire en sorte que l'image remplisse la carte horizontalement */
+    height: auto; /* Permettre à la hauteur de l'image de s'ajuster automatiquement pour maintenir les proportions */
     border-radius: 2rem;
-    transition: transform 0.3s ease; /* Transition pour une animation fluide */
+    transition: transform 0.3s ease;
 }
 
-.apropos_moi-image:hover img {
-    transform: matrix3d(1, 0.1, 0, 0, 0.1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1) scale(1.2); 
-    /* Combinaison de matrix3d pour un effet 3D et scale pour agrandir l'image */
+.apropos_moi:hover .apropos_moi-image img {
+    transform: scale(1.1); /* Agrandir légèrement l'image au survol */
 }
+
 
 .my_nationality {
     color: white;
