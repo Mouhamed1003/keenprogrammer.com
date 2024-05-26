@@ -4,42 +4,35 @@ section {
     padding: 1rem;
     margin-top: 4rem;
 }
-
 #services h2 {
     margin-top: 1rem;
     margin-bottom: 0rem;
     text-shadow: 2px 2px 5px black;
 }
-
 .services_container {
     display: flex;
     justify-content: center; /* Centre les éléments horizontalement */
-    flex-wrap: wrap; /* Permet de faire revenir les éléments à la ligne */
+    
 }
-
 .service_row {
     display: flex;
     flex-direction: row; /* Aligne les éléments horizontalement */
     justify-content: center; /* Centre les éléments horizontalement */
-    padding: 0; /* Utilisation de vw pour les marges, s'adapte à la largeur de la vue */
+    padding: 0vw; /* Utilisation de vw pour les marges, s'adapte à la largeur de la vue */
     border-radius: 2rem;
     transition: var(--transition);
     position: relative;
     width: 100%;
-    flex-wrap: wrap; /* Permet de faire revenir les éléments à la ligne */
 }
-
 .service {
-    margin: 0.5rem; /* Espacement entre les services */
+    margin-left: 0.5px; /* Espacement entre les services */
+    margin-right: 0.5px; /* Espacement entre les services */
     padding: 1rem;
     border-radius: 0 0 2rem 2rem;
-    flex: 1 1 calc(25% - 1rem); /* Flex-grow, flex-shrink, et base pour s'adapter à l'espace disponible */
 }
-
 .services h5 {
     color: wheat;
 }
-
 .ensemble {   
     background: var(--color-bg);
     border-radius: 3rem 3rem 2rem 2rem;
@@ -49,11 +42,10 @@ section {
     overflow: auto; /* Ajout d'une barre de défilement si le contenu dépasse */
     font-weight: 550;
     border: 7px solid #0c0e0f;
-    width: 100%; /* Largeur de la carte responsive */
-    max-width: 18rem; /* Largeur maximale de la carte */
+    width: 18rem; /* Augmenter la largeur de la carte au survol */
     height: auto; /* Ajuster automatiquement la hauteur en fonction du contenu */
 }
-
+/* Empêcher le texte de dépasser la bordure */
 .ensemble h3,
 .ensemble span {
     word-wrap: break-word; /* Permet au texte de se casser pour s'ajuster à la largeur de la carte */
@@ -61,7 +53,6 @@ section {
     overflow: hidden; /* Masquer le texte qui dépasse */
     text-overflow: ellipsis; /* Ajouter des points de suspension si le texte est trop long */
 }
-
 .service_head {
     background: var(--color-primary);
     padding: 4px;
@@ -69,13 +60,11 @@ section {
     margin-bottom: 0px;
     border-radius: 0rem 0rem 2rem 2rem;
 }
-
 .div_Fixed {
     position: sticky;
     z-index: 2;
     top: 14px;
 }
-
 .service_head h3 {
     color: black;
     font-size: 1.3vw;
@@ -85,29 +74,24 @@ section {
     padding: 3px;
     margin-bottom: 0;
 }
-
 .service_head:hover {
     box-shadow: 0 0rem 1rem rgba(255, 255, 255, 0.984);
 }
-
 .service_list {
     list-style: none;
     padding: 0;
     margin: 0;
 }
-
 .service_list li {
     display: flex;
     align-items: baseline;
 }
-
 .service_list span {
     user-select: text;
     font-size: clamp(0.9rem, 1vw, 1.1rem);
     padding-left: 1px;
     font-weight: bold;
 }
-
 .service_list span:hover {
     border: 0px solid transparent;
     border-radius: 10px;
@@ -115,11 +99,10 @@ section {
     padding-left: 1px;
     color: green;
 }
-
 .service_list-icon {
     color: green;
     font-size: 2.5em; 
-    margin-right: 3px;
+    margin-right: 3px
 }
 
 /* Styles pour les écrans moyens */
