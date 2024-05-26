@@ -3,6 +3,7 @@ section {
     margin-bottom: 0;
     font-family: "Sedan SC", serif;
 }
+
 .permettre-selection { 
     user-select: none; /* Empêche la sélection de texte sur tout le corps de la page */
 }
@@ -11,53 +12,47 @@ section {
     padding-top: 1rem;
     user-select: none; /* Empêche la sélection de texte sur tout le corps de la page */
 }
+
 #apropos h2 {
     margin-top: 1rem;
     margin-bottom: 1rem;
     text-shadow: 2px 2px 5px black;
 }
+
 .apropos h5 {
     color: wheat;
 }
+
 .btn.btn-primary {
     color: white;
 }
 
 .apropos_container {
     display: grid;
-    grid-template-columns: 35% 50%;
+    grid-template-columns: 35% 65%;
     gap: 5%;
-}
-.apropos_content {
-    width: 8%;
 }
 
 .apropos_moi {
-    aspect-ratio: 0;
     border-radius: 2rem;
-    background: transparent;/* background: var(--color-primary); Rouge */
+    background: transparent;
     display: grid;
     place-items: center;
-    overflow: visible;/* Permettre le dépassement du contenu de la carte */
-    transition: background-color 0.3s ease;/* Ajoutez une transition pour l'animation de couleur */
+    overflow: visible;
+    transition: background-color 0.3s ease;
     font-size: 1.05rem;
-    transition: background-color 2.3s; /* Ajout de la transition */
-    animation: pulse 12.05s infinite; /* Ajout de l'animation sur le survol */
+    animation: pulse 12.05s infinite;
     border: 4px dotted var(--color-primary);
     max-width: 100%;
-    height: 85%;
     padding: 3rem;
-    padding-left: 0;
-    padding-top: 1rem;
     align-content: center;
 }
 
 .apropos_moi:hover {
-    background: linear-gradient(90deg, rgba(0, 128, 0, 0.592), rgba(255, 217, 0, 0.565), rgba(255, 0, 0, 0.54));/* background: var(--color-primary); Rouge */
-    animation: pulse 7.5s infinite; /* Ajout de l'animation sur le survol */
+    background: linear-gradient(90deg, rgba(0, 128, 0, 0.592), rgba(255, 217, 0, 0.565), rgba(255, 0, 0, 0.54));
+    animation: pulse 7.5s infinite;
 }
 
-/* Animation de feu d'artifice */
 @keyframes pulse {
     50% { text-shadow: 0 0 10px #0e46f0f9, 0 0 20px #1cef05, 0 0 30px #fffffffd; }
     50% { box-shadow: 0 0 50px #000000, 0 0 100px #fdfdfdf3, 0 0 150px rgb(0, 255, 251); }
@@ -65,19 +60,20 @@ section {
 }
 
 .apropos_moi-image img {
-    width: 19rem;
-    padding-right: 1.6rem;
+    width: 100%;
+    max-width: 19rem;
     border-radius: 2rem;
-    transition: transform 0.3s ease;/* Ajoutez une transition pour une animation fluide */
+    transition: transform 0.3s ease;
 }
 
 .apropos_moi-image:hover img {
-    transform: rotate(10deg);/* Appliquez la rotation sur le survol de la carte */
+    transform: rotate(10deg);
 }
 
 .my_nationality {
     color: white;
 }
+
 .my_nationality:hover {
     color: black;
     border: 0px solid transparent;
@@ -88,23 +84,19 @@ section {
 }
 
 .apropos_moi .etoile {
-    color: green;/* Vert */
+    color: green;
     padding-bottom: 0.5rem;
 }
-
-/* concernant le signe etoile (( The star symbol )) */
 
 @keyframes shine {
     0% {
         opacity: 0.5;
         transform: scale(1);
     }
-
     50% {
         opacity: 1;
         transform: scale(1.5);
     }
-
     100% {
         opacity: 0.5;
         transform: scale(1);
@@ -114,8 +106,6 @@ section {
 .apropos_moi .etoile {
     animation: shine 3s infinite alternate;
 }
-
-/*? concernant the cards (( les cartes )) */
 
 .apropos_cards {
     display: grid;
@@ -130,7 +120,8 @@ section {
     padding: 1rem 0;
     text-align: center;
     transition: var(--transition);
-    width: 165px;
+    max-width: 165px;
+    margin: 0 auto;
 }
 
 .apropos_card:hover {
@@ -164,20 +155,14 @@ section {
     border: 5px solid var(--color-primary);
     border-radius: 40px 0px 40px 0px;
     font-weight: bold;
-    font-size: .9rem;
-    width: 545px;
+    font-size: 0.9rem;
+    max-width: 545px;
 }
 
 .apropos_content p:hover {
-    margin: 1rem 0 1.6rem;
     color: white;
-    margin-left: 0;
-    margin-right: 0;
-    background:  rgba(0, 0, 0, 0.828);
-    padding: 15px;
-    border: 5px solid var(--color-primary);
+    background: rgba(0, 0, 0, 0.828);
     border-radius: 0px 40px 0px 40px;
-    font-weight: bold;
 }
 
 /* Media Queries - Tablettes */
@@ -187,25 +172,30 @@ section {
         gap: 0;
     }
 
-    #apropos {
-        padding-top: 0.5rem;
+    .apropos_moi {
+        width: 70%;
+        margin: 0 auto 2rem;
+        padding: 2rem 1rem;
     }
 
-    .apropos_moi {
-        width: 40%;
-        margin: 2rem auto;
+    .apropos_content {
+        width: 100%;
+        text-align: center;
     }
 
     .apropos_content p {
         margin: 1rem 0 1.5rem;
+        width: 100%;
+        max-width: none;
     }
 }
 
 /* Media Queries - Mobiles */
 @media screen and (max-width: 600px) {
     .apropos_moi {
-        width: 65%;
-        margin: 0 auto 3rem;
+        width: 80%;
+        margin: 0 auto 2rem;
+        padding: 1rem 0.5rem;
     }
 
     .apropos_cards {
@@ -213,29 +203,25 @@ section {
         gap: 1rem;
     }
 
-    .apropos_content {
-        text-align: center;
+    .apropos_card {
+        width: 100%;
     }
 
     .apropos_content p {
-        margin: 1.5rem 0;
+        width: 100%;
+        padding: 10px;
     }
 
-    .apropos_card {
-        margin-left: 1rem;
-        width: 100%;
+    .apropos_content {
+        padding: 0 1rem;
     }
 }
 
 /* Media Queries - iPhone 12 Pro */
 @media screen and (max-width: 390px) {
-
-    .apropos h5 {
-        color: wheat;
-    }
     .apropos_moi {
-        width: 80%;
-        margin: 0 auto 2rem;
+        width: 90%;
+        margin: 0 auto 1.5rem;
     }
 
     .apropos_cards {
@@ -243,9 +229,12 @@ section {
         gap: 0.5rem;
     }
 
+    .apropos_card {
+        width: 100%;
+    }
+
     .apropos_content p {
         width: 100%;
         padding: 10px;
     }
 }
-
