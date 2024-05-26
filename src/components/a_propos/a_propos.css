@@ -231,6 +231,7 @@ section {
         width: calc(50% - 0.5rem); /* Ajustement de la largeur des cartes à 50% avec une marge */
         margin-bottom: 1rem; /* Ajout d'une marge inférieure */
     }
+
     .apropos h5 {
         color: wheat;
         overflow: hidden; /* Empêcher le dépassement du texte */
@@ -238,5 +239,3 @@ section {
         white-space: nowrap; /* Empêcher le texte de passer à la ligne */
     }
 }
-
-
