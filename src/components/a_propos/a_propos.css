@@ -21,7 +21,7 @@ section {
 
 .apropos h5 {
     color: wheat;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .btn.btn-primary {
@@ -61,10 +61,10 @@ section {
 }
 
 .apropos_moi-image img {
-    width: 100%;
-    max-width: 19rem;
+    width: 19rem;
+    padding-right: 1.6rem;
     border-radius: 2rem;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease;/* Ajoutez une transition pour une animation fluide */
 }
 
 .apropos_moi-image:hover img {
