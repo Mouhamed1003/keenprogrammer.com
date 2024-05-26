@@ -113,7 +113,6 @@
         grid-template-columns: 1fr;
         gap: 0.2rem;
         width: auto;
-        right: 1.4rem;
         padding: 0 0.5rem; /* Réduire le padding pour les très petits écrans */
     }
     .portfolio_item {
@@ -129,5 +128,7 @@
     }
     #portfolio h5 {
         font-size: 1rem;
+        margin-left: 1rem;
+        margin-right: 0.8rem;
     }
 }
