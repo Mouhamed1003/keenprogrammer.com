@@ -79,7 +79,7 @@
 @media screen and (max-width: 600px) {
     .portfolio_container {
         grid-template-columns: 1fr;
-        gap: 1rem;
+        gap: 2rem;
         width: auto;
         right: 0.9rem;
     }
@@ -88,11 +88,16 @@
     }
     #portfolio h5 {
         font-size: 1rem;
+        margin-left: 4rem;
+        margin-right: 2rem;
     }
     .portfolio_item-cta {
         flex-direction: column-reverse;
         gap: 1.6rem;
         align-items: flex-end;
+    }
+    .portfolio_item h3 {
+        font-size: medium;
     }
 }
 
@@ -109,7 +114,7 @@
         width: 100%; /* Prendre toute la largeur disponible */
     }
     .portfolio_item h3 {
-        font-size: small;
+        font-size: medium;
     }
     .portfolio_item-cta {
         flex-direction: column-reverse;
