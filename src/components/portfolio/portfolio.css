@@ -25,7 +25,7 @@
     background: var(--color-bg-variant);
     padding: 1.1rem;
     border-radius: 2rem;
-    border: 1px solid transparent;
+    border: 3px solid #ffffff;
     transition: var(--transition);
     box-shadow: 1px 1px 12px white;
     transition: transform 1s ease; /* Transition douce */
@@ -34,7 +34,7 @@
 }
 .portfolio_item:hover {
     background: #00000099;
-    border: 3px solid #000000;
+    border: 3px solid #ffffff;
     transform: scale(1.05); /* Zoom sur le survol */
     color: white;
     text-shadow: 2px 2px 5px black;
