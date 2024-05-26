@@ -212,14 +212,31 @@ section {
 
 /* Media Query pour les iPhone 12 Pro */
 @media screen and (max-width: 390px) {
+    .apropos_container {
+        display: block; /* Changement de la disposition en bloc pour empêcher le débordement */
+    }
+
     .apropos_moi {
-        width: 80%; /* Ajustement de la largeur */
-        margin: 0 auto 2rem; /* Centrez l'élément et réduisez la marge en bas */
-        padding: 2rem; /* Ajoutez un peu plus de rembourrage */
+        width: 100%; /* Ajustement de la largeur à 100% */
+        margin: 0 auto 1rem; /* Centrez l'élément et réduisez la marge en bas */
+        padding: 1rem; /* Réduction du rembourrage */
+    }
+
+    .apropos_content p {
+        width: 100%; /* Ajustement de la largeur à 100% */
+        margin: 1rem 0; /* Réduction de la marge */
     }
 
     .apropos_card {
-        width: 100%; /* Ajustement de la largeur */
+        width: calc(50% - 0.5rem); /* Ajustement de la largeur des cartes à 50% avec une marge */
+        margin-bottom: 1rem; /* Ajout d'une marge inférieure */
+    }
+    .apropos h5 {
+        color: wheat;
+        overflow: hidden; /* Empêcher le dépassement du texte */
+        text-overflow: ellipsis; /* Ajouter des points de suspension en cas de dépassement */
+        white-space: nowrap; /* Empêcher le texte de passer à la ligne */
     }
 }
+
 
