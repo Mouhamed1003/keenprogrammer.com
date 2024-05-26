@@ -219,6 +219,7 @@ section {
 
     .apropos_moi {
         width: 100%; /* Largeur à 100% pour s'adapter à l'écran */
+        height: 28rem;
         margin: 0 auto 1rem; /* Centrer l'élément avec une marge en bas */
         padding: 1rem; /* Réduction du padding */
     }
