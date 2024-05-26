@@ -25,7 +25,7 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: "Trousso d'interface utilisateur du tableau de bord Figma pour les applications Web de conception de données",
+    title: "Trousso d'interface utilisateur du tableau de bord Figma pour les applications Web.",
     github: "http://github.com",
     demo: "http://dribbble.com/alian_pixels"
   },
@@ -46,7 +46,7 @@ const data = [
   {
     id: 6,
     image: IMG6,
-    title: 'Maintien des tâches et suivi des progrès',
+    title: 'Maintien des tâches et suivi des progrès de conceptions de données informatiques',
     github: "http://github.com",
     demo: "http://dribbble.com/alian_pixels"
   },
