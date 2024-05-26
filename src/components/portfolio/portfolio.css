@@ -81,13 +81,18 @@
         grid-template-columns: 1fr;
         gap: 1rem;
         width: auto;
-        margin-left: 2.8rem;
+        right: 0.9rem;
     }
     .portfolio_item {
         width: 100%; /* Prendre toute la largeur disponible */
     }
     #portfolio h5 {
         font-size: 1rem;
+    }
+    .portfolio_item-cta {
+        flex-direction: column-reverse;
+        gap: 1.6rem;
+        align-items: flex-end;
     }
 }
 
