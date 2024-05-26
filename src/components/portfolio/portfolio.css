@@ -49,7 +49,7 @@
 }
 .portfolio_item h3 {
     margin: 1rem 0 1.6rem 0;
-    font-size: smaller;
+    font-size: medium;
 }
 .portfolio_item-cta {
     display: flex;
