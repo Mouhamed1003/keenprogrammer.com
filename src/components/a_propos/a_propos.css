@@ -18,9 +18,7 @@ section {
 }
 .apropos h5 {
     color: wheat;
-
 }
-
 .btn.btn-primary {
     color: white;
 }
@@ -182,7 +180,7 @@ section {
     font-weight: bold;
 }
 
-/*@ ============== LES MEDIAS QUERYS " Medium device "((( Les Respensives a moyenne taille: tablette ))) ================ */
+/* Media Queries - Tablettes */
 @media screen and (max-width: 1024px) {
     .apropos_container {
         grid-template-columns: 1fr;
@@ -195,7 +193,7 @@ section {
 
     .apropos_moi {
         width: 40%;
-        margin: 2rem auto 2rem 2rem;
+        margin: 2rem auto;
     }
 
     .apropos_content p {
@@ -203,7 +201,7 @@ section {
     }
 }
 
-/*@ ============== LES MEDIAS QUERYS " Medium device "((( Les Respensives a moyenne taille: tablette ))) ================ */
+/* Media Queries - Mobiles */
 @media screen and (max-width: 600px) {
     .apropos_moi {
         width: 65%;
@@ -223,9 +221,31 @@ section {
         margin: 1.5rem 0;
     }
 
-    .apropos_card{
+    .apropos_card {
         margin-left: 1rem;
-        grid-template-columns: 1fr 1fr;
+        width: 100%;
+    }
+}
+
+/* Media Queries - iPhone 12 Pro */
+@media screen and (max-width: 390px) {
+
+    .apropos h5 {
+        color: wheat;
+    }
+    .apropos_moi {
+        width: 80%;
+        margin: 0 auto 2rem;
+    }
+
+    .apropos_cards {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+    }
+
+    .apropos_content p {
+        width: 100%;
+        padding: 10px;
     }
 }
 
