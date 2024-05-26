@@ -181,7 +181,7 @@ section {
         gap: 0;
     }
     #apropos {
-        padding-top: 0.5rem;
+        padding-top: 0rem;
     }
     .apropos_moi {
         width: 70%;
@@ -189,6 +189,9 @@ section {
     }
     .apropos_content p {
         margin: 1rem 0 1.5rem;
+    }
+    .apropos h5 {
+        font-size: 1rem;
     }
 }
 
@@ -209,6 +212,13 @@ section {
     }
     .apropos_content p {
         margin: 1.5rem 0;
+    }
+    .apropos h5 {
+        font-size: 1rem;
+    }
+    .apropos h5 {
+        margin: 0 1rem; /* Marges horizontales */
+        font-size: 1rem;
     }
 }
 
@@ -272,7 +282,8 @@ section {
         overflow: hidden; /* Empêcher le dépassement du texte */
         text-overflow: ellipsis; /* Points de suspension en cas de dépassement */
         white-space: nowrap; /* Empêcher le texte de passer à la ligne */
-        margin: 0 1rem; /* Marges horizontales */
+        margin: 0 2rem; /* Marges horizontales */
+        font-size: 1rem;
     }
 
     .my_nationality {
