@@ -221,6 +221,7 @@ section {
         width: 100%; /* Largeur à 100% pour s'adapter à l'écran */
         margin: 0 auto 1rem; /* Centrer l'élément avec une marge en bas */
         padding: 1rem; /* Réduction du padding */
+        height: 28rem;
     }
 
     .apropos_moi-image img {
