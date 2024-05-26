@@ -67,7 +67,7 @@ section {
     transition: transform 0.3s ease;
 }
 .apropos_moi-image:hover img {
-    transform: scale(5); /* Agrandir légèrement l'image au survol */
+    transform: scale(1.6); /* Agrandir légèrement l'image au survol */
 }
 
 .my_nationality {
