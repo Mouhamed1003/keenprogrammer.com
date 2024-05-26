@@ -61,7 +61,7 @@ section {
 }
 
 .apropos_moi-image img {
-    width: 100%; /* Faire en sorte que l'image remplisse la largeur de son conteneur */
+    width: auto; /* Faire en sorte que l'image remplisse la largeur de son conteneur */
     height: 19rem; /* Permettre à la hauteur de l'image de s'ajuster automatiquement pour maintenir les proportions */
     border-radius: 2rem;
     transition: transform 0.3s ease;
