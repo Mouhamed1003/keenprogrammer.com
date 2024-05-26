@@ -117,11 +117,11 @@ section {
     background: var(--color-bg-variant);
     border: 1px solid transparent;
     border-radius: 1rem;
-    padding: 1rem 0;
+    padding: 1rem 0.2rem;
     text-align: center;
     transition: var(--transition);
     max-width: 165px;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .apropos_card:hover {
