@@ -60,9 +60,9 @@ section {
     100% { box-shadow: 0 0 10px #fdfdfdf3, 0 0 20px #163cfbf8, 0 0 30px rgb(8, 130, 139); }
 }
 
-
 .apropos_moi-image {
     perspective: 1000px; /* Ajoute une perspective pour l'effet 3D */
+    overflow: hidden; /* S'assure que l'image ne dépasse pas la bordure de l'élément parent */
 }
 
 .apropos_moi-image img {
@@ -73,11 +73,9 @@ section {
 }
 
 .apropos_moi-image:hover img {
-    transform: matrix3d(0.8, 0.1, 0.1, 0, -0.1, 0.9, 0.1, 0, 0.1, -0.1, 1, 0, 0, 0, 0, 1);
-    /* Exemple de transformation 3D avec matrix3d */
+    transform: matrix3d(1, 0.1, 0, 0, 0.1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1) scale(1.2); 
+    /* Combinaison de matrix3d pour un effet 3D et scale pour agrandir l'image */
 }
-
-
 
 .my_nationality {
     color: white;
