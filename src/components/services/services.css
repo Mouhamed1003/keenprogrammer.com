@@ -133,7 +133,7 @@ section {
         padding-top: 64rem;
     }
     .service_row {
-        margin-left: 0;
+        right: 1rem;
         flex-direction: column; 
     }
     .service {
