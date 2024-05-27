@@ -1,29 +1,18 @@
 #temoignages {
   margin-top: 20rem;
-  font-family: "Sedan SC", serif;
 }
 #temoignages h5 {
   color: wheat;
-  font-size: larger;
 }
 #temoignages h2 {
-  margin-top: 1.5rem;
-  margin-bottom: 0rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   text-shadow: 2px 2px 5px black;
 }
-.container {
-  position: relative;
-    width: 20em;
-    height: 30em;
-    margin-top: 3rem;
-}
 .temoignages_container {
-  width: 80%;
-  max-width: 1200px;
+  width: 21%;
+  height: 65%;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
 }
 .temoignage {
   display: flex;
@@ -55,6 +44,14 @@
   text-align: left;
   font-family: "Indie Flower", cursive;
 }
+.temoignage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-weight: bold;
+  color: #fff;
+}
 .temoignage:nth-child(1n) { background-color: rgb(148, 19, 146); }
 .temoignage:nth-child(2n) { background-color: rgb(47, 159, 150); }
 .temoignage:nth-child(3n) { background-color: #e96004; }
@@ -66,40 +63,22 @@
 .temoignage:nth-child(9n) { background-color: rgb(218, 12, 218); }
 .temoignage:nth-child(10n) { background-color: rgb(54, 94, 77); }
 
-/* Responsive design for tablets and below */
 @media screen and (max-width: 1024px) {
   .temoignages_container {
-    grid-template-columns: 1fr 1fr;
-    width: 90%;
+    width: 60%;
   }
   #temoignages {
-    margin-top: 10rem;
+    margin-top: 115rem;
   }
 }
 @media screen and (max-width: 600px) {
   .temoignages_container {
-    grid-template-columns: 1fr;
-    width: 100%;
+    width: var(--container-width-sm);
   }
   #temoignages {
-    margin-top: 5rem;
+    margin-top: 15rem;
   }
   .client_review {
-    width: 100%;
-  }
-}
-
-/* Additional media query for iPhone 12 Pro and similar devices */
-@media screen and (max-width: 390px) {
-  .temoignages_container {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-    padding: 0 0.5rem;
-  }
-  .temoignage {
-    padding: 1rem;
-  }
-  .client_review {
-    font-size: 14px;
+    width: var(--container-width-sm);
   }
 }
