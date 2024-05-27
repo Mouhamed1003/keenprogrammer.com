@@ -126,7 +126,7 @@
         gap: 2rem;
         width: 17rem;
         padding: 0.5rem; /* Réduire le padding pour les très petits écrans */
-        margin-left: 3.7em;
+        margin-left: 5.7em;
     }
     .portfolio_item {
         width: 100%; /* Prendre toute la largeur disponible */
