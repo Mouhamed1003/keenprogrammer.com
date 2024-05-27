@@ -160,6 +160,8 @@ header {
     padding-left: 15px;
     padding-right: 15px;
     animation: pulse 2s infinite;
+    align-items: center;
+    justify-content: center;
 }
 
 @keyframes pulse {
@@ -174,7 +176,13 @@ header {
         height: 100vh;
     }
     #header h3 {
-        font-size: 160%;
+        font-size: 3em;
+    }
+    #header h1 {
+        font-size: calc(2vw + .6em);
+    }
+    .text-light-function {
+        font-size: calc(2.5vw + .3em);
     }
     .cta {
         margin-top: 2rem; /* Ajout de marge en haut */
