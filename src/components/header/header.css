@@ -186,7 +186,7 @@ header {
         width: 70%; /* Réduire la largeur des boutons */
         font-size: 2rem;
     }
-    .header_socials {
+    .header_socials { 
         left: 1rem; /* Décaler vers la gauche */
         bottom: 0.1rem; /* Décaler vers le bas */
         font-size: 2.5rem; /* Réduire la taille de la police */
