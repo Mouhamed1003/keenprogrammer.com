@@ -64,14 +64,14 @@
 /* Medium devices (tablettes) */
 @media screen and (max-width: 1024px) {
     #portfolio {
-        padding-top: 117rem;
+        padding-top: 1rem;
         height: auto; /* Ajuster automatiquement la hauteur */
     }
     .portfolio_container {
         grid-template-columns: 1fr 1fr;
-        gap: 1rem;
-        width: auto;
-        margin-left: 2rem;
+        gap: 2rem;
+        width: 43em;
+        margin-left: 13.6em;
     }
 }
 
