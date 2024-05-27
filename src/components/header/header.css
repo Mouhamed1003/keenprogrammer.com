@@ -156,7 +156,7 @@ header {
     font-size: 1.2rem;
     bottom: 4rem;
     border-radius: 15px;
-/*     border: 2px solid #ffffff; */
+    flex-direction: row;
     padding-left: 15px;
     padding-right: 15px;
     animation: pulse 2s infinite;
@@ -210,6 +210,7 @@ header {
     .scroll_down {
         display: flex; /* Afficher */
         align-items: center; /* Centrer horizontalement */
+        flex-direction: row;
         justify-content: center; /* Centrer verticalement */
         bottom: 7.5rem; /* Décaler vers le bas */
         font-size: 2.2rem;
@@ -246,6 +247,7 @@ header {
         align-items: center; /* Centrer horizontalement */
         justify-content: center; /* Centrer verticalement */
         bottom: 4rem; /* Décaler vers le bas */
+        flex-direction: row;
     }
     .header_socials {
         bottom: 1rem; /* Décaler vers le bas */
@@ -285,6 +287,7 @@ header {
     }
     .cta a {
         width: 90%; /* Réduire la largeur des boutons */
+        font-size: 1rem;
     }
     #header h1 {
         font-size: 1.5rem; /* Réduire la taille de la police */
@@ -295,9 +298,10 @@ header {
     .scroll_down {
         display: flex; /* Afficher */
         align-items: center; /* Centrer horizontalement */
-        flex-direction: row-reverse;
+        flex-direction: row;
         justify-content: center; /* Centrer verticalement */
         bottom: 4rem; /* Décaler vers le bas */
         color: white;
+        font-size: 1rem;
     }
 }
