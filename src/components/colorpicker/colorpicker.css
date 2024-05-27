@@ -51,7 +51,7 @@ body {
 /* Media Queries - Mobiles */
 @media screen and (max-width: 600px) {
     .theme-picker {
-        right: 35%;
+        right: 22%;
         top: 3%;
     }
 }
