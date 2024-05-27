@@ -80,8 +80,13 @@
     .portfolio_container {
         grid-template-columns: 1fr;
         gap: 2rem;
-        width: auto;
-        right: 0.9rem;
+        width: 17rem;
+        padding: 0.5rem; /* Réduire le padding pour les très petits écrans */
+        margin-left: 3.7em;
+    }
+    #portfolio {
+        padding-top: 117rem;
+        height: auto; /* Ajuster automatiquement la hauteur */
     }
     .portfolio_item {
         width: 100%; /* Prendre toute la largeur disponible */
@@ -90,7 +95,7 @@
         margin-bottom: .5rem;
         margin-top: 1.3rem;
         text-shadow: 2px 2px 5px black;
-        margin-left: 2rem;
+        margin-left: 0.1rem;
     }
     #portfolio h5 {
         font-size: 1rem;
@@ -113,12 +118,15 @@
         padding-top: 117rem;
         height: auto; /* Ajuster automatiquement la hauteur */
     }
+    #portfolio h2 {
+        margin-left: 0.1rem;
+    }
     .portfolio_container {
         grid-template-columns: 1fr;
         gap: 2rem;
-        width: auto;
-        padding: 0 0.5rem; /* Réduire le padding pour les très petits écrans */
-        margin-left: 13.6em;
+        width: 17rem;
+        padding: 0.5rem; /* Réduire le padding pour les très petits écrans */
+        margin-left: 3.7em;
     }
     .portfolio_item {
         width: 100%; /* Prendre toute la largeur disponible */
