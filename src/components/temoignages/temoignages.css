@@ -4,11 +4,18 @@
 }
 #temoignages h5 {
   color: wheat;
+  font-size: larger;
 }
 #temoignages h2 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0rem;
   text-shadow: 2px 2px 5px black;
+}
+.container {
+  position: relative;
+    width: 20em;
+    height: 30em;
+    margin-top: 3rem;
 }
 .temoignages_container {
   width: 80%;
