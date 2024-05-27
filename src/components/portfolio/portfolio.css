@@ -80,9 +80,9 @@
     .portfolio_container {
         grid-template-columns: 1fr;
         gap: 2rem;
-        width: 17rem;
+        width: 20rem;
         padding: 0.5rem; /* Réduire le padding pour les très petits écrans */
-        margin-left: 3.7em;
+        margin-left: 7.5em;
     }
     #portfolio {
         padding-top: 117rem;
@@ -95,10 +95,10 @@
         margin-bottom: .5rem;
         margin-top: 1.3rem;
         text-shadow: 2px 2px 5px black;
-        margin-left: 0.1rem;
+        margin-left: 2.1rem;
     }
     #portfolio h5 {
-        font-size: 1rem;
+        font-size: 1.5rem;
         margin-left: 4rem;
         margin-right: 2rem;
     }
