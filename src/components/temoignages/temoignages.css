@@ -82,3 +82,11 @@
     width: var(--container-width-sm);
   }
 }
+@media screen and (max-width: 390px) {
+  .temoignages_container {
+  }
+  .temoignage {
+  }
+  .client_review {
+  }
+}
