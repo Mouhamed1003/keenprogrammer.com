@@ -115,7 +115,7 @@ section {
 /* Styles pour les écrans moyens */
 @media screen and (max-width: 1024px) {
     .service_row {
-        flex-direction: column; 
+        flex-direction: row; 
         align-items: center;
         margin: 2rem 0;
     }
@@ -123,7 +123,7 @@ section {
         flex: 1 1 100%; /* S'adapte à toute la largeur disponible */
     }
     .services {
-        padding-top: 2rem;
+        padding-top: 1rem;
     }
 }
 
