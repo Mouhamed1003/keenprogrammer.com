@@ -169,7 +169,7 @@ section {
 @media screen and (max-width: 1024px) {
     .experience_container {
         grid-template-columns: 1fr;
-        gap: 2.5rem;
+        gap: 0.7rem;
     }
 
     .experience_container > div {
@@ -180,6 +180,17 @@ section {
 
     .experience_content {
         padding: 1rem;
+    }
+
+    #experience h2 {
+        margin-bottom: 0.5rem;
+        margin-top: 0rem;
+    }
+    .experience h5 {
+        font-size: larger;
+    }
+    .experience {
+        padding-top: 1rem;
     }
 }
 
