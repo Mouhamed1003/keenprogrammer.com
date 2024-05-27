@@ -1,5 +1,6 @@
 #temoignages {
   margin-top: 20rem;
+  font-family: "Sedan SC", serif;
 }
 #temoignages h5 {
   color: wheat;
@@ -10,9 +11,12 @@
   text-shadow: 2px 2px 5px black;
 }
 .temoignages_container {
-  width: 21%;
-  height: 65%;
+  width: 80%;
+  max-width: 1200px;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
 }
 .temoignage {
   display: flex;
@@ -44,14 +48,6 @@
   text-align: left;
   font-family: "Indie Flower", cursive;
 }
-.temoignage {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 18px;
-  font-weight: bold;
-  color: #fff;
-}
 .temoignage:nth-child(1n) { background-color: rgb(148, 19, 146); }
 .temoignage:nth-child(2n) { background-color: rgb(47, 159, 150); }
 .temoignage:nth-child(3n) { background-color: #e96004; }
@@ -63,30 +59,40 @@
 .temoignage:nth-child(9n) { background-color: rgb(218, 12, 218); }
 .temoignage:nth-child(10n) { background-color: rgb(54, 94, 77); }
 
+/* Responsive design for tablets and below */
 @media screen and (max-width: 1024px) {
   .temoignages_container {
-    width: 60%;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
   }
   #temoignages {
-    margin-top: 115rem;
+    margin-top: 10rem;
   }
 }
 @media screen and (max-width: 600px) {
   .temoignages_container {
-    width: var(--container-width-sm);
+    grid-template-columns: 1fr;
+    width: 100%;
   }
   #temoignages {
-    margin-top: 15rem;
+    margin-top: 5rem;
   }
   .client_review {
-    width: var(--container-width-sm);
+    width: 100%;
   }
 }
+
+/* Additional media query for iPhone 12 Pro and similar devices */
 @media screen and (max-width: 390px) {
   .temoignages_container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 0 0.5rem;
   }
   .temoignage {
+    padding: 1rem;
   }
   .client_review {
+    font-size: 14px;
   }
 }
