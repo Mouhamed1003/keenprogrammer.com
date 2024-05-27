@@ -109,11 +109,16 @@
 
 /* Very small devices (iPhone 12 Pro) */
 @media screen and (max-width: 390px) {
+    #portfolio {
+        padding-top: 117rem;
+        height: auto; /* Ajuster automatiquement la hauteur */
+    }
     .portfolio_container {
         grid-template-columns: 1fr;
-        gap: 1.2rem;
+        gap: 2rem;
         width: auto;
         padding: 0 0.5rem; /* Réduire le padding pour les très petits écrans */
+        margin-left: 13.6em;
     }
     .portfolio_item {
         width: 100%; /* Prendre toute la largeur disponible */
