@@ -124,7 +124,7 @@
     .portfolio_container {
         grid-template-columns: 1fr;
         gap: 2rem;
-        width: 17rem;
+        width: 19rem;
         padding: 0.5rem; /* Réduire le padding pour les très petits écrans */
         margin-left: 5.4em;
     }
