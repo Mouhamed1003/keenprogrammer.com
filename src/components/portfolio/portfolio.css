@@ -87,6 +87,7 @@
     #portfolio {
         padding-top: 117rem;
         height: auto; /* Ajuster automatiquement la hauteur */
+        padding-left: 0.3rem;
     }
     .portfolio_item {
         width: 100%; /* Prendre toute la largeur disponible */
