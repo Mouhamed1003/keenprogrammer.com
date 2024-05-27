@@ -134,7 +134,8 @@ section {
     }
     .service_row {
         right: 0.999rem;
-        flex-direction: column; 
+        flex-direction: column;
+        padding-left: 0.3rem;
     }
     .service {
         margin: 0.5rem 0;
