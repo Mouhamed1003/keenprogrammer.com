@@ -237,4 +237,8 @@ textarea {
         grid-template-columns: 1fr;
         width: var(--container-wiidth-sm);
     }
+/*       #contact {
+    margin-top: 0rem;
+    margin-bottom: 32rem;
+  } */
 }
