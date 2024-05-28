@@ -184,12 +184,13 @@ textarea {
 /*@ ============== LES MEDIAS QUERYS " Medium device "((( Les Respensives a moyenne taille: tablette ))) ================ */
 
 @media screen and (max-width: 1024px) {
-    #contact {
+   #contact {
         margin-top: 0rem;
+        padding-bottom: 80rem;
     }
     .container.contact_container {
-        grid-template-columns: 1fr 1fr;
-        gap: 2rem;
+        grid-template-columns: 1fr;
+        gap: 3rem;
         width: var(--container-wiidth-sm);
     }
     .container.contact_container {
@@ -199,13 +200,69 @@ textarea {
         text-align: left;
     }
     #contact h5 {
-        
+        font-size: large;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+    .contact_option h6 {
+        font-size: 20px;
+        padding: 5px;
+        user-select: text;
     }
     #contact h2 {
         
     }
     .contact_options {
-        
+        margin-left: 0rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
+        justify-content: space-between;
+    }
+    .contact_option a {
+        display: inline-block;
+        margin-top: .7rem;
+        font-size: large;
+    }
+    .contact_options:before {
+        background-color: #58f444;
+        content: "";
+        height: 10px;
+        left: 19em;
+        position: absolute;
+        width: 7.4%;
+        top: calc(3% - 2.5px);
+    }
+    .contact_option+.contact_option+.contact_option:before {
+        top: 80%;
+        background-color: #ffffff;
+        content: "";
+        height: 10px;
+        left: 19em;
+        position: absolute;
+        width: 7.4%;
+    }
+    form {
+        background: rgba(0, 0, 0, .459);
+        border: 3px solid #fff;
+        border-radius: 2rem;
+        display: flex;
+        gap: 1.5rem;
+        padding: 1.3rem;
+        flex-direction: column;
+        margin-left: -1.2rem;
+        margin-right: -0.9rem;
+    }
+    input, textarea {
+        border: 3px solid #fff;
+        border-radius: 1.2rem;
+        color: var(--color-white);
+        font-size: 16.5px;
+        font-weight: 599;
+        letter-spacing: 0.5px;
+        padding: .5rem;
+        resize: none;
+        width: 100%;
     }
 }
 
