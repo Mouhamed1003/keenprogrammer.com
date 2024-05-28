@@ -190,9 +190,9 @@ textarea {
     }
     .container.contact_container {
         grid-template-columns: 1fr 1fr;
-        gap: 1.5rem;
+        gap: 3rem;
         width: 88%;
-        margin-right: 6em;
+        margin-right: 6.199em;
 
     }
     .contact_option {
@@ -209,6 +209,7 @@ textarea {
         user-select: text;
     }
     #contact h2 {
+        margin-top: 2.2rem;
         margin-bottom: 2.2rem;
         font-size: xx-large;
     }
@@ -218,14 +219,15 @@ textarea {
     }
     .contact_option-icon2 {
         font-size: 3rem;
-        margin-left: 3.5em;
+        margin-left: 0.9em;
     }
     .contact_option-icon3 {
         font-size: 3rem;
-        margin-left: 0em;
+        margin-left: 2.4em;
     }
     .contact_option-icon4 {
         font-size: 3rem;
+        margin-left: 1.5em;
     }
     .contact_option h4 {
         font-size: 28px;
@@ -244,9 +246,9 @@ textarea {
         font-size: x-large;
     }
     .contact_options:before {
-        background-color: #58f444;
+        background-color: #ffffff;
         content: "";
-        height: 10px;
+        height: 3px;
         left: 31.7%;
         position: absolute;
         width: 13.5%;
@@ -270,19 +272,22 @@ textarea {
         flex-direction: column;
         margin-left: -1.2rem;
         margin-right: -0.9rem;
-        padding: 2.5rem;
+        padding: 1.9rem;
         width: 30em;
     }
     input, textarea {
         border: 3px solid #fff;
         border-radius: 1.2rem;
         color: var(--color-white);
-        font-size: 16.5px;
-        font-weight: 599;
-        letter-spacing: 0.5px;
+        font-size: 25px;
+        font-weight: 700;
+        letter-spacing: .2px;
         padding: .5rem;
         resize: none;
         width: 100%;
+    }
+    .btnEnvoyer {
+        margin-top: 4rem;
     }
 }
 
