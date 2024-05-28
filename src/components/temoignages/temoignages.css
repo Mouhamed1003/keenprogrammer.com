@@ -126,8 +126,8 @@
 @media screen and (max-width: 390px) {
 .container.temoignages_container {
     height: 47em;
-    margin-left: 1em;
-    width: 21em;
+    margin-left: 0.5em;
+    width: 20em;
   }
   .temoignages_container {
     width: 60%;
@@ -143,11 +143,11 @@
     border: 0.4rem solid #58f444;
   }
   .client_name {
-    font-size: xx-large;
+    font-size: x-large;
     margin-top: 0rem;
   }
   #temoignages h5 {
-    font-size: 1rem;
+    font-size: large;
   }
   #temoignages h2 {
     font-size: 1.4rem;
