@@ -2,21 +2,17 @@ section {
     margin-top: 4rem;
     font-family: "Sedan SC", serif;
 }
-
 #contact {
     user-select: none;
 }
-
 #contact h2 {
     margin-top: 0.1rem;
     margin-bottom: 0.2rem;
     text-shadow: 2px 2px 5px black;
 }
-
 #contact h5 {
     color: wheat;
 }
-
 .container.contact_container {
     width: 75%;
     display: grid;
@@ -24,7 +20,6 @@ section {
     gap: 10%;
     padding-right: 20rem;
 }
-
 .contact_options {
     display: flex;
     flex-direction: column;
@@ -32,7 +27,6 @@ section {
     justify-content: space-between;
     margin-left: 4.5rem;
 }
-
 .contact_option {
     background: var(--color-bg-variant);
     padding: 1rem;
@@ -50,18 +44,15 @@ section {
     text-overflow: ellipsis;
     /* Ajoute des points de suspension si le texte est trop long */
 }
-
 .contact_option:hover {
     background: rgba(10, 38, 2, 0.381);
     border-color: var(--color-primary-variant);
     box-shadow: 0px 1px 30px 0px rgb(255, 255, 255);
     border: 3px solid rgb(49, 244, 49);
 }
-
 .container {
     position: relative;
 }
-
 .contact_options::before {
     content: '';
     position: absolute;
@@ -75,7 +66,6 @@ section {
     /* Hauteur du trait */
     background-color: var(--color-white);
 }
-
 .contact_option+.contact_option+.contact_option::before {
     content: '';
     position: absolute;
@@ -91,55 +81,43 @@ section {
     transform: translateY(50%);
     /* Déplacer le trait vers le haut pour le centrer */
 }
-
-
-
-
 /*couleur google Email */
 .contact_option-icon1 {
     font-size: 1.9rem;
     color: linear-gradient(to right, blue, red, yellow, green);
 }
-
 /*couleur instagram */
 .contact_option-icon2 {
     font-size: 1.9rem;
     color: rgb(216, 11, 231);
 }
-
 /*couleur telegram */
 .contact_option-icon3 {
     font-size: 1.9rem;
     color: rgb(82, 162, 237);
 }
-
 /*couleur whatsapp */
 .contact_option-icon4 {
     font-size: 1.9rem;
     color: rgb(98, 203, 69);
 }
-
 .contact_option h4 {
     color: white;
     font-size: 20px;
 }
-
 .contact_option h6 {
     color: rgb(232, 170, 204);
     font-size: 16.5px;
     user-select: text;
     padding: 5px;
 }
-
 .contact_option a {
     margin-top: 0.7rem;
     display: inline-block;
 }
-
 .contact_option a:hover {
     color: rgb(24, 227, 249);
 }
-
 /*==========================FORM============================ */
 form {
     display: flex;
@@ -150,13 +128,11 @@ form {
     border-radius: 2rem;
     background: rgba(0, 0, 0, 0.459);
 }
-
 form:hover {
     border: 3px solid rgb(37, 217, 10);
     background: rgba(10, 38, 2, 0.381);
     box-shadow: 0px 1px 30px 0px rgb(255, 255, 255);
 }
-
 input,
 textarea {
     width: 100%;
@@ -171,12 +147,10 @@ textarea {
     /* Ajustez la valeur selon vos préférences */
     resize: none;
 }
-
 .custom-toast-container {
     bottom: 0;
     right: 0;
 }
-
 .btnEnvoyer {
     font-weight: bold;
     font-size: 18px;
@@ -188,12 +162,10 @@ textarea {
     color: white;
     margin-top: 1rem;
 }
-
 .btnEnvoyer:hover {
     background: linear-gradient(to right, transparent, #09e80d, transparent, #09e80d, transparent);
     border: 3px solid white;
 }
-
 .btnEffacer {
     font-weight: bold;
     font-size: 18px;
@@ -208,8 +180,6 @@ textarea {
     background: linear-gradient(to right, transparent, red, transparent, red, transparent);
     border: 3px solid white;
 }
-
-/*==========================FORM============================ */
 
 /*@ ============== LES MEDIAS QUERYS " Medium device "((( Les Respensives a moyenne taille: tablette ))) ================ */
 
@@ -322,6 +292,8 @@ textarea {
         width: 100%;
     }
 }
+/*@ ============== LES MEDIAS QUERYS " Medium device "((( Les Respensives a petite taille: mobile ))) ================ */
+
 @media screen and (max-width: 390px) {
     #contact {
         margin-top: 0rem;
