@@ -64,14 +64,40 @@
 .temoignage:nth-child(10n) { background-color: rgb(54, 94, 77); }
 
 @media screen and (max-width: 1024px) {
+  .container.temoignages_container {
+    margin-left: 13em;
+    width: 35em;
+    height: 60em;
+  }
   .temoignages_container {
     width: 60%;
   }
   #temoignages {
-    margin-top: 115rem;
+    margin-top: 8rem;
+  }
+  .client_review {
+    font-size: 35px;
+  }
+  .client_avatar {
+    margin-bottom: 1.5rem;
+    border: 0.7rem solid #58f444;
+  }
+  .client_name {
+    font-size: xx-large;
+    margin-top: 0rem;
+  }
+  #temoignages h5 {
+    font-size: xx-large;
+  }
+  #temoignages h2 {
+    font-size: xx-large;
   }
 }
 @media screen and (max-width: 600px) {
+  .container.temoignages_container {
+    margin: 1;
+    width: 20em;
+  }
   .temoignages_container {
     width: var(--container-width-sm);
   }
@@ -84,7 +110,8 @@
 }
 @media screen and (max-width: 390px) {
   .container.temoignages_container {
-    
+    margin: 0;
+    width: 22em;
   }
   #temoignages {
     margin-top: 4rem;
