@@ -261,7 +261,7 @@ textarea {
         position: absolute;
         width: 13.5%;
     }
-/*     form {
+    form {
         background: rgba(0, 0, 0, .459);
         border: 3px solid #fff;
         border-radius: 2rem;
@@ -272,7 +272,7 @@ textarea {
         margin-right: -0.9rem;
         padding: 2.5rem;
         width: 30em;
-    } */
+    }
 /*     input, textarea {
         border: 3px solid #fff;
         border-radius: 1.2rem;
