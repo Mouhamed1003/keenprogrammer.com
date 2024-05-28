@@ -95,35 +95,61 @@
 }
 @media screen and (max-width: 600px) {
   .container.temoignages_container {
-    margin: 1;
-    width: 20em;
+    margin-left: 13em;
+    width: 35em;
+    height: 60em;
   }
   .temoignages_container {
-    width: var(--container-width-sm);
+    width: 60%;
   }
   #temoignages {
-    margin-top: 1rem;
+    margin-top: 8rem;
   }
   .client_review {
-    width: var(--container-width-sm);
+    font-size: 35px;
+  }
+  .client_avatar {
+    margin-bottom: 1.5rem;
+    border: 0.7rem solid #58f444;
+  }
+  .client_name {
+    font-size: xx-large;
+    margin-top: 0rem;
+  }
+  #temoignages h5 {
+    font-size: xx-large;
+  }
+  #temoignages h2 {
+    font-size: xx-large;
   }
 }
 @media screen and (max-width: 390px) {
   .container.temoignages_container {
-    margin: 0;
-    width: 22em;
+    margin-left: 13em;
+    width: 35em;
+    height: 60em;
+  }
+  .temoignages_container {
+    width: 60%;
   }
   #temoignages {
-    margin-top: 4rem;
+    margin-top: 8rem;
+  }
+  .client_review {
+    font-size: 35px;
+  }
+  .client_avatar {
+    margin-bottom: 1.5rem;
+    border: 0.7rem solid #58f444;
+  }
+  .client_name {
+    font-size: xx-large;
+    margin-top: 0rem;
   }
   #temoignages h5 {
-    font-size: 1.3rem;
-    margin-left: 1rem;
-    margin-right: 0.8rem;
+    font-size: xx-large;
   }
   #temoignages h2 {
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-    font-size: 1.3rem;
+    font-size: xx-large;
   }
 }
