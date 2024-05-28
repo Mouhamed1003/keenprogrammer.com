@@ -76,9 +76,14 @@
     width: var(--container-width-sm);
   }
   #temoignages {
-    margin-top: 15rem;
+    margin-top: 1rem;
   }
   .client_review {
     width: var(--container-width-sm);
+  }
+}
+@media screen and (max-width: 600px) {
+  #temoignages {
+    margin-top: 1rem;
   }
 }
