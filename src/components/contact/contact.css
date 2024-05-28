@@ -186,7 +186,7 @@ textarea {
 @media screen and (max-width: 1024px) {
    #contact {
         margin-top: 0rem;
-        padding-bottom: 80rem;
+        padding-bottom: 0rem;
     }
     .container.contact_container {
         grid-template-columns: 1fr 1fr;
@@ -231,19 +231,19 @@ textarea {
         font-size: 28px;
         text-align: center;
     }
-    .contact_options {
+/*     .contact_options {
         margin-left: 0rem;
         display: flex;
         flex-direction: column;
         gap: 0.8rem;
         justify-content: space-between;
-    }
+    } */
     .contact_option a {
         display: inline-block;
         margin-top: .7rem;
         font-size: x-large;
     }
-    .contact_options:before {
+/*     .contact_options:before {
         background-color: #58f444;
         content: "";
         height: 10px;
@@ -251,7 +251,7 @@ textarea {
         position: absolute;
         width: 13.5%;
         top: calc(11.5% - 2.5px);
-    }
+    } */
     .contact_option+.contact_option+.contact_option:before {
         top: 78%;
         background-color: #ffffff;
@@ -261,7 +261,7 @@ textarea {
         position: absolute;
         width: 13.5%;
     }
-    form {
+/*     form {
         background: rgba(0, 0, 0, .459);
         border: 3px solid #fff;
         border-radius: 2rem;
@@ -272,8 +272,8 @@ textarea {
         margin-right: -0.9rem;
         padding: 2.5rem;
         width: 30em;
-    }
-    input, textarea {
+    } */
+/*     input, textarea {
         border: 3px solid #fff;
         border-radius: 1.2rem;
         color: var(--color-white);
@@ -283,7 +283,7 @@ textarea {
         padding: .5rem;
         resize: none;
         width: 100%;
-    }
+    } */
 }
 
 /*@ ============== LES MEDIAS QUERYS " Medium device "((( Les Respensives a moyenne taille: tablette ))) ================ */
