@@ -214,6 +214,9 @@ textarea {
 /*@ ============== LES MEDIAS QUERYS " Medium device "((( Les Respensives a moyenne taille: tablette ))) ================ */
 
 @media screen and (max-width: 1024px) {
+    #contact {
+        margin-top: 0rem;
+    }
     .container.contact_container {
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
@@ -222,23 +225,68 @@ textarea {
     .container.contact_container {
         width: 88%;
     }
-
-    #contact {
-        margin-top: 1rem;
-    }
     .contact_option {
         text-align: left;
+    }
+    #contact h5 {
+        
+    }
+    #contact h2 {
+        
+    }
+    .contact_options {
+        
     }
 }
 
 /*@ ============== LES MEDIAS QUERYS " Medium device "((( Les Respensives a moyenne taille: tablette ))) ================ */
 @media screen and (max-width: 600px) {
+    #contact {
+        margin-top: 0rem;
+    }
     .container.contact_container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
         width: var(--container-wiidth-sm);
     }
-/*       #contact {
-    margin-top: 0rem;
-    margin-bottom: 32rem;
-  } */
+    .container.contact_container {
+        width: 88%;
+    }
+    .contact_option {
+        text-align: left;
+    }
+    #contact h5 {
+        
+    }
+    #contact h2 {
+        
+    }
+    .contact_options {
+       
+    }
+}
+@media screen and (max-width: 600px) {
+    #contact {
+        margin-top: 0rem;
+    }
+    .container.contact_container {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        width: var(--container-wiidth-sm);
+    }
+    .container.contact_container {
+        width: 88%;
+    }
+    .contact_option {
+        text-align: left;
+    }
+    #contact h5 {
+        
+    }
+    #contact h2 {
+        
+    }
+    .contact_options {
+        
+    }
 }
