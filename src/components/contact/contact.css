@@ -295,7 +295,7 @@ textarea {
 @media screen and (max-width: 600px) {
     #contact {
         margin-top: 0rem;
-        padding-bottom: 80rem;
+        padding-bottom: 95rem;
     }
     .container.contact_container {
         grid-template-columns: 1fr;
@@ -307,6 +307,7 @@ textarea {
     }
     .contact_option {
         text-align: left;
+        width: 23em;
     }
     #contact h5 {
         font-size: large;
@@ -317,9 +318,29 @@ textarea {
         font-size: 20px;
         padding: 5px;
         user-select: text;
+        text-align: center;
     }
     #contact h2 {
         
+    }
+    .contact_option-icon1 {
+        font-size: 2rem;
+        margin-left: 0em;
+    }
+    .contact_option-icon2 {
+        font-size: 2rem;
+        margin-left: 0;
+    }
+    .contact_option-icon3 {
+        font-size: 2rem;
+        margin-left: 3.5em;
+    }
+    .contact_option-icon4 {
+        font-size: 2rem;
+        margin-left: 0;
+    }
+    .contact_option h4 {
+        font-size: 2rem;
     }
     .contact_options {
         margin-left: 0rem;
@@ -327,6 +348,8 @@ textarea {
         flex-direction: column;
         gap: 0.8rem;
         justify-content: space-between;
+        margin-left: -0.4rem;
+        margin-right: 1rem;
     }
     .contact_option a {
         display: inline-block;
@@ -343,11 +366,11 @@ textarea {
         top: calc(3% - 2.5px);
     }
     .contact_option+.contact_option+.contact_option:before {
-        top: 80%;
+        top: 84%;
         background-color: #ffffff;
         content: "";
         height: 10px;
-        left: 19em;
+        left: 21em;
         position: absolute;
         width: 7.4%;
     }
@@ -359,8 +382,10 @@ textarea {
         gap: 1.5rem;
         padding: 1.3rem;
         flex-direction: column;
-        margin-left: -1.2rem;
-        margin-right: -0.9rem;
+        margin-left: -1rem;
+        margin-right: 0rem;
+        padding: 1.3rem;
+        width: 25.4em;
     }
     input, textarea {
         border: 3px solid #fff;
