@@ -189,28 +189,47 @@ textarea {
         padding-bottom: 80rem;
     }
     .container.contact_container {
-        grid-template-columns: 1fr;
-        gap: 3rem;
-        width: var(--container-wiidth-sm);
-    }
-    .container.contact_container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
         width: 88%;
+        margin-right: 6em;
+
     }
     .contact_option {
         text-align: left;
     }
     #contact h5 {
-        font-size: large;
+        font-size: xx-large;
         margin-left: 0.5rem;
         margin-right: 0.5rem;
     }
     .contact_option h6 {
-        font-size: 20px;
+        font-size: 28px;
         padding: 5px;
         user-select: text;
     }
     #contact h2 {
-        
+        margin-bottom: 2.2rem;
+        font-size: xx-large;
+    }
+    .contact_option-icon1 {
+        font-size: 3rem;
+        margin-left: 6.2em;
+    }
+    .contact_option-icon2 {
+        font-size: 3rem;
+        margin-left: 3.5em;
+    }
+    .contact_option-icon3 {
+        font-size: 3rem;
+        margin-left: 0em;
+    }
+    .contact_option-icon4 {
+        font-size: 3rem;
+    }
+    .contact_option h4 {
+        font-size: 28px;
+        text-align: center;
     }
     .contact_options {
         margin-left: 0rem;
@@ -222,36 +241,37 @@ textarea {
     .contact_option a {
         display: inline-block;
         margin-top: .7rem;
-        font-size: large;
+        font-size: x-large;
     }
     .contact_options:before {
         background-color: #58f444;
         content: "";
         height: 10px;
-        left: 19em;
+        left: 31.7%;
         position: absolute;
-        width: 7.4%;
-        top: calc(3% - 2.5px);
+        width: 13.5%;
+        top: calc(11.5% - 2.5px);
     }
     .contact_option+.contact_option+.contact_option:before {
-        top: 80%;
+        top: 78%;
         background-color: #ffffff;
         content: "";
-        height: 10px;
-        left: 19em;
+        height: 3px;
+        left: 2%;
         position: absolute;
-        width: 7.4%;
+        width: 13.5%;
     }
     form {
         background: rgba(0, 0, 0, .459);
         border: 3px solid #fff;
         border-radius: 2rem;
         display: flex;
-        gap: 1.5rem;
-        padding: 1.3rem;
+        gap: 2rem;
         flex-direction: column;
         margin-left: -1.2rem;
         margin-right: -0.9rem;
+        padding: 2.5rem;
+        width: 30em;
     }
     input, textarea {
         border: 3px solid #fff;
