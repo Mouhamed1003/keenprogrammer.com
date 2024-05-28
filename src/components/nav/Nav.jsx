@@ -3,11 +3,10 @@ import './nav.css'
 import { AiOutlineHome } from "react-icons/ai";
 import { IoPersonSharp } from "react-icons/io5";
 import { GiSkills } from "react-icons/gi";
-import { MdDiversity3 } from "react-icons/md";
-import { ImTree } from "react-icons/im";
-// import { FaPhoenixFramework } from "react-icons/fa6";
+import { CgListTree } from "react-icons/cg";
+import { PiSlideshowFill } from "react-icons/pi";
 import { BiSolidMessageRounded } from "react-icons/bi";
-// import { SiGroupon } from "react-icons/si";
+
 import { useState } from 'react';
 import { GrProjects } from "react-icons/gr";
 
@@ -20,8 +19,8 @@ const Nav = () => {
       <a href="#apropos" onClick={() => setActiveNav('#apropos')} className={activeNav === '#apropos' ? 'active' : ''}><IoPersonSharp /> </a>
       <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><GiSkills /> </a>
       <a href="#services" onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}><GrProjects /> </a>
-      <a href="#portfolio" onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><ImTree /> </a>
-      <a href="#temoignages" onClick={() => setActiveNav('#temoignages')} className={activeNav === '#temoignages' ? 'active' : ''}><MdDiversity3 /> </a>
+      <a href="#portfolio" onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><CgListTree /> </a>
+      <a href="#temoignages" onClick={() => setActiveNav('#temoignages')} className={activeNav === '#temoignages' ? 'active' : ''}><PiSlideshowFill /> </a>
       <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><BiSolidMessageRounded /> </a>
     </nav>
     
