@@ -7,7 +7,7 @@ import { BsStack } from "react-icons/bs";
 // import { FaPhoenixFramework } from "react-icons/fa6";
 import { BsHypnotize } from "react-icons/bs";
 import { BiSolidMessageRounded } from "react-icons/bi";
-import { SiGroupon } from "react-icons/si";
+// import { SiGroupon } from "react-icons/si";
 import { useState } from 'react';
 import { GrProjects } from "react-icons/gr";
 
