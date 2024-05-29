@@ -202,11 +202,32 @@ section a:hover {
   text-shadow: 1px 1px 12px rgb(227, 13, 113);
 }
 .img_UNDRAW {
-  width: 25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%; /* Ajustez cette valeur selon vos besoins */
   background-color: #041e1f4d;
   border-radius: 40px;
-  margin: 2em;
-  margin-left: 23em;
+  margin: 2em auto; /* Centre le conteneur horizontalement */
+  padding: 1em; /* Ajoute du padding autour des images */
+}
+
+.img_UNDRAW img {
+  width: 25rem;
+  border-radius: 20px; /* Ajuste le rayon de bordure pour correspondre au style */
+}
+
+/* Ajoutez des styles supplémentaires pour chaque image si nécessaire */
+.img_UNDRAW .imgsvgleft {
+  margin-left: 0; /* Enlevez la marge si nécessaire */
+}
+
+.img_UNDRAW .imgsvgcenter {
+  margin: 0 1em; /* Ajoute une marge horizontale entre les images */
+}
+
+.img_UNDRAW .imgsvgright {
+  margin-right: 0; /* Enlevez la marge si nécessaire */
 }
 
 /*@ ============== LES MEDIAS QUERYS " Medium device "((( Les Respensives a moyenne taille: tablette ))) ================ */
