@@ -221,6 +221,8 @@ section a:hover {
   margin: 0 1em; /* Ajoute une marge horizontale entre les images */
   position: relative; /* Nécessaire pour que z-index fonctionne */
   z-index: -1; /* Place les images en arrière-plan */
+  user-select: none; /* Empêche la sélection du texte */
+  -webkit-user-drag: none; /* Empêche le glisser-déposer dans WebKit */
 }
 
 /* Ajoutez des styles supplémentaires pour chaque image si nécessaire */
