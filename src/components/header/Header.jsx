@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './header.css';
 import CTA from './CTA';
 import MAPHOTO from '../../images/moi2.png';
-import IMGSVG1 from '../../images/undraw_version_control_re_mg66.svg';
+// import IMGSVG1 from '../../images/undraw_version_control_re_mg66.svg';
 import IMGSVG2 from '../../images/undraw_bear_market_ania.svg';
 import HeaderSocials from './HeaderSocials';
 import { PiArrowFatLinesRightFill } from "react-icons/pi";
