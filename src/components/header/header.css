@@ -177,17 +177,20 @@ header {
 
 .img_svg1et2_header img {
   margin: 0 20px; /* Ajoute un espace de 20px entre les images */
+  width: 25rem;
 }
 
 /* Optionnel : si vous souhaitez ajuster la taille des images pour qu'elles soient superposées de manière spécifique */
 .img_svg1et2_header img:first-child {
-  z-index: 1; /* Assurez-vous que la première image est en arrière-plan */
+  z-index: -1; /* Assurez-vous que la première image est en arrière-plan */
   position: relative; /* Nécessaire pour utiliser z-index */
 }
 
 .img_svg1et2_header img:last-child {
-  z-index: 2; /* Assurez-vous que la deuxième image est au-dessus de la première */
+  z-index: -1; /* Assurez-vous que la deuxième image est au-dessus de la première */
   position: relative; /* Nécessaire pour utiliser z-index */
+  margin-left: 35em;
+  bottom: 5em;
 }
 
 /* Media Queries - Tablettes */
