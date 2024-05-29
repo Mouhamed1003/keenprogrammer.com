@@ -30,7 +30,7 @@ const Footer = () => {
         <a id='a6' href="https://whatsapp.com" target='_blank' rel="noreferrer"><FaWhatsapp /></a>
         <a id='a7' href="https://t.me/Mouhameth_Diouf1003" target='_blank' rel="noreferrer"><FaTelegram /></a>
       </div>
-      <img src={imgUNDRAW} alt='img-UNDRAW-en-svg'></img>
+      <img src={imgUNDRAW} alt='img-UNDRAW-en-svg' />
       <Coeur/>
       <div className='footer_copyright'>
         <small><i>&copy; Copyright,</i> <b>2024 keenprogrammer.com </b>. Tous droits réservés.</small>
