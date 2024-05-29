@@ -238,6 +238,9 @@ header {
         bottom: 7.5rem; /* Décaler vers le bas */
         font-size: 2.2rem;
     }
+    .img_svg1et2_header {
+        display: none;
+    }
 }
 
 /* Media Queries - Mobiles */
@@ -276,6 +279,9 @@ header {
         bottom: 1rem; /* Décaler vers le bas */
         left: 0.5rem; /* Décaler vers la gauche */
         font-size: 1.2rem; /* Réduire la taille de la police */
+    }
+    .img_svg1et2_header {
+        display: none;
     }
 }
 
@@ -326,5 +332,8 @@ header {
         bottom: 4rem; /* Décaler vers le bas */
         color: white;
         font-size: 1rem;
+    }
+    .img_svg1et2_header {
+        display: none;
     }
 }
