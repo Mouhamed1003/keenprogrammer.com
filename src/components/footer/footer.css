@@ -202,34 +202,134 @@ section a:hover {
   text-shadow: 1px 1px 12px rgb(227, 13, 113);
 }
 /*@ ============== LES MEDIAS QUERYS " Medium device "((( Les Respensives a moyenne taille: tablette ))) ================ */
-@media screen and (min-width: 900px) and (max-width: 1024px) {
-  .footer_copyright {
-    padding-top: 16rem; /* Ajoute une marge en haut */
-  }
-}
-@media screen and (max-width: 900px) {
-  .footer_copyright {
-    padding-top: 0rem; /* Réinitialise la marge en haut */
-    margin-right: 1rem;
-  }
-  .permalinks {
-    margin-bottom: 0rem;
-  }
-}
 @media screen and (max-width: 1024px) {
   #footer {
-    margin-top: 5rem;
+    margin-top: 0rem;
+    padding-bottom: 0em;
   }
-}
-/*@ ============== LES MEDIAS QUERYS " Medium device "((( Les Respensives a moyenne taille: tablette ))) ================ */
-@media screen and (min-width: 600px) and (max-width: 1024px) {
+  .footer_logo {
+    display: inline-block;
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin-bottom: 0rem;
+    flex-direction: column;
+    gap: 3rem;
+  }
   .permalinks {
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 3rem;
+    display: flex;
+    font-size: 3.8vh;
+    align-items: end;
+    margin-right: 1.4em;
+    flex-wrap: wrap;
   }
   .footer_socials {
     display: flex;
     gap: 1.5rem;
     text-align: center;
+    margin-bottom: 0;
+    font-size: 5vh;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+    margin: 1em;
+  }
+  .footer_copyright {
+    padding-top: 1rem;
+    margin: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.9em;
+    font-weight: 900;
+    user-select: none;
+  }
+  #svg5 {
+    left: 200px;
+    position: absolute;
+    top: 25%;
+    transform: translateY(-50%);
+  }
+}
+  
+/*@ ============== LES MEDIAS QUERYS " Medium device "((( Les Respensives a moyenne taille: mini tablette ))) ================ */
+@media screen and (max-width: 600px) {
+#footer {
+    margin-top: 0rem;
+    padding-bottom: 0em;
+  }
+  .footer_logo {
+    display: inline-block;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  .permalinks {
+    display: flex;
+    font-size: 2.7vh;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+  .footer_socials {
+    display: flex;
+    font-size: 2.99vh;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+    margin: 1em;
+  }
+  .footer_copyright {
+    font-size: 1.4rem;
+    font-weight: 900;
+    margin: 1rem;
+    padding-top: 0;
+    text-align: center;
+    user-select: none;
+  }
+  #svg5 {
+    left: 50px;
+    position: absolute;
+    top: 79%;
+    transform: translateY(-50%);
+  }
+}
+/*@ ============== LES MEDIAS QUERYS " small device "((( Les Respensives a petite taille: mobiles ))) ================ */
+@media screen and (max-width: 390px) {
+  #footer {
+    margin-top: 0rem;
+    padding-bottom: 0em;
+  }
+  .footer_logo {
+    display: inline-block;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  .permalinks {
+    display: flex;
+    font-size: 2.7vh;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+  .footer_socials {
+    display: flex;
+    font-size: 2.99vh;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+    margin: 1em;
+  }
+  .footer_copyright {
+    font-size: 1.4rem;
+    font-weight: 900;
+    margin: 1rem;
+    padding-top: 0;
+    text-align: center;
+    user-select: none;
+  }
+  #svg5 {
+    left: 50px;
+    position: absolute;
+    top: 79%;
+    transform: translateY(-50%);
   }
 }
