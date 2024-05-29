@@ -201,6 +201,9 @@ section a:hover {
   color:#fff;
   text-shadow: 1px 1px 12px rgb(227, 13, 113);
 }
+.img_UNDRAW {
+  width: ;
+}
 /*@ ============== LES MEDIAS QUERYS " Medium device "((( Les Respensives a moyenne taille: tablette ))) ================ */
 @media screen and (max-width: 1024px) {
   #footer {
