@@ -3,7 +3,7 @@ import './header.css';
 import CTA from './CTA';
 import MAPHOTO from '../../images/moi2.png';
 import IMGSVG1 from '../../images/undraw_version_control_re_mg66.svg';
-import IMGSVG2 from '../../images/undraw_developer_activity_re_39tg';
+import IMGSVG2 from '../../images/undraw_developer_activity_re_39tg.svg';
 import HeaderSocials from './HeaderSocials';
 import { PiArrowFatLinesRightFill } from "react-icons/pi";
 // import { FcApproval } from "react-icons/fc";
