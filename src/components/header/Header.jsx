@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import './header.css';
 import CTA from './CTA';
 import MAPHOTO from '../../images/moi2.png';
-// import IMGSVG1 from '../../images/undraw_version_control_re_mg66.svg';
-import IMGSVG2 from '../../images/undraw_bear_market_ania.svg';
+import IMGSVG1 from '../../images/undraw_version_control_re_mg66.svg';
+// import IMGSVG2 from '../../images/undraw_bear_market_ania.svg';
 import HeaderSocials from './HeaderSocials';
 import { PiArrowFatLinesRightFill } from "react-icons/pi";
 // import { FcApproval } from "react-icons/fc";
@@ -89,8 +89,8 @@ useEffect(() => {
             <FaReact size={30} style={{ transform: `rotate(${rotationDegree}deg)` }} />
           </div>
         <div className="img_svg1et2_header">
-{/*           <img src={IMGSVG1} alt="img_svg1_header1"/> */}
-          <img src={IMGSVG2} alt="img_svg1_header2"/>
+          <img src={IMGSVG1} alt="img_svg1_header1"/>
+{/*           <img src={IMGSVG2} alt="img_svg1_header2"/> */}
         </div>
           <Coeur/>
           <HeaderSocials/>
