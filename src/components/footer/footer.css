@@ -208,6 +208,7 @@ section a:hover {
   margin: 2em;
   margin-left: 23em;
 }
+
 /*@ ============== LES MEDIAS QUERYS " Medium device "((( Les Respensives a moyenne taille: tablette ))) ================ */
 @media screen and (max-width: 1024px) {
   #footer {
