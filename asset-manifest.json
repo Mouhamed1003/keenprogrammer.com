@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/keenprogrammer.com/static/css/main.6ce9a9bd.css",
-    "main.js": "/keenprogrammer.com/static/js/main.05409af5.js",
+    "main.js": "/keenprogrammer.com/static/js/main.ad8e3cb8.js",
     "static/media/maphoto3.png": "/keenprogrammer.com/static/media/maphoto3.c9ae1786ca259f8210c5.png",
     "static/media/moi2.png": "/keenprogrammer.com/static/media/moi2.c4058fabd02bb75c1b65.png",
     "static/media/moncv.pdf": "/keenprogrammer.com/static/media/moncv.369b7368d448ece8a402.pdf",
@@ -16,10 +16,10 @@
     "static/media/undraw_bear_market_ania.svg": "/keenprogrammer.com/static/media/undraw_bear_market_ania.5412d49ddee8efe9c1ca57ae5b6bbd1d.svg",
     "index.html": "/keenprogrammer.com/index.html",
     "main.6ce9a9bd.css.map": "/keenprogrammer.com/static/css/main.6ce9a9bd.css.map",
-    "main.05409af5.js.map": "/keenprogrammer.com/static/js/main.05409af5.js.map"
+    "main.ad8e3cb8.js.map": "/keenprogrammer.com/static/js/main.ad8e3cb8.js.map"
   },
   "entrypoints": [
     "static/css/main.6ce9a9bd.css",
-    "static/js/main.05409af5.js"
+    "static/js/main.ad8e3cb8.js"
   ]
 }
