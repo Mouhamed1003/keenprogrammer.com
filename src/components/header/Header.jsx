@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import './header.css';
 import CTA from './CTA';
 import MAPHOTO from '../../images/moi2.png';
+import imgSVG1 from '../../images/moi2.png';
+import imgSVG2 from '../../images/moi2.png';
 import HeaderSocials from './HeaderSocials';
 import { PiArrowFatLinesRightFill } from "react-icons/pi";
 // import { FcApproval } from "react-icons/fc";
@@ -86,6 +88,9 @@ useEffect(() => {
             <FaReact size={30} style={{ transform: `rotate(${rotationDegree}deg)` }} />
             <FaReact size={30} style={{ transform: `rotate(${rotationDegree}deg)` }} />
           </div>
+        <div className="img_svg1_header">
+          <img src={} alt=""/>
+        </div>
           <Coeur/>
           <HeaderSocials/>
           <a href="#footer" className='scroll_down pulse'>Scroll Down---<PiArrowFatLinesRightFill /></a>
