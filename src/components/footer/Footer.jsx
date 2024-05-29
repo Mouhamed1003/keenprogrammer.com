@@ -32,6 +32,8 @@ const Footer = () => {
       </div>
       <div className="img_UNDRAW">
         <img src={imgUNDRAW} alt='img-UNDRAW-en-svg' />
+        <img src={imgUNDRAW} alt='img-UNDRAW-en-svg' />
+        <img src={imgUNDRAW} alt='img-UNDRAW-en-svg' />
       </div>
       <Coeur/>
       <div className='footer_copyright'>
