@@ -2,7 +2,7 @@ import React from 'react';
 import { FaLinkedin, FaGithubSquare, FaFacebook, FaInstagram, FaWhatsapp, FaTelegram } from "react-icons/fa";
 import Coeur from '../coeur/Coeur';
 import { FaXTwitter } from "react-icons/fa6";
-
+import imgUNDRAW from '../../images/undraw_programming_re_kg9v.svg';
 
 import './footer.css';
 
@@ -30,6 +30,7 @@ const Footer = () => {
         <a id='a6' href="https://whatsapp.com" target='_blank' rel="noreferrer"><FaWhatsapp /></a>
         <a id='a7' href="https://t.me/Mouhameth_Diouf1003" target='_blank' rel="noreferrer"><FaTelegram /></a>
       </div>
+      <img src={imgUNDRAW} alt='img-UNDRAW-en-svg'></img>
       <Coeur/>
       <div className='footer_copyright'>
         <small><i>&copy; Copyright,</i> <b>2024 keenprogrammer.com </b>. Tous droits réservés.</small>
