@@ -284,6 +284,9 @@ section a:hover {
     top: 87%;
     transform: translateY(-50%);
   }
+  .img_UNDRAW {
+    display: none;
+  }
 }
   
 /*@ ============== LES MEDIAS QUERYS " Medium device "((( Les Respensives a moyenne taille: mini tablette ))) ================ */
@@ -328,6 +331,9 @@ section a:hover {
     top: 79%;
     transform: translateY(-50%);
   }
+  .img_UNDRAW {
+    display: none;
+  }
 }
 /*@ ============== LES MEDIAS QUERYS " small device "((( Les Respensives a petite taille: mobiles ))) ================ */
 @media screen and (max-width: 390px) {
@@ -369,5 +375,8 @@ section a:hover {
     position: absolute;
     top: 82%;
     transform: translateY(-50%);
+  }
+  .img_UNDRAW {
+    display: none;
   }
 }
