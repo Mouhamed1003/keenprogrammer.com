@@ -169,7 +169,9 @@ header {
     50% { opacity: 0; }
     100% { opacity: 5; }
 }
-
+.img_svg1et2_header {
+    width: 12rem;
+}
 /* Media Queries - Tablettes */
 @media screen and (max-width: 1024px) {
     header {
