@@ -1,6 +1,6 @@
 #footer {
   font-family: "Sedan SC", serif;
-  user-select: text;
+  user-select: none;
   background-color: #000;
   background-image: linear-gradient(to bottom, 
     #ff0000, #ff4000, #ff7f00, #ffbf00, #000, #bfff00, #80ff00, #000, #00ff00, #00ff40, 
