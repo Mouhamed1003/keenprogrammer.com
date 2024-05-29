@@ -90,7 +90,7 @@ useEffect(() => {
           </div>
         <div className="img_svg1et2_header">
           <img src={IMGSVG1} alt="img_svg1_header1"/>
-          <img src={IMGSVG1} alt="img_svg1_header2"/>
+          <img src={IMGSVG2} alt="img_svg1_header2"/>
         </div>
           <Coeur/>
           <HeaderSocials/>
