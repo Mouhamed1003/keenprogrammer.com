@@ -31,9 +31,9 @@ const Footer = () => {
         <a id='a7' href="https://t.me/Mouhameth_Diouf1003" target='_blank' rel="noreferrer"><FaTelegram /></a>
       </div>
       <div className="img_UNDRAW">
-        <img src={imgUNDRAW} alt='img-UNDRAW-en-svg' className="imgsvgleft"/>
-        <img src={imgUNDRAW} alt='img-UNDRAW-en-svg' className="imgsvgcenter" />
-        <img src={imgUNDRAW} alt='img-UNDRAW-en-svg' className="imgsvgright"/>
+        <img src={imgUNDRAW} alt="img-UNDRAW-en-svg" className="imgsvg imgsvgleft" />
+        <img src={imgUNDRAW} alt="img-UNDRAW-en-svg" className="imgsvg imgsvgcenter" />
+        <img src={imgUNDRAW} alt="img-UNDRAW-en-svg" className="imgsvg imgsvgright" />
       </div>
       <Coeur/>
       <div className='footer_copyright'>
