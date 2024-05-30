@@ -55,7 +55,7 @@ const Apropos = () => {
             {isHovered ? 
               "As a master's student in computer engineering, I had the opportunity to contribute to diverse projects for renowned international companies based in Morocco. These experiences allowed me to actively participate in over 80 varied projects, ranging from the design of dynamic websites to the creation of complex database management systems." 
               : 
-              "En tant qu'étudiant en master d'ingénierie informatique, j'ai eu l'opportunité de contribuer à des projets diversifiés pour des entreprises renommées Internationale implantées au Maroc. Ces expériences m'ont permis de participer activement à plus de 80 projets variés, allant de la conception de sites web dynamiques à la création de systèmes de gestion de bases de données complexes."
+              "En tant qu'étudiant en master d'ingénierie informatique, j'ai eu l'opportunité de contribuer à des projets diversifiés pour des entreprises renommées Internationale implantées au Maroc. <br></br><br></br> Ces expériences m'ont permis de participer activement à plus de 80 projets variés, allant de la conception de sites web dynamiques à la création de systèmes de gestion de bases de données complexes."
             }
           </p>
           <a href="#contact" className='btn btn-primary'>Parlons-en</a>
