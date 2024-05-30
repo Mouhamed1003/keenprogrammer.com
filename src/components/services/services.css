@@ -153,6 +153,12 @@ section {
     .services h5 {
         font-size: 1.5rem;
     }
+    .services h5 {
+        font-size: xx-large;
+    }
+    .services h5 {
+        font-size: xx-large;
+    }
 }
 
 /* Styles pour les très petits écrans, y compris iPhone 12 Pro */
@@ -177,7 +183,10 @@ section {
         font-size: 2em;
     }
     .services h5 {
-        font-size: 1rem;
+        font-size: xx-large;
+    }
+    .services h5 {
+        font-size: xx-large;
     }
 }
 
