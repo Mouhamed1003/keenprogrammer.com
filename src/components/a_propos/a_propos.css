@@ -165,6 +165,15 @@ section {
     .apropos_content p {
         margin: 1rem 0 1.5rem;
     }
+    .apropos_content .apropos_cards {
+        margin-top: 5rem;
+    }
+    .apropos h5 {
+        font-size: xx-large;
+    }
+    .apropos h2 {
+        font-size: xx-large;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -175,12 +184,14 @@ section {
     .apropos_cards {
         grid-template-columns: 1fr;
         gap: 1rem;
+        padding: 0;
     }
     .apropos_content {
         text-align: center;
     }
     .apropos_content p {
         margin: 1.5rem 0;
+        text-align: left;
     }
 }
 
@@ -195,6 +206,7 @@ section {
         width: 100%; /* Largeur à 100% pour s'adapter à l'écran */
         margin: 0 auto 1rem; /* Centrer l'élément avec une marge en bas */
         padding: 1rem; /* Réduction du padding */
+        padding-bottom: 26em;
     }
 
     .apropos_moi-image img {
@@ -214,12 +226,14 @@ section {
         margin: 1rem 0; /* Marge réduite */
         padding: 1rem; /* Ajout de padding pour éviter que le texte touche les bords */
         box-sizing: border-box; /* Inclure le padding dans la largeur totale */
+        text-align: left;
     }
 
     .apropos_cards {
         display: grid; /* Utilisation de la grille pour les cartes */
         grid-template-columns: 1fr 1fr; /* Deux colonnes égales */
         gap: 1rem; /* Espace entre les cartes */
+        padding: 0;
     }
 
     .apropos_card {
