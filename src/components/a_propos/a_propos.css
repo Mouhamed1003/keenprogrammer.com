@@ -159,12 +159,16 @@ section {
         padding-top: 1rem;
     }
     .apropos_moi {
-        width: 85%;
-        margin: 0 0 2rem 0;
-        margin-left: 3.5rem;
+        margin: 0 0 0rem 4.9rem;
+        width: 80%;
+        padding-bottom: 37em;
+    }
+    .apropos_moi-image {
+        width: 24em;
     }
     .apropos_content p {
         margin: 1rem 0 1.5rem;
+        font-size: 1rem;
     }
     .apropos h5 {
         font-size: xx-large;
@@ -175,6 +179,12 @@ section {
     .apropos_content {
         margin-top: 2rem;
         width: 100%;
+    }
+    .apropos_card small {
+        font-size: 1.4rem;
+    }
+    .btn.btn-primary {
+        font-size: x-large;
     }
 }
 
