@@ -189,10 +189,9 @@ section {
     }
 
     .apropos_moi {
-        width: 100%;
         margin: 0 auto 1rem;
-        padding: 1rem;
-        padding-bottom: 26em;
+        padding: 1rem 1rem 30em;
+        width: 100%;
     }
 
     .apropos_moi-image img {
