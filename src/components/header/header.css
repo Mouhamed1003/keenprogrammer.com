@@ -279,9 +279,11 @@ header {
     .scroll_down {
         display: flex; /* Afficher */
         align-items: center; /* Centrer horizontalement */
+        flex-direction: row;
         justify-content: center; /* Centrer verticalement */
         bottom: 4rem; /* Décaler vers le bas */
-        flex-direction: row;
+        color: white;
+        font-size: 1rem;
     }
     .header_socials {
         bottom: 1rem; /* Décaler vers le bas */
