@@ -237,7 +237,7 @@ section {
 
     .apropos_content p {
         width: 100%; /* Largeur à 100% */
-        margin: 1rem 0; /* Marge réduite */
+        margin: 0rem 0; /* Marge réduite */
         padding: 1rem; /* Ajout de padding pour éviter que le texte touche les bords */
         box-sizing: border-box; /* Inclure le padding dans la largeur totale */
         text-align: left;
