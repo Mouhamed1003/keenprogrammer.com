@@ -88,6 +88,7 @@ header {
     font-size: 1.1rem;
     transition: background-color 1.03s;
     background: rgba(104, 246, 246, 0.534);
+    user-select: none;
     -webkit-user-drag: none;
 }
 
