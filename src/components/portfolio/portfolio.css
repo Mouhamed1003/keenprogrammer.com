@@ -103,10 +103,10 @@
         margin-top: 1.3rem;
         text-shadow: 2px 2px 5px black;
         margin-left: 2.1rem;
-        font-size: xx-large;
+        font-size: large;
     }
     #portfolio h5 {
-        font-size: xx-large;
+        font-size: x-large;
         margin-left: 4rem;
         margin-right: 2rem;
     }
@@ -128,7 +128,7 @@
     }
     #portfolio h2 {
         margin-left: 0.1rem;
-        font-size: xx-large;
+        font-size: large;
     }
     .portfolio_container {
         grid-template-columns: 1fr;
@@ -149,7 +149,7 @@
         align-items: flex-end;
     }
     #portfolio h5 {
-        font-size: xx-large;
+        font-size: x-large;
         margin-left: 1rem;
         margin-right: 0.8rem;
     }
