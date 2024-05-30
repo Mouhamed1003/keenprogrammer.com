@@ -215,6 +215,8 @@ section {
     }
     .experience h5{
         font-size: x-large;
+        margin-left: -0.5em;
+        margin-right: -0.5em;
     }
     .experience h2 {
         font-size: large;
@@ -242,8 +244,10 @@ section {
     }
     .experience h5{
         font-size: x-large;
+        margin-left: -0.5em;
+        margin-right: -0.5em;
     }
     .experience h2 {
-        font-size: large;
+        font-size: x-large;
     }
 }
