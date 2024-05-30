@@ -212,6 +212,7 @@ section {
         padding: 1rem;
         box-sizing: border-box;
         text-align: left;
+        font-size: 16.4px;
     }
 
     .apropos_cards {
@@ -291,6 +292,7 @@ section {
         padding: 1rem;
         box-sizing: border-box;
         text-align: left;
+        font-size: 15px;
     }
 
     .apropos_cards {
