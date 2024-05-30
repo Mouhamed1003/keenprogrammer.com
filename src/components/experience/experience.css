@@ -234,7 +234,13 @@ section {
         gap: 1rem;
     }
     .experience {
-    padding-top: 40rem;
-    user-select: none;
-}
+        padding-top: 40rem;
+        user-select: none;
+    }
+    .experience h5{
+        font-size: xx-large;
+    }
+    .experience h2 {
+        font-size: xx-large;
+    }
 }
