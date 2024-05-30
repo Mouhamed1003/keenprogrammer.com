@@ -165,7 +165,7 @@ section {
     .apropos_content p {
         margin: 1rem 0 1.5rem;
     }
-    .apropos_content .apropos_cards {
+    .apropos_cards {
         margin-top: 5rem;
     }
     .apropos h5 {
@@ -185,6 +185,7 @@ section {
         grid-template-columns: 1fr;
         gap: 1rem;
         padding: 0;
+        margin-top: 0;
     }
     .apropos_content {
         text-align: center;
