@@ -73,6 +73,19 @@
         width: 43em;
         margin-left: 13.6em;
     }
+    #portfolio h5 {
+    color: wheat;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: nowrap;
+    font-size: xx-large;
+}
+    #portfolio h2 {
+        margin-bottom: .5rem;
+        margin-top: 1.3rem;
+        text-shadow: 2px 2px 5px black;
+        font-size: xx-large;
+    }
 }
 
 /* Small devices (smartphones) */
