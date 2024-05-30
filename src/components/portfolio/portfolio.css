@@ -127,6 +127,7 @@
     }
     #portfolio h2 {
         margin-left: 0.1rem;
+        font-size: xx-large;
     }
     .portfolio_container {
         grid-template-columns: 1fr;
@@ -147,7 +148,7 @@
         align-items: flex-end;
     }
     #portfolio h5 {
-        font-size: 1rem;
+        font-size: xx-large;
         margin-left: 1rem;
         margin-right: 0.8rem;
     }
