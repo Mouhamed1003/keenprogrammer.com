@@ -2,7 +2,9 @@ import React from 'react';
 import { FaLinkedin, FaGithubSquare, FaFacebook, FaInstagram, FaWhatsapp, FaTelegram } from "react-icons/fa";
 import Coeur from '../coeur/Coeur';
 import { FaXTwitter } from "react-icons/fa6";
-// import imgUNDRAW from '../../images/undraw_programming_re_kg9v.svg';
+import imgUNDRAW from '../../images/undraw_programming_re_kg9v.svg';
+import imgUNDRAW from '../../images/undraw_hacker_mind_-6-y85.svg';
+import imgUNDRAW from '../../images/undraw_laravel_and_vue_-59-tp.svg';
 
 import './footer.css';
 
