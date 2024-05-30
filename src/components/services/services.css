@@ -126,16 +126,9 @@ section {
         padding-top: 1rem;
     }
     #services h2 {
-        margin-top: 1rem;
-        margin-bottom: 0rem;
-        text-shadow: 2px 2px 5px black;
         font-size: xx-large;
     }
     .services h5 {
-        color: wheat;
-        overflow: hidden;
-        text-overflow: clip;
-        white-space: nowrap;
         font-size: xx-large;
     }
 }
