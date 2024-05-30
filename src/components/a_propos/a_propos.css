@@ -226,7 +226,7 @@ section {
         margin: 0 auto 1rem; /* Centrer l'élément avec une marge en bas */
         padding: 1rem; /* Réduction du padding */
     }
-    .apropos_moi-image img {
+    .apropos_moi .apropos_moi-image img {
         width: 100%; /* Largeur de l'image à 100% */
         height: auto; /* Hauteur automatique pour préserver les proportions */
         border-radius: 2rem; /* Bordure arrondie */
