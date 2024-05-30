@@ -249,8 +249,14 @@ header {
     header {
         height: 100vh;
     }
+    #header h3 {
+        font-size: 1.2rem; /* Réduire la taille de la police */
+    }
+    #header h1 {
+        font-size: 1.5rem; /* Réduire la taille de la police */
+    }
     .text-light-function {
-        font-size: calc(1vw - 0.5em);
+        font-size: calc(5vw - .4em);
     }
     .maphoto {
         width: 16rem; /* Réduire la largeur */
@@ -267,7 +273,8 @@ header {
         margin-left: auto;
     }
     .cta a {
-        width: 80%; /* Réduire la largeur des boutons */
+        width: 90%; /* Réduire la largeur des boutons */
+        font-size: 1rem;
     }
     .scroll_down {
         display: flex; /* Afficher */
