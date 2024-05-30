@@ -4,43 +4,35 @@ section {
     margin-bottom: 0;
     font-family: "Sedan SC", serif;
 }
-
 .permettre-selection { 
     user-select: none; /* Empêche la sélection de texte sur tout le corps de la page */
 }
-
 .apropos {
     padding-top: 1rem;
     user-select: none; /* Empêche la sélection de texte sur tout le corps de la page */
 }
-
 #apropos h2 {
     margin-top: 1rem;
     margin-bottom: 1rem;
     text-shadow: 2px 2px 5px black;
 }
-
 .apropos h5 {
     color: wheat;
     overflow: hidden; /* Empêcher le dépassement du texte */
     white-space: nowrap; /* Empêcher le texte de passer à la ligne */
     text-overflow: ellipsis; /* Ajouter des points de suspension en cas de dépassement */
 }
-
 .btn.btn-primary {
     color: white;
 }
-
 .apropos_container {
     display: grid;
     grid-template-columns: 35% 60%;
     gap: 5%;
 }
-
 .apropos_content {
     width: 100%;
 }
-
 .apropos_moi {
     aspect-ratio: 1/1;
     border-radius: 2rem;
@@ -56,34 +48,28 @@ section {
     height: 100%;
     padding: 1rem;
 }
-
 .apropos_moi:hover {
     background: linear-gradient(90deg, rgba(0, 128, 0, 0.592), rgba(255, 217, 0, 0.565), rgba(255, 0, 0, 0.54));
     animation: pulse 7.5s infinite;
 }
-
 /* Animation de feu d'artifice */
 @keyframes pulse {
     50% { text-shadow: 0 0 10px #0e46f0f9, 0 0 20px #1cef05, 0 0 30px #fffffffd; }
     50% { box-shadow: 0 0 50px #000000, 0 0 100px #fdfdfdf3, 0 0 150px rgb(0, 255, 251); }
     100% { box-shadow: 0 0 10px #fdfdfdf3, 0 0 20px #163cfbf8, 0 0 30px rgb(8, 130, 139); }
 }
-
 .apropos_moi-image img {
     width: 100%;
     height: auto;
     border-radius: 2rem;
     transition: transform 0.3s ease;
 }
-
 .apropos_moi-image:hover img {
     transform: rotate(10deg);
 }
-
 .my_nationality {
     color: white;
 }
-
 .my_nationality:hover {
     color: black;
     border: 0px solid transparent;
@@ -92,12 +78,10 @@ section {
     padding-left: 5px;
     padding-right: 5px;
 }
-
 .apropos_moi .etoile {
     color: green;
     padding-bottom: 0.5rem;
 }
-
 @keyframes shine {
     0% {
         opacity: 0.5;
@@ -112,17 +96,14 @@ section {
         transform: scale(1);
     }
 }
-
 .apropos_moi .etoile {
     animation: shine 3s infinite alternate;
 }
-
 .apropos_cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.2rem;
 }
-
 .apropos_card {
     background: var(--color-bg-variant);
     border: 1px solid transparent;
@@ -132,30 +113,25 @@ section {
     transition: var(--transition);
     width: 100%;
 }
-
 .apropos_card:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
     backdrop-filter: blur(25px);
 }
-
 .apropos_icon {
     color: var(--color-primary);
     font-size: 2.4rem;
     margin-bottom: 0.5rem;
 }
-
 .apropos_card strong {
     font-size: 1.5rem;
     display: block;
 }
-
 .apropos_card small {
     font-size: 1rem;
     color: var(--color-light);
 }
-
 .apropos_content p {
     margin: 1rem 0 1.6rem;
     color: var(--color-light);
@@ -167,7 +143,6 @@ section {
     font-size: .9rem;
     max-width: 100%;
 }
-
 .apropos_content p:hover {
     color: white;
     background: rgba(0, 0, 0, 0.828);
@@ -192,7 +167,10 @@ section {
         margin: 1rem 0 1.5rem;
     }
     .apropos h5 {
-        font-size: 1rem;
+        font-size: xx-large;
+    }
+    #apropos h2 {
+        font-size: xx-large;
     }
     .apropos_content {
         margin-top: 2rem;
@@ -233,40 +211,34 @@ section {
         display: block; /* Changement de la disposition en bloc pour empêcher le débordement */
         padding: 0 1rem; /* Ajout d'un padding pour éviter les bordures collées */
     }
-
     .apropos_moi {
         width: 100%; /* Largeur à 100% pour s'adapter à l'écran */
         height: 28rem;
         margin: 0 auto 1rem; /* Centrer l'élément avec une marge en bas */
         padding: 1rem; /* Réduction du padding */
     }
-
     .apropos_moi-image img {
         width: 100%; /* Largeur de l'image à 100% */
         height: auto; /* Hauteur automatique pour préserver les proportions */
         border-radius: 2rem; /* Bordure arrondie */
     }
-
     .apropos_content {
         text-align: center; /* Centrer le texte */
         width: 100%; /* Largeur à 100% */
         padding: 0 1rem; /* Ajout de padding pour éviter que le texte touche les bords */
     }
-
     .apropos_content p {
         width: 100%; /* Largeur à 100% */
         margin: 1rem 0; /* Marge réduite */
         padding: 1rem; /* Ajout de padding pour éviter que le texte touche les bords */
         box-sizing: border-box; /* Inclure le padding dans la largeur totale */
     }
-
     .apropos_cards {
         display: grid; /* Utilisation de la grille pour les cartes */
         grid-template-columns: 1fr 1fr; /* Deux colonnes égales */
         gap: 1rem; /* Espace entre les cartes */
         margin-top: 2.5rem;
     }
-
     .apropos_card {
         width: 100%; /* Largeur à 100% pour s'adapter à la colonne */
         margin-bottom: 1rem; /* Marge inférieure */
@@ -276,12 +248,10 @@ section {
         text-align: center; /* Centrer le contenu */
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ajout d'une ombre */
     }
-
     .apropos_icon {
         font-size: 2rem; /* Taille des icônes */
         margin-bottom: 0.5rem; /* Marge inférieure */
     }
-
     .apropos h5 {
         color: wheat;
         overflow: hidden; /* Empêcher le dépassement du texte */
@@ -290,12 +260,10 @@ section {
         margin: 0 2rem; /* Marges horizontales */
         font-size: 1rem;
     }
-
     .my_nationality {
         display: block; /* S'assurer que l'élément est en bloc */
         margin: 0.5rem 0; /* Marges pour espacement */
     }
-
     .etoile {
         display: block; /* S'assurer que l'élément est en bloc */
         margin: 0.5rem 0; /* Marges pour espacement */
