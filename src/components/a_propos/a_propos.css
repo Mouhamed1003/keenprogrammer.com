@@ -248,6 +248,7 @@ section {
         grid-template-columns: 1fr 1fr; /* Deux colonnes égales */
         column-gap: 1rem;
         row-gap: 0;
+        margin-top: 0rem;
     }
 
     .apropos_card {
