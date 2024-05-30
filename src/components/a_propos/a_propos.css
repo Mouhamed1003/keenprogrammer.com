@@ -237,7 +237,7 @@ section {
 
     .apropos_content p {
         width: 100%; /* Largeur à 100% */
-        margin: 0rem 0; /* Marge réduite */
+        margin: 1rem 0;
         padding: 1rem; /* Ajout de padding pour éviter que le texte touche les bords */
         box-sizing: border-box; /* Inclure le padding dans la largeur totale */
         text-align: left;
@@ -246,15 +246,14 @@ section {
     .apropos_cards {
         display: grid; /* Utilisation de la grille pour les cartes */
         grid-template-columns: 1fr 1fr; /* Deux colonnes égales */
-        column-gap: 1rem;
-        row-gap: 0;
+        gap: 1rem;
         margin-top: 0rem;
     }
 
     .apropos_card {
         width: 100%; /* Largeur à 100% pour s'adapter à la colonne */
-        margin-bottom: 1rem; /* Marge inférieure */
-        padding: 1rem; /* Padding interne */
+        margin: 0rem;
+        padding: 0.3rem
         border-radius: 1rem; /* Bordures arrondies */
         background: var(--color-bg-variant); /* Couleur de fond */
         text-align: center; /* Centrer le contenu */
