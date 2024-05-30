@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/keenprogrammer.com/static/css/main.53340cf5.css",
+    "main.css": "/keenprogrammer.com/static/css/main.59e6726f.css",
     "main.js": "/keenprogrammer.com/static/js/main.cd7fd70b.js",
     "static/media/maphoto3.png": "/keenprogrammer.com/static/media/maphoto3.c9ae1786ca259f8210c5.png",
     "static/media/moi2.png": "/keenprogrammer.com/static/media/moi2.c4058fabd02bb75c1b65.png",
@@ -17,11 +17,11 @@
     "static/media/undraw_laravel_and_vue_-59-tp.svg": "/keenprogrammer.com/static/media/undraw_laravel_and_vue_-59-tp.02f7e2674081388ca07174f4d3774d08.svg",
     "static/media/undraw_version_control_re_mg66.svg": "/keenprogrammer.com/static/media/undraw_version_control_re_mg66.5d0135ff96ebb64215795e0b94ce9572.svg",
     "index.html": "/keenprogrammer.com/index.html",
-    "main.53340cf5.css.map": "/keenprogrammer.com/static/css/main.53340cf5.css.map",
+    "main.59e6726f.css.map": "/keenprogrammer.com/static/css/main.59e6726f.css.map",
     "main.cd7fd70b.js.map": "/keenprogrammer.com/static/js/main.cd7fd70b.js.map"
   },
   "entrypoints": [
-    "static/css/main.53340cf5.css",
+    "static/css/main.59e6726f.css",
     "static/js/main.cd7fd70b.js"
   ]
 }
