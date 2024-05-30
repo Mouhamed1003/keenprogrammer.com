@@ -188,18 +188,25 @@ section {
         width: 100%;
         margin: 0 auto 1rem;
     }
-    .apropos_cards {
-        display: grid; /* Utilisation de la grille pour les cartes */
-        grid-template-columns: 1fr 1fr; /* Deux colonnes égales */
-        column-gap: 1rem;
-        row-gap: 0;
-    }
     .apropos_content {
-        text-align: center;
+        text-align: center; /* Centrer le texte */
+        width: 100%; /* Largeur à 100% */
+        padding: 0 1rem; /* Ajout de padding pour éviter que le texte touche les bords */
     }
+
     .apropos_content p {
-        margin: 1.5rem 0;
+        width: 100%; 
+        margin: 1rem 0;
+        padding: 1rem; 
+        box-sizing: border-box; 
         text-align: left;
+    }
+
+    .apropos_cards {
+        display: grid; 
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        margin-top: 0rem;
     }
     .apropos h5 {
         font-size: x-large;
