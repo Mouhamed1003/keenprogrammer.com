@@ -201,10 +201,6 @@ section {
         margin: 1.5rem 0;
         text-align: left;
     }
-    .apropos_card small {
-        font-size: 1rem;
-    }
-    
 }
 
 /* Media Query pour les iPhone 12 Pro */
@@ -244,8 +240,8 @@ section {
     .apropos_cards {
         display: grid; /* Utilisation de la grille pour les cartes */
         grid-template-columns: 1fr 1fr; /* Deux colonnes égales */
-        gap: 1rem; /* Espace entre les cartes */
-        padding: 0;
+        column-gap: 1rem;
+        row-gap: 0;
     }
 
     .apropos_card {
