@@ -117,10 +117,10 @@
     margin-top: 0rem;
   }
    #temoignages h5 {
-    font-size: xx-large;
+    font-size: x-large;
   }
   #temoignages h2 {
-    font-size: xx-large;
+    font-size: large;
   }
 }
 @media screen and (max-width: 390px) {
@@ -147,9 +147,9 @@
     margin-top: 0rem;
   }
   #temoignages h5 {
-    font-size: xx-large;
+    font-size: x-large;
   }
   #temoignages h2 {
-    font-size: xx-large;
+    font-size: large;
   }
 }
