@@ -205,8 +205,9 @@ section {
 
     .apropos_content {
         text-align: center;
-        width: 100%;
         padding: 0 1rem;
+        width: 135%;
+        margin-left: -3rem;
     }
 
     .apropos_content p {
@@ -285,8 +286,9 @@ section {
 
     .apropos_content {
         text-align: center;
-        width: 100%;
         padding: 0 1rem;
+        width: 135%;
+        margin-left: -3rem;
     }
 
     .apropos_content p {
