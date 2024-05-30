@@ -189,10 +189,10 @@ section {
         margin: 0 auto 1rem;
     }
     .apropos_cards {
-        grid-template-columns: 1fr;
-        gap: 1rem;
-        padding: 0;
-        margin-top: 0;
+        display: grid; /* Utilisation de la grille pour les cartes */
+        grid-template-columns: 1fr 1fr; /* Deux colonnes égales */
+        column-gap: 1rem;
+        row-gap: 0;
     }
     .apropos_content {
         text-align: center;
