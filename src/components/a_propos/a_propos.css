@@ -63,6 +63,9 @@ section {
     height: auto;
     border-radius: 2rem;
     transition: transform 0.3s ease;
+    user-select: none;
+    -webkit-user-drag: none;
+    pointer-events: none;
 }
 .apropos_moi-image:hover img {
     transform: rotate(10deg);
