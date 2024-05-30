@@ -184,10 +184,11 @@ section {
 
     #experience h2 {
         margin-bottom: 0.5rem;
+        font-size: xx-larger;
         margin-top: 0rem;
     }
     .experience h5 {
-        font-size: larger;
+        font-size: xx-larger;
     }
     .experience {
         padding-top: 1rem;
