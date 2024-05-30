@@ -207,11 +207,11 @@ section {
         margin: 1.5rem 0;
     }
     .apropos h5 {
-        font-size: 1rem;
-    }
-    .apropos h5 {
         margin: 0 1rem; /* Marges horizontales */
-        font-size: 1rem;
+        font-size: xx-large;
+    }
+    .apropos h2 {
+        font-size: xx-large;
     }
 }
 
@@ -277,5 +277,11 @@ section {
     .etoile {
         display: block; /* S'assurer que l'élément est en bloc */
         margin: 0.5rem 0; /* Marges pour espacement */
+    }
+    .apropos h5 {
+        font-size: xx-large;
+    }
+    .apropos h2 {
+        font-size: xx-large;
     }
 }
