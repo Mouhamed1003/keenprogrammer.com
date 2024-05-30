@@ -156,115 +156,38 @@ section {
         gap: 0;
     }
     #apropos {
-        padding-top: 1rem;
+        padding-top: 0.5rem;
     }
     .apropos_moi {
-        margin: 0 0 2rem 3.4rem;
-        width: 85%;
-    }
-    .apropos_moi-image {
-        width: 24em;
+        width: 70%;
+        margin: 2rem auto;
     }
     .apropos_content p {
         margin: 1rem 0 1.5rem;
-        font-size: 1rem;
-    }
-    .apropos h5 {
-        font-size: xx-large;
-    }
-    #apropos h2 {
-        font-size: xx-large;
-    }
-    .apropos_content {
-        margin-top: 2rem;
-        width: 100%;
-    }
-    .apropos_card small {
-        font-size: 1.4rem;
-    }
-    .apropos_content. btn.btn-primary {
-        font-size: x-large;
     }
 }
 
-/* Media Queries - Mobiles */
 @media screen and (max-width: 600px) {
-    .apropos_container {
-        display: block; /* Disposition en bloc pour éviter les débordements */
-        padding: 0 1rem; /* Ajout d'un padding pour éviter les bordures collées */
-    }
-
     .apropos_moi {
-        width: 100%; /* Largeur à 100% pour s'adapter à l'écran */
-        margin: 0 auto 1rem; /* Centrer l'élément avec une marge en bas */
-        padding: 1rem; /* Réduction du padding */
-        height: 28rem;
+        width: 100%;
+        margin: 0 auto 1rem;
     }
-
-    .apropos_moi-image img {
-        width: 100%; /* Largeur de l'image à 100% */
-        height: auto; /* Hauteur automatique pour préserver les proportions */
-        border-radius: 2rem; /* Bordure arrondie */
-    }
-
-    .apropos_content {
-        text-align: left; /* Centrer le texte */
-        width: 100%; /* Largeur à 100% */
-        padding: 0 1rem; /* Ajout de padding pour éviter que le texte touche les bords */
-    }
-
-    .apropos_content p {
-        width: 100%; /* Largeur à 100% */
-        margin: 1rem 0; /* Marge réduite */
-    }
-
     .apropos_cards {
-        display: grid; /* Utilisation de la grille pour les cartes */
-        grid-template-columns: 1fr 1fr; /* Deux colonnes égales */
-        gap: 1rem; /* Espace entre les cartes */
+        grid-template-columns: 1fr;
+        gap: 1rem;
     }
-
-    .apropos_card {
-        width: 100%; /* Largeur à 100% pour s'adapter à la colonne */
-        margin-bottom: 1rem; /* Marge inférieure */
-        padding: 1rem; /* Padding interne */
-        border-radius: 1rem; /* Bordures arrondies */
-        background: var(--color-bg-variant); /* Couleur de fond */
-        text-align: center; /* Centrer le contenu */
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ajout d'une ombre */
+    .apropos_content {
+        text-align: center;
     }
-
-    .apropos_card .apropos_icon {
-        font-size: 2rem; /* Taille des icônes */
-        margin-bottom: 0.5rem; /* Marge inférieure */
-    }
-
-    .apropos h5 {
-        color: wheat;
-        overflow: hidden; /* Empêcher le dépassement du texte */
-        text-overflow: ellipsis; /* Points de suspension en cas de dépassement */
-        white-space: nowrap; /* Empêcher le texte de passer à la ligne */
-        margin: 0 1rem; /* Marges horizontales */
-        font-size: xx-large;
-    }
-    .apropos h2 {
-        font-size: xx-large;
-    }
-    .my_nationality {
-        display: block; /* S'assurer que l'élément est en bloc */
-        margin: 0.5rem 0; /* Marges pour espacement */
-    }
-
-    .etoile {
-        display: block; /* S'assurer que l'élément est en bloc */
-        margin: 0.5rem 0; /* Marges pour espacement */
+    .apropos_content p {
+        margin: 1.5rem 0;
     }
 }
 
 /* Media Query pour les iPhone 12 Pro */
 @media screen and (max-width: 390px) {
     .apropos_container {
-        display: block; /* Disposition en bloc pour éviter les débordements */
+        display: block; /* Changement de la disposition en bloc pour empêcher le débordement */
         padding: 0 1rem; /* Ajout d'un padding pour éviter les bordures collées */
     }
 
@@ -272,7 +195,6 @@ section {
         width: 100%; /* Largeur à 100% pour s'adapter à l'écran */
         margin: 0 auto 1rem; /* Centrer l'élément avec une marge en bas */
         padding: 1rem; /* Réduction du padding */
-        height: 28rem;
     }
 
     .apropos_moi-image img {
@@ -282,7 +204,7 @@ section {
     }
 
     .apropos_content {
-        text-align: left; /* Centrer le texte */
+        text-align: center; /* Centrer le texte */
         width: 100%; /* Largeur à 100% */
         padding: 0 1rem; /* Ajout de padding pour éviter que le texte touche les bords */
     }
@@ -290,6 +212,8 @@ section {
     .apropos_content p {
         width: 100%; /* Largeur à 100% */
         margin: 1rem 0; /* Marge réduite */
+        padding: 1rem; /* Ajout de padding pour éviter que le texte touche les bords */
+        box-sizing: border-box; /* Inclure le padding dans la largeur totale */
     }
 
     .apropos_cards {
@@ -308,7 +232,7 @@ section {
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ajout d'une ombre */
     }
 
-    .apropos_card .apropos_icon {
+    .apropos_icon {
         font-size: 2rem; /* Taille des icônes */
         margin-bottom: 0.5rem; /* Marge inférieure */
     }
@@ -319,11 +243,8 @@ section {
         text-overflow: ellipsis; /* Points de suspension en cas de dépassement */
         white-space: nowrap; /* Empêcher le texte de passer à la ligne */
         margin: 0 1rem; /* Marges horizontales */
-        font-size: xx-large;
     }
-    .apropos h2 {
-        font-size: xx-large;
-    }
+
     .my_nationality {
         display: block; /* S'assurer que l'élément est en bloc */
         margin: 0.5rem 0; /* Marges pour espacement */
@@ -334,4 +255,3 @@ section {
         margin: 0.5rem 0; /* Marges pour espacement */
     }
 }
-
