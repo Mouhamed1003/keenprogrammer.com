@@ -253,7 +253,7 @@ section {
     .apropos_card {
         width: 100%; /* Largeur à 100% pour s'adapter à la colonne */
         margin: 0rem;
-        padding: 0.3rem
+        padding: 0.3rem;
         border-radius: 1rem; /* Bordures arrondies */
         background: var(--color-bg-variant); /* Couleur de fond */
         text-align: center; /* Centrer le contenu */
