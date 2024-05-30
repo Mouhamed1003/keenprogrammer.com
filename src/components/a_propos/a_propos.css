@@ -9,7 +9,7 @@ section {
 }
 .apropos {
     padding-top: 1rem;
-    user-select: none; /* Empêche la sélection de texte sur tout le corps de la page */
+    user-select: none;
 }
 #apropos h2 {
     margin-top: 1rem;
@@ -177,107 +177,72 @@ section {
     .apropos_card small {
         font-size: 1.4rem;
     }
-    /* Bouton exclu des 390px */
     .apropos_content .btn.btn-primary {
         font-size: x-large;
     }
 }
 
 @media screen and (max-width: 600px) {
+    .apropos_container {
+        display: block;
+        padding: 0 1rem;
+    }
+
     .apropos_moi {
         width: 100%;
         margin: 0 auto 1rem;
-    }
-    .apropos_content {
-        text-align: center; /* Centrer le texte */
-        width: 100%; /* Largeur à 100% */
-        padding: 0 1rem; /* Ajout de padding pour éviter que le texte touche les bords */
-    }
-
-    .apropos_content p {
-        width: 100%; 
-        margin: 1rem 0;
-        padding: 1rem; 
-        box-sizing: border-box; 
-        text-align: left;
-    }
-
-    .apropos_cards {
-        display: grid; 
-        grid-template-columns: 1fr 1fr;
-        gap: 1rem;
-        margin-top: 0rem;
-    }
-    .apropos h5 {
-        font-size: x-large;
-    }
-    .apropos h2 {
-        font-size: large;
-    }
-}
-
-/* Media Query pour les iPhone 12 Pro */
-@media screen and (max-width: 390px) {
-    .apropos_container {
-        display: block; /* Changement de la disposition en bloc pour empêcher le débordement */
-        padding: 0 1rem; /* Ajout d'un padding pour éviter les bordures collées */
-    }
-
-    .apropos_moi {
-        width: 100%; /* Largeur à 100% pour s'adapter à l'écran */
-        margin: 0 auto 1rem; /* Centrer l'élément avec une marge en bas */
-        padding: 1rem; /* Réduction du padding */
+        padding: 1rem;
         padding-bottom: 26em;
     }
 
     .apropos_moi-image img {
-        width: 100%; /* Largeur de l'image à 100% */
-        height: auto; /* Hauteur automatique pour préserver les proportions */
-        border-radius: 2rem; /* Bordure arrondie */
+        width: 100%;
+        height: auto;
+        border-radius: 2rem;
     }
 
     .apropos_content {
-        text-align: center; /* Centrer le texte */
-        width: 100%; /* Largeur à 100% */
-        padding: 0 1rem; /* Ajout de padding pour éviter que le texte touche les bords */
+        text-align: center;
+        width: 100%;
+        padding: 0 1rem;
     }
 
     .apropos_content p {
-        width: 100%; /* Largeur à 100% */
+        width: 100%;
         margin: 1rem 0;
-        padding: 1rem; /* Ajout de padding pour éviter que le texte touche les bords */
-        box-sizing: border-box; /* Inclure le padding dans la largeur totale */
+        padding: 1rem;
+        box-sizing: border-box;
         text-align: left;
     }
 
     .apropos_cards {
-        display: grid; /* Utilisation de la grille pour les cartes */
-        grid-template-columns: 1fr 1fr; /* Deux colonnes égales */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         gap: 1rem;
         margin-top: 0rem;
     }
 
     .apropos_card {
-        width: 100%; /* Largeur à 100% pour s'adapter à la colonne */
+        width: 100%;
         margin: 0rem;
         padding: 0.3rem;
-        border-radius: 1rem; /* Bordures arrondies */
-        background: var(--color-bg-variant); /* Couleur de fond */
-        text-align: center; /* Centrer le contenu */
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ajout d'une ombre */
+        border-radius: 1rem;
+        background: var(--color-bg-variant);
+        text-align: center;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
 
     .apropos_icon {
-        font-size: 2rem; /* Taille des icônes */
-        margin-bottom: 0.5rem; /* Marge inférieure */
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
     }
 
     .apropos h5 {
         color: wheat;
-        overflow: hidden; /* Empêcher le dépassement du texte */
-        text-overflow: ellipsis; /* Points de suspension en cas de dépassement */
-        white-space: nowrap; /* Empêcher le texte de passer à la ligne */
-        margin: 0 1rem; /* Marges horizontales */
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        margin: 0 1rem;
         font-size: x-large;
     }
     .apropos h2 {
@@ -285,12 +250,91 @@ section {
     }
 
     .my_nationality {
-        display: block; /* S'assurer que l'élément est en bloc */
-        margin: 0.5rem 0; /* Marges pour espacement */
+        display: block;
+        margin: 0.5rem 0;
     }
 
     .etoile {
-        display: block; /* S'assurer que l'élément est en bloc */
-        margin: 0.5rem 0; /* Marges pour espacement */
+        display: block;
+        margin: 0.5rem 0;
+    }
+}
+
+/* Media Query pour les iPhone 12 Pro */
+@media screen and (max-width: 390px) {
+    .apropos_container {
+        display: block;
+        padding: 0 1rem;
+    }
+
+    .apropos_moi {
+        width: 100%;
+        margin: 0 auto 1rem;
+        padding: 1rem;
+        padding-bottom: 26em;
+    }
+
+    .apropos_moi-image img {
+        width: 100%;
+        height: auto;
+        border-radius: 2rem;
+    }
+
+    .apropos_content {
+        text-align: center;
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    .apropos_content p {
+        width: 100%;
+        margin: 1rem 0;
+        padding: 1rem;
+        box-sizing: border-box;
+        text-align: left;
+    }
+
+    .apropos_cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        margin-top: 0rem;
+    }
+
+    .apropos_card {
+        width: 100%;
+        margin: 0rem;
+        padding: 0.3rem;
+        border-radius: 1rem;
+        background: var(--color-bg-variant);
+        text-align: center;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .apropos_icon {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .apropos h5 {
+        color: wheat;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        margin: 0 1rem;
+        font-size: x-large;
+    }
+    .apropos h2 {
+        font-size: large;
+    }
+
+    .my_nationality {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    .etoile {
+        display: block;
+        margin: 0.5rem 0;
     }
 }
