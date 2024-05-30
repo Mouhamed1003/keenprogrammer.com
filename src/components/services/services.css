@@ -151,13 +151,10 @@ section {
         font-size: 1rem;
     }
     .services h5 {
-        font-size: 1.5rem;
+        font-size: x-large;
     }
-    .services h5 {
-        font-size: xx-large;
-    }
-    .services h5 {
-        font-size: xx-large;
+    .services h2 {
+        font-size: large;
     }
 }
 
@@ -183,15 +180,9 @@ section {
         font-size: 2em;
     }
     .services h5 {
-        font-size: xx-large;
+        font-size: x-large;
     }
-    .services h5 {
-        font-size: xx-large;
-    }
-}
-
-@media screen and (max-width: 200px) {
-    #services h5 {
-        margin-top: 2rem;
+    .services h2 {
+        font-size: large;
     }
 }
