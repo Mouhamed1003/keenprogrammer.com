@@ -198,7 +198,7 @@ section {
 /* Media Queries pour les mobiles */
 @media screen and (max-width: 600px) {
     .experience {
-        padding-top: 23rem;
+        padding-top: 40rem;
         user-select: none;
     }
     .experience_container {
