@@ -193,9 +193,10 @@ section {
     }
 
     .apropos_moi {
-        margin: 0 auto 1rem;
-        padding: 1rem 1rem 30em;
         width: 100%;
+        margin: 0 auto 1rem;
+        padding: 1rem;
+        padding-bottom: 26em;
     }
 
     .apropos_moi-image img {
@@ -213,18 +214,18 @@ section {
 
     .apropos_content p {
         width: 100%;
-        margin: 1rem 0;
+        margin: 3rem 0 1rem 0;
         padding: 1rem;
         box-sizing: border-box;
         text-align: left;
-        font-size: 16.4px;
+        font-size: 15px;
     }
 
     .apropos_cards {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
-        margin-top: 0rem;
+        margin-top: 5rem;
     }
 
     .apropos_card {
