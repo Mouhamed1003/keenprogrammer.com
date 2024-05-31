@@ -263,6 +263,10 @@ section {
         display: block;
         margin: 0.5rem 0;
     }
+    .apropos_content .btn.btn-primary {
+        font-size: large;
+        margin-top: 2rem;
+    }
 }
 
 /* Media Query pour les iPhone 12 Pro */
@@ -294,7 +298,7 @@ section {
 
     .apropos_content p {
         width: 100%;
-        margin: 1rem 0;
+        margin: 3rem 0 1rem 0;
         padding: 1rem;
         box-sizing: border-box;
         text-align: left;
@@ -305,7 +309,7 @@ section {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
-        margin-top: 0rem;
+        margin-top: 5rem;
     }
 
     .apropos_card {
@@ -343,5 +347,9 @@ section {
     .etoile {
         display: block;
         margin: 0.5rem 0;
+    }
+    .apropos_content .btn.btn-primary {
+        font-size: large;
+        margin-top: 2rem;
     }
 }
