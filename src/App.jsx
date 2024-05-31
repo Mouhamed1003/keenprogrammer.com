@@ -12,7 +12,7 @@ import Footer from './components/footer/Footer';
 import ColorPicker from './components/colorpicker/ColorPicker';
 
 
-import './index.css'; // Importez le fichier CSS global
+import './index.css'; // Importation du fichier CSS global
 
 const App = () => {
     return (
