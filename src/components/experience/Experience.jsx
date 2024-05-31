@@ -16,7 +16,8 @@ import { FaLaravel } from "react-icons/fa6";
 import { SiMysql } from "react-icons/si";
 import { FaJava } from "react-icons/fa6";
 import { SiTailwindcss } from "react-icons/si";
-import { SiPython } from "react-icons/si";
+// import { SiPython } from "react-icons/si";
+import { BsGit } from "react-icons/bs";
 
 
 const Experience = () => {
@@ -153,7 +154,7 @@ const Experience = () => {
             <article className='experience_details'>
             <BsFillPatchCheckFill className='experience_details-icon'/>
             <div>
-              <br/><h4><SiPython className='langue-icon15'/> Python</h4>
+              <br/><h4><BsGit className='langue-icon15'/> Git</h4>
               <small className='text-light'>Expert Level</small>
             </div>
             </article>
