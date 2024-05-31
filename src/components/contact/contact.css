@@ -40,7 +40,6 @@ section {
     /* Empêche le texte de dépasser la bordure */
     white-space: nowrap;
     /* Empêche le texte de s'étaler sur plusieurs lignes */
-    ;
     text-overflow: ellipsis;
     /* Ajoute des points de suspension si le texte est trop long */
 }
@@ -144,7 +143,6 @@ textarea {
     color: var(--color-white);
     font-size: 17.5px;
     letter-spacing: 2px;
-    /* Ajustez la valeur selon vos préférences */
     resize: none;
 }
 .custom-toast-container {
@@ -193,7 +191,6 @@ textarea {
         gap: 3rem;
         width: 88%;
         margin-right: 6.199em;
-
     }
     .contact_option {
         text-align: left;
