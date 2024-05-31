@@ -180,7 +180,7 @@ header {
   width: 25rem;
 }
 
-/* Optionnel : si vous souhaitez ajuster la taille des images pour qu'elles soient superposées de manière spécifique */
+/* Optionnel : pour ajuster la taille des images pour qu'elles soient superposées de manière spécifique */
 .img_svg1et2_header img:first-child {
   z-index: -1; /* Assurez-vous que la première image est en arrière-plan */
   position: relative; /* Nécessaire pour utiliser z-index */
