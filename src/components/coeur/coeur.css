@@ -1,14 +1,14 @@
 #svg5 {
-  position: absolute; /* Position absolue par rapport au parent */
-  left: 55px; /* Aligner le cœur sur le bord droit de son conteneur */
-  top: 75%; /* Aligner le cœur verticalement au milieu de son conteneur */
-  transform: translateY(-50%); /* Ajuster verticalement le cœur au centre */
+  position: absolute;
+  left: 55px;
+  top: 75%;
+  transform: translateY(-50%);
   /* background: black; */
 }
 
 #svg5 #line {
   fill: none;
-  stroke: var(--color-white, white); /* Défaut à blanc */
+  stroke: var(--color-white, white);
   stroke-width: 1.5;
   stroke-linecap: butt;
   stroke-linejoin: round;
@@ -16,12 +16,12 @@
   stroke-opacity: 1;
   stroke-dasharray: 1;
   stroke-dashoffset: 1;
-  animation: drawAndReset 15s linear infinite; /* Combinaison des animations */
+  animation: drawAndReset 15s linear infinite;
 }
 
 #svg5 #point {
   fill: none;
-  stroke: var(--color-white, white); /* Défaut à blanc */
+  stroke: var(--color-white, white);
   stroke-width: 5;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -29,7 +29,7 @@
   stroke-opacity: 1;
   stroke-dasharray: 0.0001, 0.9999;
   stroke-dashoffset: 1;
-  animation: drawAndReset 15s linear infinite; /* Combinaison des animations */
+  animation: drawAndReset 15s linear infinite;
 }
 
 @keyframes drawAndReset {
