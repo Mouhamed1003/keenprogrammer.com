@@ -25,26 +25,22 @@ input[type="color"]::-webkit-color-swatch {
     right: 5%;
     border-radius: 50%;
     overflow: hidden;
-    background-color: #ffffff; /* Utilisez la variable --color-bg pour définir la couleur de fond, avec la valeur de secours #ffffff (blanc) */
+    background-color: #ffffff;
 }
-
-/* Vous pouvez utiliser les variables CSS personnalisées pour les couleurs dans vos autres fichiers CSS */
 body {
     background-color: var(--color-bg);
-    color: var(--text-color); /* Utilisez la variable pour la couleur du texte */
+    color: var(--text-color);
 }
-
 .shadowed {
-    box-shadow: 0 0 90px #ffffff; /* Utilisez la variable pour l'ombre */
-    color: var(--text-color); /* Utilisez la variable pour la couleur du texte */
-    filter: drop-shadow(0rem 0rem 5px #ffffff); /* Appliquer la couleur sélectionnée aux ombres */
+    box-shadow: 0 0 90px #ffffff;
+    color: var(--text-color);
+    filter: drop-shadow(0rem 0rem 5px #ffffff);
 }
-
 /* Media Queries - Tablettes */
 @media screen and (max-width: 1024px) {
     .theme-picker {
-        top: 10%; /* Ajuster la position pour les tablettes */
-        right: 4%; /* Ajuster la position pour les tablettes */
+        top: 10%;
+        right: 4%;
     }
 }
 
@@ -59,7 +55,7 @@ body {
 /* Media Queries - iPhone 12 Pro */
 @media screen and (max-width: 390px) {
     .theme-picker {
-        top: 6%; /* Ajuster la position pour l'iPhone 12 Pro */
-        right: 21%; /* Ajuster la position pour l'iPhone 12 Pro */
+        top: 6%;
+        right: 21%;
     }
 }
