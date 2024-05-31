@@ -205,7 +205,7 @@ section a:hover {
   display: flex;
   justify-content: space-between; /* Aligne les images horizontalement avec un espace entre elles */
   align-items: center; /* Centre les images verticalement */
-  width: 97%; /* Ajustez cette valeur selon vos besoins */
+  width: 97%;
   background-color: #041e1f4d;
   border-radius: 40px;
   margin: auto; /* Centre le conteneur horizontalement */
@@ -228,15 +228,15 @@ section a:hover {
 
 /* Ajoutez des styles supplémentaires pour chaque image si nécessaire */
 .img_UNDRAW .imgsvgleft {
-  margin-left: 0; /* Enlevez la marge si nécessaire */
+  margin-left: 0;
 }
 
 .img_UNDRAW .imgsvgcenter {
-  margin: 0 1em; /* Ajoute une marge horizontale entre les images */
+  margin: 0 1em;
 }
 
 .img_UNDRAW .imgsvgright {
-  margin-right: 0; /* Enlevez la marge si nécessaire */
+  margin-right: 0;
   width: 23rem;
 }
 
