@@ -81,11 +81,10 @@ header {
     padding: 3rem 0.5rem 0.5rem 0.5rem;
     animation: pulse 14.05s infinite;
     display: flex;
-    color: var(--color-primary);
+    color: DodgerBlue;
     font-size: 1.1rem;
     transition: background-color 1.03s;
-    background: rgba(104, 246, 246, 0.534);
-    
+    background: DodgerBlue;
 }
 
 .maphoto img {
