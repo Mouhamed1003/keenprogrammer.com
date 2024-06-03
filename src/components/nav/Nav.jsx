@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './nav.css';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { AiOutlineHome } from "react-icons/ai";
 import { IoPersonSharp } from "react-icons/io5";
 import { GiSkills } from "react-icons/gi";
@@ -10,7 +10,8 @@ import { BiSolidMessageRounded } from "react-icons/bi";
 import { GrProjects } from "react-icons/gr";
 
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState(window.location.pathname);
+  const location = useLocation();
+  const [activeNav, setActiveNav] = useState(location.pathname);
 
   const handleNavClick = (navItem) => {
     setActiveNav(navItem);
