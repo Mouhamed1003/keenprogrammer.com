@@ -14,7 +14,7 @@ nav {
     backdrop-filter: blur(15px);
 }
 
-nav a {
+nav Link {
     background: transparent;
     padding: 0.6rem; /* Réduit la valeur de padding */
     border-radius: 50%;
@@ -24,16 +24,16 @@ nav a {
     transition: background-color 2.3s; /* Ajout de la transition */
 }
 
-nav a:hover {
+nav Link:hover {
     background: rgba(0, 0, 0, 0.3);
     animation: pulse 2.05s infinite; /* Ajout de l'animation sur le survol */
 }
 
-nav a.active:hover {
+nav Link.active:hover {
     color: rgb(255, 255, 255);
 }
 
-nav a.active {
+nav Link.active {
     background: var(--color-primary);
     color: var(--color-bg);
 }
@@ -54,7 +54,7 @@ nav a.active {
         transform: translateX(-50%); /* Centrer horizontalement */
         bottom: 1.5rem; /* Ajuster la position verticale */
     }
-    nav a {
+    nav Link {
         padding: 0.5rem; /* Ajuster le padding */
         font-size: 0.8rem; /* Réduire la taille de la police */
     }
@@ -69,7 +69,7 @@ nav a.active {
         transform: translateX(-50%); /* Centrer horizontalement */
         bottom: 1rem; /* Ajuster la position verticale */
     }
-    nav a {
+    nav Link {
         padding: 0.4rem; /* Ajuster le padding */
         font-size: 0.7rem; /* Réduire la taille de la police */
     }
@@ -84,7 +84,7 @@ nav a.active {
         transform: translateX(-50%); /* Centrer horizontalement */
         bottom: 0.5rem; /* Ajuster la position verticale */
     }
-    nav a {
+    nav Link {
         padding: 0.3rem; /* Ajuster le padding */
         font-size: 0.6rem; /* Réduire la taille de la police */
     }
