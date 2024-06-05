@@ -29,13 +29,13 @@ nav a:hover {
     animation: pulse 2.05s infinite;
 }
 
-nav a.active:hover {
-    color: rgb(255, 255, 255);
-}
-
 nav a.active {
     background: var(--color-primary);
     color: var(--color-bg);
+}
+
+nav a.active:hover {
+    color: rgb(255, 255, 255);
 }
 
 /* Animation de feu d'artifice */
@@ -91,7 +91,13 @@ nav a.active {
     nav a:hover {
         
     }
+    nav a.active {
+        
+    }
     nav a.active:hover {
+        
+    }
+    .icons {
         
     }
 }
