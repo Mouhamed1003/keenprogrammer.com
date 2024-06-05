@@ -15,13 +15,13 @@ const Nav = () => {
 
   return (
     <nav>
-      <a href="#header" onClick={() => setActiveNav('#header')} className={activeNav === '#header' ? 'active' : ''}><AiOutlineHome /> </a>
-      <a href="#apropos" onClick={() => setActiveNav('#apropos')} className={activeNav === '#apropos' ? 'active' : ''}><IoPersonSharp /> </a>
-      <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><GiSkills /> </a>
-      <a href="#services" onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}><GrProjects /> </a>
-      <a href="#portfolio" onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><CgListTree /> </a>
-      <a href="#temoignages" onClick={() => setActiveNav('#temoignages')} className={activeNav === '#temoignages' ? 'active' : ''}><MdSwipe /> </a>
-      <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><BiSolidMessageRounded /> </a>
+      <a href="#header" onClick={() => setActiveNav('#header')} className={activeNav === '#header' ? 'active' : ''}><AiOutlineHome className="icons" /> </a>
+      <a href="#apropos" onClick={() => setActiveNav('#apropos')} className={activeNav === '#apropos' ? 'active' : ''}><IoPersonSharp className="icons"  /> </a>
+      <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><GiSkills className="icons"  /> </a>
+      <a href="#services" onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}><GrProjects className="icons"  /> </a>
+      <a href="#portfolio" onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><CgListTree className="icons"  /> </a>
+      <a href="#temoignages" onClick={() => setActiveNav('#temoignages')} className={activeNav === '#temoignages' ? 'active' : ''}><MdSwipe className="icons"  /> </a>
+      <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><BiSolidMessageRounded className="icons"  /> </a>
     </nav>
     
   );
