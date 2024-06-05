@@ -49,14 +49,24 @@ nav a.active:hover {
 @media screen and (max-width: 1024px) {
     nav {
         width: max-content;
-        padding: 0.3rem 0.7rem;
-        left: 50%;
+        padding: 1rem 2rem;
+        left: 95%;
         transform: translateX(-50%);
-        bottom: 1.5rem;
+        bottom: 2.5rem;
+        gap: 3rem;
+        flex-direction: column;
+        background: transparent;
     }
     nav a {
-        padding: 0.5rem;
-        font-size: 0.8rem;
+        padding: .7rem;
+        font-size: larger;
+    }
+    nav a:hover {
+        padding: .9rem;
+        font-size: larger;
+    }
+    .icons {
+        font-size: xxx-large;
     }
 }
 
@@ -64,14 +74,25 @@ nav a.active:hover {
 @media screen and (max-width: 600px) {
     nav {
         width: max-content;
-        padding: 0.2rem 0.5rem;
+        padding: .9rem 1rem;
         left: 50%;
-        transform: translateX(-50%);
-        bottom: 1rem;
+        transform: translateX(-60%);
+        bottom: .5rem;
     }
     nav a {
-        padding: 0.4rem;
-        font-size: 0.7rem;
+        padding: .5rem;
+    }
+    nav a:hover {
+        padding: .5rem;
+    }
+    nav a.active {
+        font-size: medium;
+    }
+    nav a.active:hover {
+        font-size: medium;
+    }
+    .icons {
+        font-size: larger;
     }
 }
 
@@ -85,19 +106,18 @@ nav a.active:hover {
         bottom: 0.5rem;
     }
     nav a {
-        padding: 0.3rem;
-        font-size: 0.6rem;
+        padding: .5rem;
     }
     nav a:hover {
-        
+        padding: .5rem;
     }
     nav a.active {
-        
+        font-size: medium;
     }
     nav a.active:hover {
-        
+        font-size: medium;
     }
     .icons {
-        
+        font-size: larger;
     }
 }
