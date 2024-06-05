@@ -2,9 +2,9 @@ nav {
     background: rgba(0, 0, 0, 0.3);
     width: max-content;
     display: block;
-    padding: 0.5rem 1rem; /* Réduit la valeur de padding */
+    padding: 0.5rem 1rem;
     z-index: 2;
-    position: fixed; /* Rendre la navigation fixe */
+    position: fixed;
     left: 50%;
     transform: translateX(-50%);
     bottom: 1rem;
@@ -16,17 +16,17 @@ nav {
 
 nav a {
     background: transparent;
-    padding: 0.6rem; /* Réduit la valeur de padding */
+    padding: 0.6rem;
     border-radius: 50%;
     display: flex;
     color: var(--color-primary);
     font-size: 0.9rem;
-    transition: background-color 2.3s; /* Ajout de la transition */
+    transition: background-color 2.3s;
 }
 
 nav a:hover {
     background: rgba(0, 0, 0, 0.3);
-    animation: pulse 2.05s infinite; /* Ajout de l'animation sur le survol */
+    animation: pulse 2.05s infinite;
 }
 
 nav a.active:hover {
@@ -48,44 +48,50 @@ nav a.active {
 /* Media Queries - Tablettes */
 @media screen and (max-width: 1024px) {
     nav {
-        width: max-content; /* Conserver la largeur maximale */
-        padding: 0.3rem 0.7rem; /* Réduire légèrement le padding */
-        left: 50%; /* Centrer horizontalement */
-        transform: translateX(-50%); /* Centrer horizontalement */
-        bottom: 1.5rem; /* Ajuster la position verticale */
+        width: max-content;
+        padding: 0.3rem 0.7rem;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 1.5rem;
     }
     nav a {
-        padding: 0.5rem; /* Ajuster le padding */
-        font-size: 0.8rem; /* Réduire la taille de la police */
+        padding: 0.5rem;
+        font-size: 0.8rem;
     }
 }
 
 /* Media Queries - Mobiles */
 @media screen and (max-width: 600px) {
     nav {
-        width: max-content; /* Conserver la largeur maximale */
-        padding: 0.2rem 0.5rem; /* Réduire le padding */
-        left: 50%; /* Centrer horizontalement */
-        transform: translateX(-50%); /* Centrer horizontalement */
-        bottom: 1rem; /* Ajuster la position verticale */
+        width: max-content;
+        padding: 0.2rem 0.5rem;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 1rem;
     }
     nav a {
-        padding: 0.4rem; /* Ajuster le padding */
-        font-size: 0.7rem; /* Réduire la taille de la police */
+        padding: 0.4rem;
+        font-size: 0.7rem;
     }
 }
 
 /* Media Queries - iPhone 12 Pro */
 @media screen and (max-width: 390px) {
     nav {
-        width: max-content; /* Conserver la largeur maximale */
-        padding: 0.1rem 0.3rem; /* Réduire le padding */
-        left: 50%; /* Centrer horizontalement */
-        transform: translateX(-50%); /* Centrer horizontalement */
-        bottom: 0.5rem; /* Ajuster la position verticale */
+        width: max-content;
+        padding: .9rem 1rem;
+        left: 50%;
+        transform: translateX(-60%);
+        bottom: 0.5rem;
     }
     nav a {
-        padding: 0.3rem; /* Ajuster le padding */
-        font-size: 0.6rem; /* Réduire la taille de la police */
+        padding: 0.3rem;
+        font-size: 0.6rem;
+    }
+    nav a:hover {
+        
+    }
+    nav a.active:hover {
+        
     }
 }
