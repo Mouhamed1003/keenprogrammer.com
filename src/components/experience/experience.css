@@ -193,6 +193,13 @@ section {
     .experience {
         padding-top: 1rem;
     }
+     small.text-light {
+        font-size: 1.1rem;
+    }
+     div h4 {
+        letter-spacing: 3px;
+        font-size: 1.06rem;
+    }
 }
 
 /* Media Queries pour les mobiles */
