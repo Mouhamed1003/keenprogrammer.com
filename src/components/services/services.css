@@ -115,21 +115,43 @@ section {
 /* Styles pour les écrans moyens */
 @media screen and (max-width: 1024px) {
     .service_row {
-        flex-direction: row; 
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         align-items: center;
-        margin: 2rem 0;
+        row-gap: 1.4rem;
+        column-gap: 2rem;
+        margin: 0 1.5rem 0;
+        justify-items: center;
+    }
+    .ensemble {
+        width: 21.5rem;
+        max-height: 600px;
+        font-weight: bold;
+        letter-spacing: 0px;
+    }
+    .service_list span {
+        font-size: clamp(1rem, 2.5vw, 1.4rem);
     }
     .service {
-        flex: 1 1 100%; /* S'adapte à toute la largeur disponible */
+        padding: 0;
     }
     .services {
         padding-top: 1rem;
     }
     #services h2 {
         font-size: xx-large;
+        margin-top: 0;
     }
     .services h5 {
         font-size: xx-large;
+    }
+    .service_head h3 {
+        padding: 0px;
+        font-size: 2.4vw;
+    }
+    .service_list-icon {
+        font-size: 75.5px;
+        margin-right: 8px;
     }
 }
 
