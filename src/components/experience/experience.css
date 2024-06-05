@@ -194,11 +194,15 @@ section {
         padding-top: 1rem;
     }
      small.text-light {
-        font-size: 1.1rem;
+        font-size: 18.1px;
     }
      div h4 {
-        letter-spacing: 3px;
-        font-size: 1.06rem;
+        letter-spacing: 2px;
+        font-size: 18.7px;
+    }
+     #experience h3 {
+        font-size: x-large;
+        margin-bottom: 0rem;
     }
 }
 
