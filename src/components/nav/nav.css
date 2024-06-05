@@ -55,16 +55,16 @@ nav a.active:hover {
         bottom: 2.5rem;
         gap: 3rem;
         flex-direction: column;
+        background: transparent;
+        backdrop-filter: blur(0px);
     }
     nav a {
         padding: .7rem;
         font-size: larger;
-        background: transparent;
     }
     nav a:hover {
         padding: .9rem;
         font-size: larger;
-        background: transparent;
     }
     .icons {
         font-size: xxx-large;
