@@ -104,12 +104,12 @@ nav a.active:hover {
 /* Media Queries - iPhone 12 Pro */
 @media screen and (max-width: 390px) {
     nav {
-        width: max-content;
+        width: 159vw;
         padding: .9rem 1rem;
         left: 50%;
         transform: translateX(-50%);
         bottom: 0.5rem;
-        gap: 2rem;
+        gap: 1.1rem;
     }
     nav a {
         padding: .5rem;
@@ -124,6 +124,6 @@ nav a.active:hover {
         font-size: medium;
     }
     .icons {
-        font-size: x-large;
+        font-size: 12vw;
     }
 }
