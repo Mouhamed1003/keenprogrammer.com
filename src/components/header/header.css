@@ -371,12 +371,12 @@ header {
     }
     .maphoto {
         width: 18rem; /* Réduire la largeur */
-        height: 21rem; /* Réduire la hauteur */
+        height: 23rem;
         left: calc(50% - 0rem); /* Centrer horizontalement */
-        margin-top: 1rem; /* Ajouter de la marge en haut */
-        top: 31.5rem;
+        top: 30rem;
         border-radius: 7rem 7rem 2rem 2rem;
         padding: 2rem 0.5rem 0.5rem 0.5rem;
+        margin-top: 0rem;
     }
     .maphoto img {
         width: 100%;
