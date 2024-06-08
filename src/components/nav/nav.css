@@ -66,7 +66,7 @@ nav a.active:hover {
         padding: .9rem;
         font-size: larger;
     }
-    .icons {
+    nav .icons {
         font-size: xxx-large;
     }
 }
@@ -96,7 +96,7 @@ nav a.active:hover {
     nav a.active:hover {
         font-size: medium;
     }
-    .icons {
+    nav .icons {
         font-size: larger;
     }
 }
@@ -123,7 +123,7 @@ nav a.active:hover {
     nav a.active:hover {
         font-size: medium;
     }
-    .icons {
+    nav .icons {
         font-size: 12vw;
     }
 }
