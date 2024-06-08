@@ -353,9 +353,12 @@ header {
 /* Media Queries - iPhone 12 Pro */
 @media screen and (max-width: 390px) {
     #header {
-        height: 100vh;
+        height: 150vh;
         width: 160vw;
         padding-top: 0.5rem; /* Ajouter de la marge en haut */
+    }
+    header {
+        height: 148vh;
     }
     .text-light-function {
         font-size: calc(7vw - .1em);
@@ -367,16 +370,16 @@ header {
         font-size: 10vw; /* Réduire la taille de la police */
         bottom: 0rem; /* Décaler vers le bas */
         left: 3.7vw;
-        top: 28rem;
+        top: 40rem;
     }
     .maphoto {
-        width: 18rem; /* Réduire la largeur */
-        height: 23rem;
+        height: 31rem;
         left: calc(50% - 0rem); /* Centrer horizontalement */
-        top: 30rem;
         border-radius: 7rem 7rem 2rem 2rem;
         padding: 2rem 0.5rem 0.5rem 0.5rem;
         margin-top: 0rem;
+        top: 37rem;
+        width: 20rem;
     }
     .maphoto img {
         width: 100%;
