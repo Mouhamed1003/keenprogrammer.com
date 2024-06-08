@@ -364,8 +364,10 @@ header {
         height: 90%; /* Réduire la hauteur */
     }
     .header_socials {
-        font-size: 1.1rem; /* Réduire la taille de la police */
+        font-size: 10vw; /* Réduire la taille de la police */
         bottom: 0rem; /* Décaler vers le bas */
+        left: 3.7vw;
+        top: 22rem;
     }
     .maphoto {
         width: 16rem; /* Réduire la largeur */
