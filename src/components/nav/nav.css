@@ -71,6 +71,59 @@ nav a.active:hover {
     }
 }
 
+/* Media Queries - Téléphones Tekno */
+@media screen and (max-width: 720px) {
+    header {
+        height: 100vh;
+        padding-top: 0.5rem; /* Ajouter de la marge en haut */
+    }
+    .text-light-function {
+        font-size: calc(5vw - .4em);
+    }
+    .header_container {
+        height: 90%; /* Réduire la hauteur */
+    }
+    .header_socials {
+        font-size: 1.1rem; /* Réduire la taille de la police */
+    }
+    .maphoto {
+        width: 12rem; /* Réduire la largeur */
+        height: 20rem; /* Réduire la hauteur */
+        left: calc(50% - 0rem); /* Centrer horizontalement */
+        margin-top: 1rem; /* Ajouter de la marge en haut */
+        top: 29rem;
+        border-radius: 7rem 7rem 2rem 2rem;
+        padding: 2rem 0.5rem 0.5rem 0.5rem;
+    }
+    .cta {
+        flex-direction: column; /* Changer la direction des éléments enfants en colonne */
+        gap: 0.5rem; /* Ajout d'un espace entre les éléments enfants */
+        align-items: center; /* Centrer horizontalement */
+    }
+    .cta a {
+        width: 90%; /* Réduire la largeur des boutons */
+        font-size: 1rem;
+    }
+    #header h1 {
+        font-size: 1.5rem; /* Réduire la taille de la police */
+    }
+    #header h3 {
+        font-size: 1.2rem; /* Réduire la taille de la police */
+    }
+    .scroll_down {
+        display: flex; /* Afficher */
+        align-items: center; /* Centrer horizontalement */
+        flex-direction: row;
+        justify-content: center; /* Centrer verticalement */
+        bottom: 4rem; /* Décaler vers le bas */
+        color: white;
+        font-size: 1rem;
+    }
+    .img_svg1et2_header {
+        display: none;
+    }
+}
+
 /* Media Queries - Mobiles */
 @media screen and (max-width: 600px) {
     nav {
@@ -102,6 +155,55 @@ nav a.active:hover {
 
 /* Media Queries - iPhone 12 Pro */
 @media screen and (max-width: 390px) {
+    header {
+        height: 100vh;
+        padding-top: 0.5rem; /* Ajouter de la marge en haut */
+    }
+    .text-light-function {
+        font-size: calc(5vw - .4em);
+    }
+    .header_container {
+        height: 90%; /* Réduire la hauteur */
+    }
+    .header_socials {
+        font-size: 1.1rem; /* Réduire la taille de la police */
+    }
+    .maphoto {
+        width: 12rem; /* Réduire la largeur */
+        height: 20rem; /* Réduire la hauteur */
+        left: calc(50% - 0rem); /* Centrer horizontalement */
+        margin-top: 1rem; /* Ajouter de la marge en haut */
+        top: 29rem;
+        border-radius: 7rem 7rem 2rem 2rem;
+        padding: 2rem 0.5rem 0.5rem 0.5rem;
+    }
+    .cta {
+        flex-direction: column; /* Changer la direction des éléments enfants en colonne */
+        gap: 0.5rem; /* Ajout d'un espace entre les éléments enfants */
+        align-items: center; /* Centrer horizontalement */
+    }
+    .cta a {
+        width: 90%; /* Réduire la largeur des boutons */
+        font-size: 1rem;
+    }
+    #header h1 {
+        font-size: 1.5rem; /* Réduire la taille de la police */
+    }
+    #header h3 {
+        font-size: 1.2rem; /* Réduire la taille de la police */
+    }
+    .scroll_down {
+        display: flex; /* Afficher */
+        align-items: center; /* Centrer horizontalement */
+        flex-direction: row;
+        justify-content: center; /* Centrer verticalement */
+        bottom: 4rem; /* Décaler vers le bas */
+        color: white;
+        font-size: 1rem;
+    }
+    .img_svg1et2_header {
+        display: none;
+    }
     nav {
         width: max-content;
         padding: .9rem 1rem;
