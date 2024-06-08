@@ -314,7 +314,7 @@ header {
         font-size: calc(5vw - .4em);
     }
     .maphoto {
-        width: 16rem; /* Réduire la largeur */
+        width: 18rem; /* Réduire la largeur */
         height: 22rem; /* Réduire la hauteur */
         left: calc(50% - 0rem); /* Centrer horizontalement */
         margin-top: 2rem; /* Ajouter de la marge en haut */
@@ -370,7 +370,7 @@ header {
         top: 28rem;
     }
     .maphoto {
-        width: 16rem; /* Réduire la largeur */
+        width: 18rem; /* Réduire la largeur */
         height: 21rem; /* Réduire la hauteur */
         left: calc(50% - 0rem); /* Centrer horizontalement */
         margin-top: 1rem; /* Ajouter de la marge en haut */
@@ -406,7 +406,7 @@ header {
         bottom: 4rem; /* Décaler vers le bas */
         color: white;
         font-size: 1rem;
-        left: 18rem;
+        left: 20rem;
     }
     .img_svg1et2_header {
         display: none;
