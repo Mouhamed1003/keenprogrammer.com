@@ -185,6 +185,7 @@ header {
   position: relative; /* Nécessaire pour utiliser z-index */
   bottom: 0.5em;
 }
+
 .img_svg1et2_header img:last-child {
   z-index: -1; /* Assurez-vous que la deuxième image est au-dessus de la première */
   position: relative; /* Nécessaire pour utiliser z-index */
