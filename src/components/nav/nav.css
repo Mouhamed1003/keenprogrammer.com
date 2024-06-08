@@ -77,8 +77,11 @@ nav a.active:hover {
         width: max-content;
         padding: .9rem 1rem;
         left: 50%;
-        transform: translateX(-60%);
         bottom: .5rem;
+        transform: translateX(-50%);
+        flex-direction: row;
+        backdrop-filter: blur(15px);
+        background: #0000;
     }
     nav a {
         padding: .5rem;
