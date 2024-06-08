@@ -358,7 +358,7 @@ header {
         padding-top: 0.5rem; /* Ajouter de la marge en haut */
     }
     .text-light-function {
-        font-size: calc(7vw - .4em);
+        font-size: calc(7vw - .1em);
     }
     .header_container {
         height: 90%; /* Réduire la hauteur */
