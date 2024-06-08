@@ -108,7 +108,7 @@ nav a.active:hover {
         padding: .9rem 1rem;
         left: 50%;
         transform: translateX(-50%);
-        bottom: 0.5rem;
+        bottom: 1.5rem;
         gap: 1.1rem;
     }
     nav a {
