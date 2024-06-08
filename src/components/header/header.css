@@ -341,7 +341,7 @@ header {
         font-size: 1rem;
     }
     .header_socials {
-        bottom: 1rem; /* Décaler vers le bas */
+        bottom: 0rem; /* Décaler vers le bas */
         left: 0.5rem; /* Décaler vers la gauche */
         font-size: 1.2rem; /* Réduire la taille de la police */
     }
@@ -365,6 +365,7 @@ header {
     }
     .header_socials {
         font-size: 1.1rem; /* Réduire la taille de la police */
+        bottom: 0rem; /* Décaler vers le bas */
     }
     .maphoto {
         width: 12rem; /* Réduire la largeur */
