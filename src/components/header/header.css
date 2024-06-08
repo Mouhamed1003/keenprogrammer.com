@@ -384,7 +384,7 @@ header {
         flex-direction: column; /* Changer la direction des éléments enfants en colonne */
         gap: 0.5rem; /* Ajout d'un espace entre les éléments enfants */
         align-items: center; /* Centrer horizontalement */
-        margin-top: 1rem;
+        margin-top: 0rem;
     }
     .cta a {
         width: 90%; /* Réduire la largeur des boutons */
