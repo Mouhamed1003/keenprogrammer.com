@@ -1,5 +1,7 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dancing+Script&family=Edu+TAS+Beginner:wght@400..700&family=Pacifico&family=Sedan+SC&display=swap');
- */
+/* Importation des polices */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dancing+Script&family=Edu+TAS+Beginner:wght@400..700&family=Pacifico&family=Sedan+SC&display=swap');
+
+/* Réinitialisation globale des styles */
 * {
     margin: 0;
     padding: 0;
@@ -161,29 +163,25 @@ img {
     }
 }
 
-/* Media queries pour appareils de taille moyenne et petite (phablettes, petits laptops) */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    .container {
-        width: var(--container-width-md);
-    }
-
-    section > h2 {
-        margin-bottom: 2rem;
-    }
-
-    body {
-        font-size: 16px;
-    }
-}
-
-/* Media queries pour petits appareils (smartphones) */
+/* Media queries pour appareils de petite taille (smartphones, phablettes) */
 @media screen and (max-width: 768px) {
     .container {
         width: var(--container-width-sm);
     }
 
+    h1 {
+        font-size: 2rem;
+    }
+
+    h5 {
+        margin-left: 10vw;
+        margin-right: 10vw;
+        font-size: 0.9rem;
+    }
+
     section {
         margin-top: 4rem;
+        height: auto;
     }
 
     body {
@@ -191,23 +189,60 @@ img {
     }
 }
 
-/* Media queries spécifiques pour les petits smartphones comme l'iPhone 12 Pro */
-@media screen and (max-width: 430px) {
+/* Media queries spécifiques pour petits smartphones (moins de 576px) */
+@media screen and (max-width: 576px) {
     .container {
-        width: var(--container-width-sm);
+        width: 100%;
         padding: 0 1rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h5 {
+        margin-left: 5vw;
+        margin-right: 5vw;
+        font-size: 0.8rem;
     }
 
     section {
         margin-top: 2rem;
-    }
-
-    section > h2, section > h5 {
-        margin-bottom: 1rem;
-        font-size: 1.5rem;
+        height: auto;
     }
 
     body {
         font-size: 14px;
+    }
+}
+
+/* Media queries spécifiques pour iPhone 12 Pro (max-width: 390px) */
+@media screen and (max-width: 390px) {
+    .container {
+        width: 100%;
+        padding: 0 0.5rem;
+    }
+
+    h1 {
+        font-size: 1.25rem;
+    }
+
+    h5 {
+        margin-left: 2vw;
+        margin-right: 2vw;
+        font-size: 0.7rem;
+    }
+
+    section {
+        margin-top: 1rem;
+        height: auto;
+    }
+
+    body {
+        font-size: 12px;
+    }
+
+    .btn, .btn-primary {
+        padding: 0.5rem 1rem;
     }
 }
