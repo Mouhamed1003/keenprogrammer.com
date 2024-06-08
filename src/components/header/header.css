@@ -418,7 +418,7 @@ header {
         align-items: center; /* Centrer horizontalement */
         flex-direction: row;
         justify-content: center; /* Centrer verticalement */
-        bottom: 4rem; /* Décaler vers le bas */
+        bottom: 10rem; /* Décaler vers le bas */
         color: white;
         font-size: 1.4rem;
         left: 20.6rem;
