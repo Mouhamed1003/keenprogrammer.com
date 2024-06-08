@@ -320,8 +320,8 @@ section {
 
     .apropos_card {
         width: 100%;
-        margin: 0rem;
-        padding: 2.3rem;
+        margin: 0vw;
+        padding: 1.3rem;
         border-radius: 1rem;
         background: var(--color-bg-variant);
         text-align: center;
@@ -369,7 +369,7 @@ section {
         margin: 0.5rem 0;
     }
     .apropos_content .btn.btn-primary {
-        font-size: large;
+        font-size: xx-large;
         margin-top: 2rem;
     }
 }
