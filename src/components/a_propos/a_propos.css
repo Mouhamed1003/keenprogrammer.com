@@ -187,6 +187,12 @@ section {
 }
 
 @media screen and (max-width: 600px) {
+    #apropos {
+        padding-top: 1rem;
+        margin-top: 4rem;
+        height: 151vh;
+        width: 142vw;
+    }
     .apropos_container {
         display: block;
         padding: 0 1rem;
@@ -248,11 +254,13 @@ section {
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
-        margin: 0 1rem;
+        margin: 0px -3rem;
+        margin-left: 3vw;
         font-size: x-large;
     }
     .apropos h2 {
-        font-size: large;
+        font-size: xx-large;
+        text-align: right;
     }
 
     .my_nationality {
@@ -272,6 +280,12 @@ section {
 
 /* Media Query pour les iPhone 12 Pro */
 @media screen and (max-width: 390px) {
+    #apropos {
+        padding-top: 1rem;
+        margin-top: 4rem;
+        height: 151vh;
+        width: 142vw;
+    }
     .apropos_container {
         display: block;
         padding: 0 1rem;
@@ -333,11 +347,13 @@ section {
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
-        margin: 0 1rem;
+        margin: 0px -3rem;
+        margin-left: 3vw;
         font-size: x-large;
     }
     .apropos h2 {
-        font-size: large;
+        font-size: xx-large;
+        text-align: right;
     }
 
     .my_nationality {
