@@ -396,7 +396,7 @@ header {
         font-size: 1.5rem; /* Réduire la taille de la police */
     }
     #header h3 {
-        font-size: 1.2rem; /* Réduire la taille de la police */
+        font-size: 2rem; /* Réduire la taille de la police */
     }
     .scroll_down {
         display: flex; /* Afficher */
