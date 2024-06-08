@@ -100,11 +100,12 @@ section {
     font-weight: bold;
 }
 .service_list span:hover {
-    border: 0px solid transparent;
-    border-radius: 10px;
     background: rgba(0, 0, 0, 0.549);
-    padding-left: 1px;
+    border: 0 solid #0000;
+    border-radius: 10px;
     color: green;
+    padding-left: 1px;
+    box-shadow: 1px 1px 5px white;
 }
 .service_list-icon {
     color: green;
