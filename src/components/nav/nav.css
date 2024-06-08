@@ -127,13 +127,13 @@ nav a.active:hover {
 /* Media Queries - Mobiles */
 @media screen and (max-width: 600px) {
     nav {
-        width: max-content;
+        width: 600px;
         padding: .9rem 1rem;
         left: 50%;
         bottom: .5rem;
         transform: translateX(-50%);
         flex-direction: row;
-        backdrop-filter: blur(15px);
+        backdrop-filter: blur(0);
         background: #0000;
     }
     nav a {
