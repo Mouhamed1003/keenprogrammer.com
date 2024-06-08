@@ -426,7 +426,7 @@ header {
     .img_svg1et2_header {
         display: none;
     }
-    #svg5 {
+    #header #svg5 {
         left: 50px;
         position: absolute;
         top: 99%;
