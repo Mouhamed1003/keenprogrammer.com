@@ -1,7 +1,4 @@
-/* Importation des polices */
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dancing+Script&family=Edu+TAS+Beginner:wght@400..700&family=Pacifico&family=Sedan+SC&display=swap');
-
-/* Réinitialisation globale des styles */
+/* @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dancing+Script&family=Edu+TAS+Beginner:wght@400..700&family=Pacifico&family=Sedan+SC&display=swap'); */
 * {
     margin: 0;
     padding: 0;
@@ -24,6 +21,7 @@
     --container-width-lg: 60%;
     --container-width-md: 74%;
     --container-width-sm: 90%;
+    --container-width-xs: 100%;
     --color-shadow: rgba(0, 0, 0, 0.2);
     --text-color: var(--color-primary);
 }
@@ -41,6 +39,9 @@
 html {
     scroll-behavior: smooth;
     touch-action: manipulation;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Empêche le débordement horizontal */
 }
 
 ::-webkit-scrollbar {
@@ -54,6 +55,8 @@ body {
     line-height: 1.7;
     background-image: url(../src/images/bg-texture.png);
     background-attachment: fixed;
+    margin: 0;
+    padding: 0;
 }
 
 .permettre-selection {
@@ -64,6 +67,7 @@ body {
 .container {
     width: var(--container-width-lg);
     margin: 0 auto;
+    padding: 0 1rem;
 }
 
 h1, h2, h3, h4, h5 {
@@ -163,25 +167,14 @@ img {
     }
 }
 
-/* Media queries pour appareils de petite taille (smartphones, phablettes) */
-@media screen and (max-width: 768px) {
+/* Media queries pour appareils de taille moyenne et petite (phablettes, petits laptops) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
     .container {
-        width: var(--container-width-sm);
+        width: var(--container-width-md);
     }
 
-    h1 {
-        font-size: 2rem;
-    }
-
-    h5 {
-        margin-left: 10vw;
-        margin-right: 10vw;
-        font-size: 0.9rem;
-    }
-
-    section {
-        margin-top: 4rem;
-        height: auto;
+    section > h2 {
+        margin-bottom: 2rem;
     }
 
     body {
@@ -189,10 +182,25 @@ img {
     }
 }
 
-/* Media queries spécifiques pour petits smartphones (moins de 576px) */
+/* Media queries pour petits appareils (smartphones) */
+@media screen and (max-width: 768px) {
+    .container {
+        width: var(--container-width-sm);
+    }
+
+    section {
+        margin-top: 4rem;
+    }
+
+    body {
+        font-size: 16px;
+    }
+}
+
+/* Media queries spécifiques pour les petits smartphones */
 @media screen and (max-width: 576px) {
     .container {
-        width: 100%;
+        width: var(--container-width-xs);
         padding: 0 1rem;
     }
 
@@ -216,10 +224,10 @@ img {
     }
 }
 
-/* Media queries spécifiques pour iPhone 12 Pro (max-width: 390px) */
-@media screen and (max-width: 390px) {
+/* Media queries spécifiques pour les écrans de 720px */
+@media screen and (max-width: 720px) {
     .container {
-        width: 100%;
+        width: var(--container-width-xs);
         padding: 0 0.5rem;
     }
 
@@ -244,5 +252,36 @@ img {
 
     .btn, .btn-primary {
         padding: 0.5rem 1rem;
+    }
+}
+
+/* Media queries spécifiques pour les écrans de 390px */
+@media screen and (max-width: 390px) {
+    .container {
+        width: var(--container-width-xs);
+        padding: 0 0.5rem;
+    }
+
+    h1 {
+        font-size: 1rem;
+    }
+
+    h5 {
+        margin-left: 2vw;
+        margin-right: 2vw;
+        font-size: 0.6rem;
+    }
+
+    section {
+        margin-top: 1rem;
+        height: auto;
+    }
+
+    body {
+        font-size: 12px;
+    }
+
+    .btn, .btn-primary {
+        padding: 0.5rem 0.8rem;
     }
 }
