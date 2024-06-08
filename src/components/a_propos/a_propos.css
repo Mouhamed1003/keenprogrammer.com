@@ -330,11 +330,14 @@ section {
     
     .apropos_content p {
         width: 100%;
-        margin: 3rem 0 1rem 0;
+        margin: 1rem 0 0rem;
         padding: 1rem;
         box-sizing: border-box;
         text-align: left;
-        font-size: 15px;
+        font-size: 6vw;
+    }
+    .apropos_content p:hover {
+        font-size: 6vw;
     }
 
     .apropos_icon {
