@@ -104,7 +104,7 @@ nav a.active:hover {
 /* Media Queries - iPhone 12 Pro */
 @media screen and (max-width: 390px) {
     nav {
-        width: 159vw;
+        width: 157vw;
         padding: .9rem 1rem;
         left: 50%;
         transform: translateX(-50%);
