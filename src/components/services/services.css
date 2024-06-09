@@ -184,13 +184,19 @@ section {
 /* Styles pour les très petits écrans, y compris iPhone 12 Pro */
 @media screen and (max-width: 390px) {
     .services {
-        padding-top: 64rem;
+        margin-top: 24vw;
+        padding-top: 1rem;
     }
     .service_row {
-        flex-direction: column; 
-        margin-left: 0;
-        right: 1.4rem;
-        margin-top: 0;
+        right: 2.4rem;
+        padding-left: 14.3rem;
+        align-items: center;
+        column-gap: 2rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        margin: 0 1.5rem;
+        row-gap: 1.4rem;
     }
     .service {
         margin: 0.5rem 0;
@@ -203,9 +209,13 @@ section {
         font-size: 2em;
     }
     .services h5 {
-        font-size: x-large;
+        font-size: 8vw;
+        margin-left: .5em;
+        margin-right: -7.5em;
     }
     .services h2 {
-        font-size: large;
+        font-size: xx-large;
+        margin-left: 0.5em;
+        margin-right: -6.5em;
     }
 }
