@@ -140,11 +140,11 @@
     margin-left: .1rem;
   }
   .swiper-slide.swiper-slide-visible.swiper-slide-fully-visible.swiper-slide-active.temoignage {
-/*     width: 113vw; */
-        width: 445px;
+    width: 113vw;
+/*         width: 445px; */
   }
   .container.temoignages_container {
-    height: 63em;
+    height: 257vw;
     left: 0.5em;
     width: 29em;
     margin-left: 0;
