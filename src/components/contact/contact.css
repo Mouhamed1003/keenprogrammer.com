@@ -473,13 +473,14 @@ textarea {
         top: calc(3% - 2.5px);
     }
     .contact_option+.contact_option+.contact_option:before {
-        background-color: #fff;
         content: "";
-        height: 10px;
-        left: 135vw;
+        height: 28px;
+        left: 141vw;
         position: absolute;
         top: 81%;
         width: 7.4%;
+        border: 4px solid #3f8167;
+        background-color: #09e80d;
     }
     form {
         background: rgba(0, 0, 0, .459);
@@ -489,9 +490,9 @@ textarea {
         flex-direction: column;
         gap: 15.5vw;
         margin-left: 0.5rem;
-        margin-right: 3vw;
+        margin-right: 2vw;
         padding: 1.3rem;
-        width: 41.9em;
+        width: 43.9em;
         height: 223vw;
     }
     input, textarea {
