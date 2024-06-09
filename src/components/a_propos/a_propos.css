@@ -278,7 +278,7 @@ section {
         padding-top: 1rem;
         margin-top: 4rem;
         height: 258vh;
-        width: 178vw;
+        width: 141vw;
     }
     .apropos_container {
         display: block;
@@ -339,7 +339,7 @@ section {
         white-space: nowrap;
         font-size: 10vw;
         margin-left: 0.2em;
-        margin-right: -3.1em;
+        margin-right: -3.2em;
     }
     .apropos h2 {
         font-size: xx-large;
