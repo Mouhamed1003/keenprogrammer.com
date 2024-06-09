@@ -295,9 +295,15 @@ section a:hover {
   
 /*@ ============== LES MEDIAS QUERYS " Medium device "((( Les Respensives a moyenne taille: mini tablette ))) ================ */
 @media screen and (max-width: 600px) {
-#footer {
+  #footer {
     margin-top: 0rem;
-    padding-bottom: 0em;
+    padding-bottom: 260vw;
+    padding-top: 99vw;
+    width: 177vw;
+    height: 217vw;
+  }
+  section a {
+    font-size: xx-large;
   }
   .footer_logo {
     display: inline-block;
@@ -311,8 +317,7 @@ section a:hover {
     justify-content: center;
     flex-direction: column;
     row-gap: 1rem;
-    align-items: flex-start;
-    margin-left: 0.8em;
+    align-items: center;
   }
   .footer_socials {
     display: flex;
@@ -322,21 +327,24 @@ section a:hover {
     margin: 1em;
   }
   .footer_copyright {
-    font-size: 1.4rem;
+    font-size: 11vw;
     font-weight: 900;
     margin: 1rem;
     padding-top: 0;
     text-align: center;
     user-select: none;
   }
-  #svg5 {
-    left: 50px;
+  #footer #svg5 {
+    left: 25%;
     position: absolute;
-    top: 79%;
-    transform: translateY(-50%);
+    top: 10%;
+    transform: translateY(-36%);
   }
   .img_UNDRAW {
     display: none;
+  }
+  #footer:before {
+    height: 254vw;
   }
 }
 /*@ ============== LES MEDIAS QUERYS " small device "((( Les Respensives a petite taille: mobiles ))) ================ */
