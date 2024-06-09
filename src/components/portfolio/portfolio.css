@@ -90,40 +90,43 @@
 
 /* Small devices (smartphones) */
 @media screen and (max-width: 600px) {
-    .portfolio_container {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-        width: 20rem;
-        padding: 0.5rem; /* Réduire le padding pour les très petits écrans */
-        margin-left: 7.5em;
-    }
     #portfolio {
-        padding-top: 117rem;
-        height: auto; /* Ajuster automatiquement la hauteur */
-        padding-left: 0.3rem;
-    }
-    .portfolio_item {
-        width: 100%; /* Prendre toute la largeur disponible */
+        margin-top: 13vw;
+        padding-top: 1rem;
+        width: 172vw;
     }
     #portfolio h2 {
-        margin-bottom: .5rem;
-        margin-top: 1.3rem;
-        text-shadow: 2px 2px 5px black;
-        margin-left: 2.1rem;
-        font-size: large;
+        font-size: xx-large;
+        margin-left: 0.1rem;
     }
-    #portfolio h5 {
-        font-size: x-large;
-        margin-left: 4rem;
-        margin-right: 2rem;
+    .portfolio_container {
+        gap: 2rem;
+        grid-template-columns: 1fr;
+        margin-left: 32vw;
+        margin-right: 0;
+        padding: 0;
+        width: 27rem;
     }
-    .portfolio_item-cta {
-        flex-direction: column-reverse;
-        gap: 0.3rem;
-        align-items: flex-end;
+    .portfolio_item {
+        height: 171vw;
     }
     .portfolio_item h3 {
-        font-size: medium;
+        font-size: 7vw;
+    }
+    .portfolio_item-cta {
+        align-items: flex-end;
+        flex-direction: row-reverse;
+        gap: 12.3rem;
+    }
+    #portfolio h5 {
+        font-size: 9vw;
+        margin-left: 1.1rem;
+        margin-right: 1vw;
+        text-align: center;
+    }
+    .portfolio_item-cta .btn{
+        padding: 0.5rem 0.5rem;
+        font-size: 7vw;
     }
 }
 
