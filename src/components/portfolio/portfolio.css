@@ -89,44 +89,41 @@
 }
   /* Small devices (smartphones) */
 @media screen and (max-width: 600px) {
-  #portfolio {
-    margin-top: 10rem;
-    padding-top: 1rem;
-    width: 100%;
-  }
-  #portfolio h2 {
-    font-size: 5vw;
-    margin-left: 0.1rem;
-    text-align: center;
-  }
   .portfolio_container {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1rem;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .portfolio_item {
-    height: auto;
-    padding: 1rem;
-  }
-  .portfolio_item h3 {
-    font-size: 4vw;
-  }
-  .portfolio_item-cta {
-    display: flex;
-    justify-content: space-between;
-    gap: 1rem;
-  }
-  .portfolio_item-cta .btn {
-    padding: 0.5rem 1rem;
-    font-size: 4vw;
-  }
-  #portfolio h5 {
-    font-size: 4vw;
-    text-align: center;
-  }
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        width: 20rem;
+        padding: 0.5rem; /* Réduire le padding pour les très petits écrans */
+        margin-left: 7.5em;
+    }
+    #portfolio {
+        padding-top: 117rem;
+        height: auto; /* Ajuster automatiquement la hauteur */
+        padding-left: 0.3rem;
+    }
+    .portfolio_item {
+        width: 100%; /* Prendre toute la largeur disponible */
+    }
+    #portfolio h2 {
+        margin-bottom: .5rem;
+        margin-top: 1.3rem;
+        text-shadow: 2px 2px 5px black;
+        margin-left: 2.1rem;
+        font-size: large;
+    }
+    #portfolio h5 {
+        font-size: x-large;
+        margin-left: 4rem;
+        margin-right: 2rem;
+    }
+    .portfolio_item-cta {
+        flex-direction: column-reverse;
+        gap: 0.3rem;
+        align-items: flex-end;
+    }
+    .portfolio_item h3 {
+        font-size: medium;
+    }
 }
 
 /* Very small devices (iPhone 12 Pro) */
