@@ -209,7 +209,7 @@ section {
 /* Media Queries pour les mobiles */
 @media screen and (max-width: 600px) {
     .experience_container {
-        gap: 1rem;
+        gap: 1.1rem;
         left: 13vw;
     }
     .experience_container > div {
