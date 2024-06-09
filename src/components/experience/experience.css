@@ -240,8 +240,9 @@ section {
 /* Media Queries pour les iPhone 12 Pro */
 @media screen and (max-width: 390px) {
     .experience_container {
-        gap: 1rem;
-        left: 13vw;
+        gap: 2rem;
+        left: 17vw;
+        grid-template-columns: 1fr;
     }
     .experience_container > div {
         width: 124vw;
