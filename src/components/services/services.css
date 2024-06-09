@@ -159,25 +159,47 @@ section {
 /* Styles pour les petits écrans */
 @media screen and (max-width: 600px) {
     .services {
-        padding-top: 64rem;
+        margin-top: 24vw;
+        padding-top: 1rem;
     }
     .service_row {
-        right: 0.999rem;
-        flex-direction: column;
-        padding-left: 0.3rem;
+        right: -5.4rem;
+        padding-left: 0;
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        margin: 0 1.5rem;
+        row-gap: .4rem;
     }
     .service {
         margin: 0.5rem 0;
-        width: 90%; /* Largeur de la carte pour petits écrans */
+        width: 95%; /* Largeur de la carte pour très petits écrans */
     }
     .service_head h3 {
-        font-size: 1rem;
+        font-size: 5.5vw;
+    }
+    .service_list-icon {
+        font-size: 13vw;
+    }
+    .ensemble {
+        font-weight: 700;
+        letter-spacing: 0;
+        max-height: 230vw;
+        width: 133vw;
     }
     .services h5 {
-        font-size: x-large;
+        font-size: 8vw;
+        margin-left: .5em;
+        margin-right: -7.5em;
     }
     .services h2 {
-        font-size: large;
+        font-size: xx-large;
+        margin-left: 0.5em;
+        margin-right: -6.5em;
+    }
+    .service_list span {
+        font-size: 6.5vw;
     }
 }
 
