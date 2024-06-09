@@ -250,15 +250,18 @@ section {
         gap: 1rem;
     }
     .experience {
-        padding-top: 40rem;
+        margin-top: 275vw;
         user-select: none;
+        padding-top: 1rem;
     }
     .experience h5{
         font-size: x-large;
-        margin-left: -0.5em;
-        margin-right: -0.5em;
+        margin-left: 0.5em;
+        margin-right: -7.5em;
     }
     #experience h2 {
-        font-size: x-large;
+        font-size: xx-large;
+        margin-left: -0.5em;
+        margin-right: -6.5em;
     }
 }
