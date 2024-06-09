@@ -90,44 +90,7 @@
 
 /* Small devices (smartphones) */
 @media screen and (max-width: 600px) {
-  #portfolio {
-    margin-top: 10rem;
-    padding-top: 1rem;
-    width: 100%;
-  }
-  #portfolio h2 {
-    font-size: 5vw;
-    margin-left: 0.1rem;
-    text-align: center;
-  }
-  .portfolio_container {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1rem;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .portfolio_item {
-    height: auto;
-    padding: 1rem;
-  }
-  .portfolio_item h3 {
-    font-size: 4vw;
-  }
-  .portfolio_item-cta {
-    display: flex;
-    justify-content: space-between;
-    gap: 1rem;
-  }
-  .portfolio_item-cta .btn {
-    padding: 0.5rem 1rem;
-    font-size: 4vw;
-  }
-  #portfolio h5 {
-    font-size: 4vw;
-    text-align: center;
-  }
+  
 }
 
 /* Very small devices (iPhone 12 Pro) */
