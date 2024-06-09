@@ -295,17 +295,21 @@ section a:hover {
   
 /*@ ============== LES MEDIAS QUERYS " Medium device "((( Les Respensives a moyenne taille: mini tablette ))) ================ */
 @media screen and (max-width: 600px) {
-  .temoignages_container {
-    grid-template-columns: 1fr;
-    width: 100%;
-    gap: 1rem;
+    .footer_logo {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
   }
-  #temoignages {
-    margin-top: 10rem;
+  .permalinks {
+    font-size: 1.5rem;
+    row-gap: 0.5rem;
   }
-  .client_review {
-    font-size: 14px;
-    width: 100%;
+  .footer_socials {
+    font-size: 1.5rem;
+    margin: 0.5rem;
+  }
+  .footer_copyright {
+    font-size: 0.75rem;
+    margin: 0.5rem;
   }
 }
 /*@ ============== LES MEDIAS QUERYS " small device "((( Les Respensives a petite taille: mobiles ))) ================ */
