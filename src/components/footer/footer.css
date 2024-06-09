@@ -343,7 +343,12 @@ section a:hover {
 @media screen and (max-width: 390px) {
   #footer {
     margin-top: 0rem;
-    padding-bottom: 0em;
+    padding-bottom: 260vw;
+    width: 177vw;
+    height: 217vw;
+  }
+  section a {
+    font-size: xx-large;
   }
   .footer_logo {
     display: inline-block;
@@ -367,18 +372,18 @@ section a:hover {
     margin: 1em;
   }
   .footer_copyright {
-    font-size: 1.4rem;
+    font-size: 11vw;
     font-weight: 900;
     margin: 1rem;
     padding-top: 0;
     text-align: center;
     user-select: none;
   }
-  #svg5 {
-    left: 50px;
+  #footer #svg5 {
+    left: 15px;
     position: absolute;
-    top: 82%;
-    transform: translateY(-50%);
+    top: 85%;
+    transform: translateY(-36%);
   }
   .img_UNDRAW {
     display: none;
