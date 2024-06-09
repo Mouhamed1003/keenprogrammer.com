@@ -198,33 +198,28 @@ section {
         padding: 0 1rem;
         left: 4vw;
     }
-
     .apropos_moi {
         width: 100%;
         margin: 0 1rem auto 1rem;
         padding: 1rem 1rem 40em;
     }
-
     .apropos_moi-image img {
         width: 100%;
         height: auto;
         border-radius: 2rem;
     }
-
     .apropos_content {
         text-align: center;
         padding: 0 1rem;
         width: 135%;
         margin-left: -3rem;
     }
-
     .apropos_cards {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
         margin-top: 1rem;
     }
-
     .apropos_card {
         width: 100%;
         margin: 0vw;
@@ -234,7 +229,6 @@ section {
         text-align: center;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
-    
     .apropos_content p {
         width: 100%;
         margin: 1rem 0 0rem;
@@ -251,7 +245,6 @@ section {
         font-size: 2rem;
         margin-bottom: 0.5rem;
     }
-
     .apropos h5 {
         color: wheat;
         overflow: hidden;
@@ -265,12 +258,10 @@ section {
         font-size: xx-large;
         text-align: right;
     }
-
     .my_nationality {
         display: block;
         margin: 0.5rem 0;
     }
-
     .etoile {
         display: block;
         margin: 0.5rem 0;
@@ -294,33 +285,28 @@ section {
         padding: 0 1rem;
         left: 4vw;
     }
-
     .apropos_moi {
         width: 100%;
         margin: 0 1rem auto 1rem;
         padding: 1rem 1rem 40em;
     }
-
     .apropos_moi-image img {
         width: 100%;
         height: auto;
         border-radius: 2rem;
     }
-
     .apropos_content {
         text-align: center;
         padding: 0 1rem;
         width: 135%;
         margin-left: -3rem;
     }
-
     .apropos_cards {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
         margin-top: 1rem;
     }
-
     .apropos_card {
         width: 100%;
         margin: 0vw;
@@ -330,7 +316,6 @@ section {
         text-align: center;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
-    
     .apropos_content p {
         width: 100%;
         margin: 1rem 0 0rem;
@@ -347,7 +332,6 @@ section {
         font-size: 2rem;
         margin-bottom: 0.5rem;
     }
-
     .apropos h5 {
         color: wheat;
         overflow: hidden;
@@ -361,12 +345,10 @@ section {
         font-size: xx-large;
         text-align: right;
     }
-
     .my_nationality {
         display: block;
         margin: 0.5rem 0;
     }
-
     .etoile {
         display: block;
         margin: 0.5rem 0;
