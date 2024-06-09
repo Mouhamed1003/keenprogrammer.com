@@ -388,4 +388,7 @@ section a:hover {
   .img_UNDRAW {
     display: none;
   }
+  #footer:before {
+    height: 182vw;
+  }
 }
