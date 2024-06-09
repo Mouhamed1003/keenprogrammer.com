@@ -196,13 +196,13 @@ section {
     .apropos_container {
         display: block;
         padding: 0 1rem;
+        left: 4vw;
     }
 
     .apropos_moi {
         width: 100%;
-        margin: 0 auto 1rem;
-        padding: 1rem;
-        padding-bottom: 26em;
+        margin: 0 1rem auto 1rem;
+        padding: 1rem 1rem 40em;
     }
 
     .apropos_moi-image img {
@@ -218,30 +218,33 @@ section {
         margin-left: -3rem;
     }
 
-    .apropos_content p {
-        width: 100%;
-        margin: 3rem 0 1rem 0;
-        padding: 1rem;
-        box-sizing: border-box;
-        text-align: left;
-        font-size: 15px;
-    }
-
     .apropos_cards {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
-        margin-top: 5rem;
+        margin-top: 1rem;
     }
 
     .apropos_card {
         width: 100%;
-        margin: 0rem;
-        padding: 0.3rem;
+        margin: 0vw;
+        padding: 1.3rem;
         border-radius: 1rem;
         background: var(--color-bg-variant);
         text-align: center;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .apropos_content p {
+        width: 100%;
+        margin: 1rem 0 0rem;
+        padding: 1rem;
+        box-sizing: border-box;
+        text-align: left;
+        font-size: 6vw;
+    }
+    .apropos_content p:hover {
+        font-size: 6vw;
     }
 
     .apropos_icon {
@@ -256,7 +259,7 @@ section {
         white-space: nowrap;
         margin: 0px -3rem;
         margin-left: 3vw;
-        font-size: x-large;
+        font-size: xx-large;
     }
     .apropos h2 {
         font-size: xx-large;
@@ -273,7 +276,7 @@ section {
         margin: 0.5rem 0;
     }
     .apropos_content .btn.btn-primary {
-        font-size: large;
+        font-size: xx-large;
         margin-top: 2rem;
     }
 }
