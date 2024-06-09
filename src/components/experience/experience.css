@@ -241,7 +241,7 @@ section {
 @media screen and (max-width: 390px) {
     .experience_container {
         gap: 2rem;
-        left: 17vw;
+        left: 25vw;
         grid-template-columns: 1fr;
     }
     .experience_container > div {
@@ -254,6 +254,7 @@ section {
     }
     .experience {
         margin-top: 9vw;
+        width: 118vw;
         user-select: none;
         padding-top: 1rem;
     }
