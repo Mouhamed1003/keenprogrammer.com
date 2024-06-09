@@ -506,4 +506,12 @@ textarea {
         resize: none;
         width: 100%;
     }
+    .btnEnvoyer {
+        margin-top: 2rem;
+        font-size: x-large;
+    }
+    .btnEffacer {
+        margin-top: 0;
+        font-size: x-large;
+    }
 }
