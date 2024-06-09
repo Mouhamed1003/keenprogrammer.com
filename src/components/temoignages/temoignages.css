@@ -140,7 +140,7 @@
 @media screen and (max-width: 390px) {
   #temoignages {
     margin-top: 9rem;
-    width: 174vw;
+    width: 188vw;
     height: 356vw;
   }
   #temoignages h5 {
@@ -159,7 +159,7 @@
   }
   .container.temoignages_container {
     height: 221vw;
-    left: -0.5vw;
+    left: 13.5vw;
     width: 116vw;
     margin-left: 0;
     margin-right: 0;
