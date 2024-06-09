@@ -212,12 +212,10 @@ section {
         gap: 1rem;
         left: 13vw;
     }
-
     .experience_container > div {
         width: 124vw;
         padding: 1.5rem 1rem;
     }
-
     .experience_content {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
@@ -244,12 +242,10 @@ section {
         gap: 1rem;
         left: 13vw;
     }
-
     .experience_container > div {
         width: 124vw;
         padding: 1.5rem 1rem;
     }
-
     .experience_content {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
