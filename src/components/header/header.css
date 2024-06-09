@@ -395,13 +395,13 @@ header {
 /* Media Queries - iPhone 12 Pro */
 @media screen and (max-width: 390px) {
     #header {
-        height: 151vh;
-        width: 160vw;
+        height: 171vh;
+        width: 173vw;
         padding-top: 0.5rem; /* Ajouter de la marge en haut */
     }
     header {
         height: 140vh;
-        width: 158vw;
+        width: 166vw;
     }
     .text-light-function {
         font-size: calc(7vw - .1em);
