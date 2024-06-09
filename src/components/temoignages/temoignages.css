@@ -93,48 +93,49 @@
     font-size: xx-large;
   }
 }
+
 @media screen and (max-width: 600px) {
-   #temoignages {
-    margin-top: 9rem;
-    width: 174vw;
-    height: 356vw;
+  #temoignages {
+    margin-top: 10rem;
+    width: 100%;
+    padding-bottom: 4rem;
   }
   #temoignages h5 {
-    font-size: 9vw;
-    margin-left: 0.1rem;
-    margin-right: 1vw;
+    font-size: 5vw;
     text-align: center;
   }
   #temoignages h2 {
-    font-size: 8.5vw;
-    margin-left: .1rem;
-  }
-  .swiper-slide.swiper-slide-visible.swiper-slide-fully-visible.swiper-slide-active.temoignage {
-    width: 113vw;
-  /* width: 445px; */
+    font-size: 6vw;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
   }
   .container.temoignages_container {
-    height: 221vw;
-    left: -0.5vw;
-    width: 116vw;
-    margin-left: 0;
-    margin-right: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
-  .temoignages_container {
-    width: 60%;
+  .temoignage {
+    width: 100%;
+    padding: 1rem;
   }
   .client_review {
-    font-size: 7.9vw;
+    font-size: 4vw;
   }
   .client_avatar {
-    margin-bottom: 0.5rem;
-    border: 0.4rem solid #58f444;
+    width: 6rem;
+    height: 6rem;
+    border: 0.3rem solid #58f444;
   }
   .client_name {
-    font-size: x-large;
-    margin-top: 0rem;
+    font-size: 4vw;
+    margin-top: 0.5rem;
   }
 }
+
 @media screen and (max-width: 390px) {
   #temoignages {
     margin-top: 9rem;
