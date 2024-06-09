@@ -87,9 +87,6 @@
     margin: 1rem 0 0.5rem;
     }
 }
-
-/* Small devices (smartphones) */
-@media screen and (max-width: 600px) {
   /* Small devices (smartphones) */
 @media screen and (max-width: 600px) {
   #portfolio {
