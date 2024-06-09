@@ -190,7 +190,7 @@ header {
   z-index: -1; /* Assurez-vous que la deuxième image est au-dessus de la première */
   position: relative; /* Nécessaire pour utiliser z-index */
   bottom: 13.0em;
-  margin-left: 33.0em;
+  margin-left: 34vw;
 }
 
 /* Media Queries - Tablettes */
