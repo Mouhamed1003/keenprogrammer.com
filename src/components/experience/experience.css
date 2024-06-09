@@ -238,7 +238,7 @@ section {
 @media screen and (max-width: 390px) {
     .experience_container {
         gap: 1rem;
-        left: 10vw;
+        left: 13vw;
     }
 
     .experience_container > div {
@@ -251,12 +251,12 @@ section {
         gap: 1rem;
     }
     .experience {
-        margin-top: 275vw;
+        margin-top: 248vw;
         user-select: none;
         padding-top: 1rem;
     }
     .experience h5{
-        font-size: x-large;
+        font-size: 8vw;
         margin-left: 0.5em;
         margin-right: -7.5em;
     }
