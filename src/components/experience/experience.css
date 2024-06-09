@@ -238,10 +238,11 @@ section {
 @media screen and (max-width: 390px) {
     .experience_container {
         gap: 1rem;
+        left: 10vw;
     }
 
     .experience_container > div {
-        width: 100%;
+        width: 124vw;
         padding: 1.5rem 1rem;
     }
 
