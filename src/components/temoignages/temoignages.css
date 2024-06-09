@@ -140,7 +140,8 @@
     margin-left: .1rem;
   }
   .swiper-slide.swiper-slide-visible.swiper-slide-fully-visible.swiper-slide-active.temoignage {
-    width: 113vw;
+/*     width: 113vw; */
+        width: 445px;
   }
   .container.temoignages_container {
     height: 63em;
