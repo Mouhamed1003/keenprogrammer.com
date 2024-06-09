@@ -250,9 +250,9 @@ section {
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
-        margin: 0px -3rem;
-        margin-left: 3vw;
-        font-size: xx-large;
+        font-size: 10vw;
+        margin-left: 0.5em;
+        margin-right: -3.1em;
     }
     .apropos h2 {
         font-size: xx-large;
@@ -337,9 +337,9 @@ section {
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
-        margin: 0px -3rem;
-        margin-left: 3vw;
-        font-size: xx-large;
+        font-size: 10vw;
+        margin-left: 0.5em;
+        margin-right: -3.1em;
     }
     .apropos h2 {
         font-size: xx-large;
