@@ -38,6 +38,15 @@ const Contact = () => {
       <h2>Rentrons-en Contact</h2>
 
       <div className="container contact_container">
+        <form ref={form} onSubmit={sendEmail}>
+          <input type="text" name="name" onPaste={handlePaste}  placeholder="Votre nom et prénom..." required autoComplete="off"/>
+          <input type="email" name="email" onPaste={handlePaste} placeholder="Votre Adresse mail..." required autoComplete="off"/>
+          <textarea name="message" rows="8" onPaste={handlePaste} placeholder="Votre Message..." required ></textarea>
+          <button type="submit" className="btnEnvoyer btn-primary">Envoyer le message</button>
+          <button type="reset" className="btnEffacer btn-primary">Effacer tous les champs</button>
+           {/* Partie position de la notification */}
+          <ToastContainer className="custom-toast-container" />        
+        </form>
         <div className="contact_options">
           <article className="contact_option">
             <MdOutlineEmail className='contact_option-icon1'/>
@@ -58,15 +67,6 @@ const Contact = () => {
             <a href="https://www.instagram.com/ammethdiouf/" target="_blank" rel="noreferrer">M'envoyez un message DM{" >"}</a>
           </article>
         </div>
-        <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name="name" onPaste={handlePaste}  placeholder="Votre nom et prénom..." required autoComplete="off"/>
-          <input type="email" name="email" onPaste={handlePaste} placeholder="Votre Adresse mail..." required autoComplete="off"/>
-          <textarea name="message" rows="8" onPaste={handlePaste} placeholder="Votre Message..." required ></textarea>
-          <button type="submit" className="btnEnvoyer btn-primary">Envoyer le message</button>
-          <button type="reset" className="btnEffacer btn-primary">Effacer tous les champs</button>
-         {/* Partie position de la notification */}
-        <ToastContainer className="custom-toast-container" />        
-        </form>
       </div>
     </section>
   )
