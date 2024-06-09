@@ -132,7 +132,7 @@
     #portfolio {
         margin-top: 13vw;
         padding-top: 1rem;
-        width: 164vw;
+        width: 172vw;
     }
     #portfolio h2 {
         font-size: xx-large;
@@ -141,10 +141,10 @@
     .portfolio_container {
         gap: 2rem;
         grid-template-columns: 1fr;
-        margin-left: 37vw;
+        margin-left: 33vw;
         margin-right: 0;
-        padding: .5rem;
-        width: 24rem;
+        padding: 0;
+        width: 27rem;
     }
     .portfolio_item {
         width: 100%;
@@ -161,7 +161,7 @@
     #portfolio h5 {
         font-size: 9vw;
         margin-left: .5em;
-        margin-right: 0.5em;
+        margin-right: 4vw;
         text-align: center;
     }
     .portfolio_item-cta .btn{
