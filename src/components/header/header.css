@@ -307,57 +307,71 @@ header {
 /* Media Queries - Mobiles */
 @media screen and (max-width: 600px) {
     #header {
-        height: 100vh;
+        height: 151vh;
         width: 160vw;
+        padding-top: 0.5rem; /* Ajouter de la marge en haut */
     }
-    #header h3 {
-        font-size: 1.2rem; /* Réduire la taille de la police */
+    header {
+        height: 140vh;
+    }
+    .text-light-function {
+        font-size: calc(7vw - .1em);
+    }
+    .header_container {
+        height: 90%; /* Réduire la hauteur */
+    }
+    .header_socials {
+        font-size: 10vw; /* Réduire la taille de la police */
+        bottom: 0rem; /* Décaler vers le bas */
+        left: 3.7vw;
+        top: 36rem;
+    }
+    .maphoto {
+        height: 31rem;
+        left: calc(50% - 0rem); /* Centrer horizontalement */
+        border-radius: 7rem 7rem 2rem 2rem;
+        padding: 2rem 0.5rem 0.5rem 0.5rem;
+        margin-top: 0rem;
+        top: 37rem;
+        width: 20rem;
+    }
+    .maphoto img {
+        width: 100%;
+        height: 100%;
+    }
+    .cta {
+        flex-direction: column; /* Changer la direction des éléments enfants en colonne */
+        gap: 0.5rem; /* Ajout d'un espace entre les éléments enfants */
+        align-items: center; /* Centrer horizontalement */
+        margin-top: 0rem;
+    }
+    .cta a {
+        width: 90%; /* Réduire la largeur des boutons */
+        font-size: 1.5rem;
     }
     #header h1 {
         font-size: 1.5rem; /* Réduire la taille de la police */
     }
-    .text-light-function {
-        font-size: calc(5vw - .4em);
-    }
-    .maphoto {
-        width: 18rem; /* Réduire la largeur */
-        height: 22rem; /* Réduire la hauteur */
-        left: calc(50% - 0rem); /* Centrer horizontalement */
-        margin-top: 2rem; /* Ajouter de la marge en haut */
-        border-radius: 8rem 8rem 2rem 2rem;
-        padding: 3rem 1rem 1rem 1rem;
-    }
-    .cta {
-        flex-direction: column; /* Changer la direction des éléments enfants en colonne */
-        gap: 1rem; /* Ajout d'un espace entre les éléments enfants */
-        align-items: center; /* Centrer horizontalement */
-        margin-left: auto;
-    }
-    .cta a {
-        width: 90%; /* Réduire la largeur des boutons */
-        font-size: 1rem;
+    #header h3 {
+        font-size: 2rem; /* Réduire la taille de la police */
     }
     .scroll_down {
         display: flex; /* Afficher */
         align-items: center; /* Centrer horizontalement */
         flex-direction: row;
         justify-content: center; /* Centrer verticalement */
-        bottom: 4rem; /* Décaler vers le bas */
+        bottom: 10rem; /* Décaler vers le bas */
         color: white;
-        font-size: 1rem;
-    }
-    .header_socials {
-        bottom: 0rem; /* Décaler vers le bas */
-        left: 0.5rem; /* Décaler vers la gauche */
-        font-size: 1.2rem; /* Réduire la taille de la police */
+        font-size: 1.4rem;
+        left: 20.6rem;
     }
     .img_svg1et2_header {
         display: none;
     }
-    #svg5 {
+    #header #svg5 {
         left: 50px;
         position: absolute;
-        top: 96%;
+        top: 99%;
         transform: translateY(-50%);
     }
 }
