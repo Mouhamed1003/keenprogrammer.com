@@ -295,56 +295,17 @@ section a:hover {
   
 /*@ ============== LES MEDIAS QUERYS " Medium device "((( Les Respensives a moyenne taille: mini tablette ))) ================ */
 @media screen and (max-width: 600px) {
-  #footer {
-    margin-top: 0rem;
-    padding-bottom: 260vw;
-    padding-top: 99vw;
-    width: 177vw;
-    height: 217vw;
+  .temoignages_container {
+    grid-template-columns: 1fr;
+    width: 100%;
+    gap: 1rem;
   }
-  section a {
-    font-size: xx-large;
+  #temoignages {
+    margin-top: 10rem;
   }
-  .footer_logo {
-    display: inline-block;
-    font-size: 1.8rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
-  }
-  .permalinks {
-    display: flex;
-    font-size: 2.7vh;
-    justify-content: center;
-    flex-direction: column;
-    row-gap: 1rem;
-    align-items: center;
-  }
-  .footer_socials {
-    display: flex;
-    font-size: 2.99vh;
-    justify-content: space-evenly;
-    flex-wrap: wrap-reverse;
-    margin: 1em;
-  }
-  .footer_copyright {
-    font-size: 11vw;
-    font-weight: 900;
-    margin: 1rem;
-    padding-top: 0;
-    text-align: center;
-    user-select: none;
-  }
-  #footer #svg5 {
-    left: 25%;
-    position: absolute;
-    top: 10%;
-    transform: translateY(-36%);
-  }
-  .img_UNDRAW {
-    display: none;
-  }
-  #footer:before {
-    height: 254vw;
+  .client_review {
+    font-size: 14px;
+    width: 100%;
   }
 }
 /*@ ============== LES MEDIAS QUERYS " small device "((( Les Respensives a petite taille: mobiles ))) ================ */
