@@ -427,11 +427,11 @@ textarea {
         gap: 0.8rem;
         justify-content: space-between;
         margin-left: 0.6rem;
-        margin-right: 1.5rem;
+        margin-right: 0;
     }
     .contact_option {
         text-align: left;
-        width: 157vw;
+        width: 155vw;
     }
     .contact_option h6 {
         font-size: 8.5vw;
@@ -492,7 +492,7 @@ textarea {
         margin-left: 0.5rem;
         margin-right: 2vw;
         padding: 1.3rem;
-        width: 43.9em;
+        width: 46.9em;
         height: 223vw;
     }
     input, textarea {
