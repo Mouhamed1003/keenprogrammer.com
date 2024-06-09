@@ -252,6 +252,7 @@ header {
     }
     header {
         height: 140vh;
+        width: 158vw;
     }
     .text-light-function {
         font-size: calc(7vw - .1em);
@@ -283,6 +284,7 @@ header {
         gap: 0.5rem; /* Ajout d'un espace entre les éléments enfants */
         align-items: center; /* Centrer horizontalement */
         margin-top: 0rem;
+        margin-left: -1vw;
     }
     .cta a {
         width: 90%; /* Réduire la largeur des boutons */
@@ -325,6 +327,7 @@ header {
     }
     header {
         height: 140vh;
+        width: 158vw;
     }
     .text-light-function {
         font-size: calc(7vw - .1em);
@@ -356,6 +359,7 @@ header {
         gap: 0.5rem; /* Ajout d'un espace entre les éléments enfants */
         align-items: center; /* Centrer horizontalement */
         margin-top: 0rem;
+        margin-left: -1vw;
     }
     .cta a {
         width: 90%; /* Réduire la largeur des boutons */
@@ -397,7 +401,7 @@ header {
     }
     header {
         height: 140vh;
-        width: 155vw;
+        width: 158vw;
     }
     .text-light-function {
         font-size: calc(7vw - .1em);
