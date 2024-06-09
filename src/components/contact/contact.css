@@ -467,18 +467,18 @@ textarea {
         background-color: #58f444;
         content: "";
         height: 10px;
-        left: 19em;
+        left: 135vw;
         position: absolute;
-        width: 7.4%;
+        width: 15.4vw;
         top: calc(3% - 2.5px);
     }
     .contact_option+.contact_option+.contact_option:before {
-        top: 84%;
-        background-color: #ffffff;
+        background-color: #fff;
         content: "";
         height: 10px;
-        left: 21em;
+        left: 135vw;
         position: absolute;
+        top: 81%;
         width: 7.4%;
     }
     form {
@@ -486,22 +486,22 @@ textarea {
         border: 3px solid #fff;
         border-radius: 2rem;
         display: flex;
-        gap: 1.5rem;
-        padding: 1.3rem;
         flex-direction: column;
-        margin-left: -1rem;
-        margin-right: 0rem;
+        gap: 15.5vw;
+        margin-left: 0.5rem;
+        margin-right: 3vw;
         padding: 1.3rem;
-        width: 25.4em;
+        width: 41.9em;
+        height: 223vw;
     }
     input, textarea {
         border: 3px solid #fff;
         border-radius: 1.2rem;
         color: var(--color-white);
-        font-size: 16.5px;
-        font-weight: 599;
-        letter-spacing: 0.5px;
-        padding: .5rem;
+        font-size: 8.5vw;
+        font-weight: 500;
+        letter-spacing: 0;
+        padding: 1rem;
         resize: none;
         width: 100%;
     }
