@@ -151,17 +151,21 @@
         height: 152vw;
     }
     .portfolio_item h3 {
-        font-size: medium;
+        font-size: 7vw;
     }
     .portfolio_item-cta {
-        flex-direction: column-reverse;
-        gap: 0.3rem;
         align-items: flex-end;
+        flex-direction: row-reverse;
+        gap: 12.3rem;
     }
     #portfolio h5 {
         font-size: 9vw;
         margin-left: .5em;
         margin-right: 0.5em;
         text-align: center;
+    }
+    .portfolio_item-cta .btn{
+        padding: 0.5rem 0.5rem;
+        font-size: 7vw;
     }
 }
