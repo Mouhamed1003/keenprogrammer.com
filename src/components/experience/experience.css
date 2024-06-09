@@ -208,31 +208,35 @@ section {
 
 /* Media Queries pour les mobiles */
 @media screen and (max-width: 600px) {
-    .experience {
-        padding-top: 40rem;
-        user-select: none;
-    }
     .experience_container {
         gap: 1rem;
+        left: 13vw;
     }
 
     .experience_container > div {
-        width: 100%;
-        padding: 2rem 1rem;
+        width: 124vw;
+        padding: 1.5rem 1rem;
     }
 
     .experience_content {
         grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    .experience {
+        margin-top: 248vw;
+        user-select: none;
+        padding-top: 1rem;
     }
     .experience h5{
-        font-size: x-large;
-        margin-left: -0.5em;
-        margin-right: -0.5em;
+        font-size: 8vw;
+        margin-left: 0.5em;
+        margin-right: -7.5em;
     }
     #experience h2 {
-        font-size: x-large;
+        font-size: xx-large;
+        margin-left: 0.5em;
+        margin-right: -6.5em;
     }
-}
 
 /* Media Queries pour les iPhone 12 Pro */
 @media screen and (max-width: 390px) {
