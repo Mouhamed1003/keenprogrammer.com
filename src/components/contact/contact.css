@@ -414,7 +414,7 @@ textarea {
     #contact {
         margin-top: 0rem;
         padding-bottom: 6rem;
-        width: 174vw;
+        width: 188vw;
     }
     #contact h5 {
         font-size: 9vw;
@@ -432,6 +432,7 @@ textarea {
         column-gap: 3rem;
         display: grid;
         grid-template-columns: 1fr;
+        left: 1.3rem;
         width: 102%;
         margin-right: 0;
         margin-left: 0;
@@ -506,7 +507,7 @@ textarea {
         display: flex;
         flex-direction: column;
         gap: 15.5vw;
-        margin-left: 0.5rem;
+        margin-left: -6.5vw;
         margin-right: 2vw;
         padding: 1.3rem;
         width: 46.9em;
