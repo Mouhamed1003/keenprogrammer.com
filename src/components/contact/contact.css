@@ -55,14 +55,10 @@ section {
 .contact_options::before {
     content: '';
     position: absolute;
-    top: calc(6% - 2.5px);
-    /* Positionner le trait au milieu de la hauteur du parent */
-    left: 41.7%;
-    /* Positionner le trait à 20% de la largeur du parent */
-    width: 7.4%;
-    /* Largeur du trait pour remplir horizontalement le parent */
-    height: 3px;
-    /* Hauteur du trait */
+    top: calc(6% - 2.5px); /* Positionner le trait au milieu de la hauteur du parent */
+    left: 31vw; /* Positionner le trait à 20% de la largeur du parent */
+    width: 5.2vw; /* Largeur du trait pour remplir horizontalement le parent */
+    height: 3px; /* Hauteur du trait */
     background-color: var(--color-white);
 }
 .contact_option+.contact_option+.contact_option::before {
