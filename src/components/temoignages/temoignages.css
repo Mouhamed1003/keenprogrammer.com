@@ -141,7 +141,7 @@
   }
   .swiper-slide.swiper-slide-visible.swiper-slide-fully-visible.swiper-slide-active.temoignage {
     width: 113vw;
-/*         width: 445px; */
+  /* width: 445px; */
   }
   .container.temoignages_container {
     height: 230vw;
@@ -154,7 +154,7 @@
     width: 60%;
   }
   .client_review {
-    font-size: 7.6vw;
+    font-size: 7.9vw;
   }
   .client_avatar {
     margin-bottom: 0.5rem;
