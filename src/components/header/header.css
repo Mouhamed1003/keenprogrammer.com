@@ -404,7 +404,7 @@ header {
         width: 166vw;
     }
     .text-light-function {
-        font-size: calc(7vw - .1em);
+        font-size: 9vw;
     }
     .header_container {
         height: 90%; /* Réduire la hauteur */
