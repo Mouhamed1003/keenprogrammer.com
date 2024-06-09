@@ -66,9 +66,9 @@ section {
     position: absolute;
     top: 74%;
     /* Positionner le trait au milieu de la hauteur du parent */
-    left: 41.7%;
+    left: 31vw;
     /* Positionner le trait à 20% de la largeur du parent */
-    width: 7.4%;
+    width: 5.2vw;
     /* Largeur du trait */
     height: 3px;
     /* Hauteur du trait */
@@ -397,7 +397,20 @@ textarea {
 @media screen and (max-width: 390px) {
     #contact {
         margin-top: 0rem;
-        padding-bottom: 95rem;
+        padding-bottom: 6rem;
+        width: 174vw;
+    }
+    #contact h5 {
+        font-size: 9vw;
+        margin-left: 0.1rem;
+        margin-right: 1vw;
+        text-align: center;
+    }
+    #contact h2 {
+        font-size: 8.5vw;
+        margin-left: .1rem;
+        margin-bottom: 1.2rem;
+        margin-top: 1.2rem;
     }
     .container.contact_container {
         grid-template-columns: 1fr;
@@ -411,19 +424,11 @@ textarea {
         text-align: left;
         width: 23em;
     }
-    #contact h5 {
-        font-size: x-large;
-        margin-left: 0.5rem;
-        margin-right: 0.5rem;
-    }
     .contact_option h6 {
         font-size: 20px;
         padding: 5px;
         user-select: text;
         text-align: center;
-    }
-    #contact h2 {
-        font-size: large;
     }
     .contact_option-icon1 {
         font-size: 2rem;
