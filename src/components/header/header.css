@@ -397,6 +397,7 @@ header {
     }
     header {
         height: 140vh;
+        width: 155vw;
     }
     .text-light-function {
         font-size: calc(7vw - .1em);
