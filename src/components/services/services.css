@@ -188,15 +188,14 @@ section {
         padding-top: 1rem;
     }
     .service_row {
-        right: 2.4rem;
-        padding-left: 14.3rem;
+        right: -6rem;
+        padding-left: 0;
         align-items: center;
-        column-gap: 2rem;
         display: grid;
         grid-template-columns: 1fr;
         justify-items: center;
         margin: 0 1.5rem;
-        row-gap: 1.4rem;
+        row-gap: .4rem;
     }
     .service {
         margin: 0.5rem 0;
