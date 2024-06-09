@@ -136,13 +136,18 @@
     text-align: center;
   }
   #temoignages h2 {
-    font-size: xx-large;
+    font-size: 8.5vw;
     margin-left: .1rem;
+  }
+  .swiper-slide.swiper-slide-visible.swiper-slide-fully-visible.swiper-slide-active.temoignage {
+    width: 113vw;
   }
   .container.temoignages_container {
     height: 63em;
-    left: -0.5em;
+    left: 0.5em;
     width: 29em;
+    margin-left: 0;
+    margin-right: 0;
   }
   .temoignages_container {
     width: 60%;
