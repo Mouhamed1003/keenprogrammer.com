@@ -203,10 +203,10 @@ section {
         width: 95%; /* Largeur de la carte pour très petits écrans */
     }
     .service_head h3 {
-        font-size: 1rem;
+        font-size: 8vw;
     }
     .service_list-icon {
-        font-size: 2em;
+        font-size: 13vw;
     }
     .services h5 {
         font-size: 8vw;
