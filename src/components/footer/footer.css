@@ -344,7 +344,7 @@ section a:hover {
   #footer {
     margin-top: 0rem;
     padding-bottom: 260vw;
-    padding-top: 102vw;
+    padding-top: 99vw;
     width: 177vw;
     height: 217vw;
   }
@@ -390,6 +390,6 @@ section a:hover {
     display: none;
   }
   #footer:before {
-    height: 258vw;
+    height: 254vw;
   }
 }
