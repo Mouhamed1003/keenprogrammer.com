@@ -207,6 +207,12 @@ section {
     .service_list-icon {
         font-size: 13vw;
     }
+    .ensemble {
+        font-weight: 700;
+        letter-spacing: 0;
+        max-height: 230vw;
+        width: 133vw;
+    }
     .services h5 {
         font-size: 8vw;
         margin-left: .5em;
