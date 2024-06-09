@@ -130,19 +130,21 @@
 /* Very small devices (iPhone 12 Pro) */
 @media screen and (max-width: 390px) {
     #portfolio {
-        padding-top: 1rem;
         margin-top: 13vw;
+        padding-top: 1rem;
+        width: 164vw;
     }
     #portfolio h2 {
+        font-size: xx-large;
         margin-left: 0.1rem;
-        font-size: large;
     }
     .portfolio_container {
-        grid-template-columns: 1fr;
         gap: 2rem;
-        width: 19rem;
-        padding: 0.5rem; /* Réduire le padding pour les très petits écrans */
-        margin-left: 8.4em;
+        grid-template-columns: 1fr;
+        margin-left: 37vw;
+        margin-right: 0;
+        padding: .5rem;
+        width: 24rem;
     }
     .portfolio_item {
         width: 100%;
@@ -157,9 +159,9 @@
         align-items: flex-end;
     }
     #portfolio h5 {
-        font-size: 8vw;
+        font-size: 9vw;
         margin-left: .5em;
-        margin-right: -7.5em;
+        margin-right: 0.5em;
         text-align: center;
     }
 }
