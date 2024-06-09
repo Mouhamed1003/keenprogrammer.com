@@ -429,6 +429,7 @@ header {
         gap: 0.5rem; /* Ajout d'un espace entre les éléments enfants */
         align-items: center; /* Centrer horizontalement */
         margin-top: 0rem;
+        margin-left: -1vw;
     }
     .cta a {
         width: 90%; /* Réduire la largeur des boutons */
