@@ -208,6 +208,10 @@ section {
     .services {
         margin-top: 24vw;
         padding-top: 1rem;
+        width: 117vw;
+    }
+    .services_container {
+        margin-left: -7vw;
     }
     .service_row {
         right: -5.9rem;
