@@ -46,6 +46,7 @@
 .portfolio_item-image {
     border-radius: 1rem;
     overflow: hidden;
+    user-select: none;
     -webkit-user-select: none;
     -webkit-user-drag: none;
     pointer-events: none;
