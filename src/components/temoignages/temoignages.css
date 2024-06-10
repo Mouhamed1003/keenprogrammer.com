@@ -23,6 +23,7 @@
   padding: 2rem;
   border-radius: 2rem;
   -webkit-user-select: none;
+  user-select: none;
 }
 .client_avatar {
   width: 8rem;
