@@ -2,7 +2,7 @@ header {
     height: 100vh;
     padding-top: 0.5rem;
     overflow: hidden;
-    user-select: none;
+    -webkit-user-select: none;
     font-family: "Sedan SC", serif;
 }
 
@@ -92,7 +92,7 @@ header {
     height: 100%;
     object-fit: cover;
     border-radius: 2rem;
-    user-select: none;
+    -webkit-user-select: none;
     -webkit-user-drag: none;
     pointer-events: none;
 }
