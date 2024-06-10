@@ -5,10 +5,12 @@ section {
     font-family: "Sedan SC", serif;
 }
 .permettre-selection { 
+    user-select: none; /* Empêche la sélection de texte sur les navigateurs modernes */
     -webkit-user-select: none; /* Empêche la sélection de texte sur tout le corps de la page */
 }
 .apropos {
     padding-top: 1rem;
+    user-select: none;
     -webkit-user-select: none;
 }
 #apropos h2 {
@@ -63,6 +65,7 @@ section {
     height: auto;
     border-radius: 2rem;
     transition: transform 0.3s ease;
+    user-select: none;
     -webkit-user-select: none;
     -webkit-user-drag: none;
     pointer-events: none;
