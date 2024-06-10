@@ -507,10 +507,10 @@ textarea {
         display: flex;
         flex-direction: column;
         gap: 15.5vw;
-        margin-left: -6.5vw;
+        margin-left: 6.5vw;
         margin-right: 2vw;
         padding: 1.3rem;
-        width: 48.9em;
+        width: 42.9em;
         height: 223vw;
     }
     input, textarea {
