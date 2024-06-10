@@ -1,5 +1,6 @@
 #footer {
   font-family: "Sedan SC", serif;
+  user-select: text;
   -webkit-user-select: text;
   background-color: #000;
   background-image: linear-gradient(to bottom, 
@@ -190,6 +191,7 @@ section a:hover {
   border: 1px solid transparent;
 }
 .footer_copyright {
+  user-select: none;
   -webkit-user-select: none;
   font-size: 1.2rem;
   font-weight: 900;
@@ -222,7 +224,8 @@ section a:hover {
   margin: 0 1em; /* Ajoute une marge horizontale entre les images */
   position: relative; /* Nécessaire pour que z-index fonctionne */
   z-index: -1; /* Place les images en arrière-plan */
-  -webkit-user-select: none; /* Empêche la sélection du texte */
+  user-select: none; /* Empêche la sélection du texte */
+  -webkit-user-select: none; /* Empêche la sélection du texte en safari et ios*/
   -webkit-user-drag: none; /* Empêche le glisser-déposer dans WebKit */
 }
 
@@ -280,6 +283,7 @@ section a:hover {
     text-align: center;
     font-size: 1.9em;
     font-weight: 900;
+    user-select: none;
     -webkit-user-select: none;
   }
   #svg5 {
@@ -351,6 +355,7 @@ section a:hover {
     margin: 1rem;
     padding-top: 0;
     text-align: center;
+    user-select: none;
     -webkit-user-select: none;
   }
   #footer #svg5 {
