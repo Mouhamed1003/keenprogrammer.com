@@ -3,7 +3,7 @@ section {
     font-family: "Sedan SC", serif;
 }
 #contact {
-    user-select: none;
+    -webkit-user-select: none;
 }
 #contact h2 {
     margin-top: 0.1rem;
@@ -103,7 +103,7 @@ section {
 .contact_option h6 {
     color: rgb(232, 170, 204);
     font-size: 16.5px;
-    user-select: text;
+    -webkit-user-select: text;
     padding: 5px;
 }
 .contact_option a {
@@ -199,7 +199,7 @@ textarea {
     .contact_option h6 {
         font-size: 28px;
         padding: 5px;
-        user-select: text;
+        -webkit-user-select: text;
     }
     #contact h2 {
         margin-top: 2.2rem;
@@ -327,7 +327,7 @@ textarea {
     .contact_option h6 {
         font-size: 8.5vw;
         padding: 5px;
-        user-select: text;
+        -webkit-user-select: text;
         text-align: center;
     }
     .contact_option a {
@@ -456,7 +456,7 @@ textarea {
     .contact_option h6 {
         font-size: 8.5vw;
         padding: 5px;
-        user-select: text;
+        -webkit-user-select: text;
         text-align: center;
     }
     .contact_option a {
