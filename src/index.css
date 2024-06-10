@@ -61,6 +61,7 @@ body {
 
 .permettre-selection {
     user-select: none;
+    -webkit-user-select: none;
 }
 
 /* Styles généraux */
