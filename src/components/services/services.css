@@ -1,6 +1,6 @@
 section {
     font-family: "Sedan SC", serif;
-    user-select: none;
+    -webkit-user-select: none;
     padding: 1rem;
     margin-top: 4rem;
 }
@@ -94,7 +94,7 @@ section {
     align-items: baseline;
 }
 .service_list span {
-    user-select: text;
+    -webkit-user-select: text;
     font-size: clamp(0.9rem, 1vw, 1.1rem);
     padding-left: 1px;
     font-weight: bold;
