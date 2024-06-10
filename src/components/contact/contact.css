@@ -355,6 +355,8 @@ textarea {
         font-size: 2rem;
     }
     .contact_options:before {
+        display: none;
+        /*
         content: "";
         height: 28px;
         left: 143vw;
@@ -362,17 +364,18 @@ textarea {
         top: 64.5%%;
         width: 7.4%;
         border: 4px solid #3f8167;
-        background-color: #09e80d;
+        background-color: #09e80d; */
     }
     .contact_option+.contact_option+.contact_option:before {
-        content: "";
+        display: none;
+/*         content: "";
         height: 28px;
         left: 143vw;
         position: absolute;
         top: 80.7%;
         width: 7.4%;
         border: 4px solid #3f8167;
-        background-color: #09e80d;
+        background-color: #09e80d; */
     }
     form {
         background: rgba(0, 0, 0, .459);
