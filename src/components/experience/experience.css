@@ -6,6 +6,7 @@ section {
 
 .experience {
     padding-top: 1.5rem;
+    user-select: none;
     -webkit-user-select: none;
 }
 
@@ -222,6 +223,7 @@ section {
     }
     .experience {
         margin-top: 248vw;
+        user-select: none;
         -webkit-user-select: none;
         padding-top: 1rem;
     }
@@ -255,6 +257,7 @@ section {
     .experience {
         margin-top: 9vw;
         width: 118vw;
+        user-select: none;
         -webkit-user-select: none;
         padding-top: 1rem;
     }
