@@ -29,7 +29,7 @@ const Footer = () => {
         <a id='a3' href="https://web.facebook.com/profile.php?id=100009399596087" target='_blank' rel="noreferrer"><FaFacebook /></a>
         <a id='a4' href="https://www.instagram.com/ammethdiouf/" target='_blank' rel="noreferrer"><FaInstagram /></a>
         <a id='a5' href="https://x.com/MOHAMADOUDIOUF1" target='_blank' rel="noreferrer"><FaXTwitter /></a>
-        <a id='a6' href="https://whatsapp.com" target='_blank' rel="noreferrer"><FaWhatsapp /></a>
+        <a id='a6' href="https://wa.me/qr/6BDEFD47FLQVM1" target='_blank' rel="noreferrer"><FaWhatsapp /></a>
         <a id='a7' href="https://t.me/Mouhameth_Diouf1003" target='_blank' rel="noreferrer"><FaTelegram /></a>
       </div>
       <div className="img_UNDRAW">
