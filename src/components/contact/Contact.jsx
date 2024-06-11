@@ -49,8 +49,8 @@ const Contact = () => {
             <FaTelegramPlane className='contact_option-icon3'/> <FaWhatsapp className='contact_option-icon4'/>
             <h4>Telegram/WhatsApp</h4>
             <h6>+212 649 17 36 72</h6>
-            <a href="https://t.me/Mouhameth_Diouf1003" target="_blank" rel="noreferrer">My Link Telegram{" >"}</a> &nbsp;{" "}&nbsp;
-            <a href="https://wa.me/qr/6BDEFD47FLQVM1" target="_blank" rel="noreferrer">My Link WhatsApp{" >"}</a>
+            <a href="https://t.me/Mouhameth_Diouf1003" target="_blank" rel="noreferrer">Link Telegram{" >"}</a> {" "}
+            <a href="https://wa.me/qr/6BDEFD47FLQVM1" target="_blank" rel="noreferrer">Link WhatsApp{" >"}</a>
           </article>
           <article className="contact_option">
             <FaSquareInstagram className='contact_option-icon2'/>
