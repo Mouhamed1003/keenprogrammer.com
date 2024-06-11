@@ -50,6 +50,7 @@ const Contact = () => {
             <h4>Telegram/WhatsApp</h4>
             <h6>+212 649 17 36 72</h6>
             <a href="https://t.me/Mouhameth_Diouf1003" target="_blank" rel="noreferrer">Contact Me{" >"}</a>
+            <a href="https://wa.me/qr/6BDEFD47FLQVM1" target="_blank" rel="noreferrer">Contact Me{" >"}</a>
           </article>
           <article className="contact_option">
             <FaSquareInstagram className='contact_option-icon2'/>
