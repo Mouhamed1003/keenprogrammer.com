@@ -11,7 +11,7 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Application de Systeme de Gestion de Taches.',
+    title: 'Application de Systeme de Gestion pour gerer des Taches a plusieurs actions possibles.',
     github: "https://github.com/Mouhamed1003/systeme-de-gestion-de-taches",
     demo: "https://mouhamed1003.github.io/systeme-de-gestion-de-taches/"
   },
