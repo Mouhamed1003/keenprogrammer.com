@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/keenprogrammer.com/static/css/main.fe4f1969.css",
-    "main.js": "/keenprogrammer.com/static/js/main.fde47617.js",
+    "main.js": "/keenprogrammer.com/static/js/main.e1747027.js",
     "static/media/maphoto3.png": "/keenprogrammer.com/static/media/maphoto3.c9ae1786ca259f8210c5.png",
+    "static/media/App_Manager_System.jpg": "/keenprogrammer.com/static/media/App_Manager_System.1cd1e54e4380f7140269.jpg",
     "static/media/moi2.png": "/keenprogrammer.com/static/media/moi2.c4058fabd02bb75c1b65.png",
     "static/media/CV-Dev-MOHAMADOU-DIOUF.pdf": "/keenprogrammer.com/static/media/CV-Dev-MOHAMADOU-DIOUF.63bb88893650d828c487.pdf",
     "static/media/portfolio5.png": "/keenprogrammer.com/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
     "static/media/portfolio2.jpg": "/keenprogrammer.com/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
     "static/media/portfolio6.jpg": "/keenprogrammer.com/static/media/portfolio6.72d1107e313049cf15a7.jpg",
-    "static/media/portfolio1.jpg": "/keenprogrammer.com/static/media/portfolio1.f5e72352e5aa840702b8.jpg",
     "static/media/portfolio3.jpg": "/keenprogrammer.com/static/media/portfolio3.cbab42559fe73e73906f.jpg",
     "static/media/portfolio4.jpg": "/keenprogrammer.com/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
     "static/media/undraw_hacker_mind_-6-y85.svg": "/keenprogrammer.com/static/media/undraw_hacker_mind_-6-y85.3a0dab1b43cd87b551408dc94a6f7ed1.svg",
@@ -18,10 +18,10 @@
     "static/media/undraw_version_control_re_mg66.svg": "/keenprogrammer.com/static/media/undraw_version_control_re_mg66.5d0135ff96ebb64215795e0b94ce9572.svg",
     "index.html": "/keenprogrammer.com/index.html",
     "main.fe4f1969.css.map": "/keenprogrammer.com/static/css/main.fe4f1969.css.map",
-    "main.fde47617.js.map": "/keenprogrammer.com/static/js/main.fde47617.js.map"
+    "main.e1747027.js.map": "/keenprogrammer.com/static/js/main.e1747027.js.map"
   },
   "entrypoints": [
     "static/css/main.fe4f1969.css",
-    "static/js/main.fde47617.js"
+    "static/js/main.e1747027.js"
   ]
 }
