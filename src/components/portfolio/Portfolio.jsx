@@ -12,8 +12,8 @@ const data = [
     id: 1,
     image: IMG1,
     title: 'Tableau de bord des crypto-monnaies et visualisation financière',
-    github: "http://github.com",
-    demo: "http://dribbble.com/alian_pixels"
+    github: "https://github.com/Mouhamed1003/systeme-de-gestion-de-taches",
+    demo: "https://mouhamed1003.github.io/systeme-de-gestion-de-taches/"
   },
   {
     id: 2,
