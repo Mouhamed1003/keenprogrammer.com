@@ -18,9 +18,9 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: 'Modèles de partage et infographies dans figma',
-    github: "http://github.com",
-    demo: "http://dribbble.com/alian_pixels"
+    title: 'Une application de gestion de produits construite avec React. Elle permet aux utilisateurs de gérer une liste de produits, de filtrer les produits par différentes catégories et de visualiser les détails de chaque produit.',
+    github: "https://mouhamed1003.github.io/produit-manager/",
+    demo: "https://github.com/Mouhamed1003/produit-manager"
   },
   {
     id: 3,
