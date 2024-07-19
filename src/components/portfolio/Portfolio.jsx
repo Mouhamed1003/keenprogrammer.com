@@ -18,7 +18,7 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: 'Application de gestion de Stock construite avec React et Bootstrap. Permettant aux utilisateurs de gérer une liste de produits, de filtrer par catégories et de visualiser les détails.',
+    title: 'Application de gestion de Stock construite avec React et Bootstrap, Pour gérer une liste de produits, de filtrer par catégories et de visualiser les détails.',
     github: "https://github.com/Mouhamed1003/produit-manager",
     demo: "https://mouhamed1003.github.io/produit-manager/"
   },
