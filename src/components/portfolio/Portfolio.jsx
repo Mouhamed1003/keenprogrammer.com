@@ -11,14 +11,14 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Application de Systeme de Gestion pour gerer des Taches a plusieurs actions possibles.',
+    title: 'Application Web de Systeme de Gestion pour gerer des Taches a plusieurs actions possibles.',
     github: "https://github.com/Mouhamed1003/systeme-de-gestion-de-taches",
     demo: "https://mouhamed1003.github.io/systeme-de-gestion-de-taches/"
   },
   {
     id: 2,
     image: IMG2,
-    title: 'Application de gestion de Stock construite avec React et Bootstrap, Pour gérer une liste de produits, de filtrer par catégories et de visualiser les détails.',
+    title: 'Site Web de Gestion de Stock construite avec React et Bootstrap, Pour gérer une liste de produits, de filtrer par catégories et de visualiser les détails.',
     github: "https://github.com/Mouhamed1003/produit-manager",
     demo: "https://mouhamed1003.github.io/produit-manager/"
   },
