@@ -1,7 +1,7 @@
 import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../images/App_Manager_System.jpg'
-import IMG2 from '../../images/portfolio2.jpg'
+import IMG2 from '../../images/Appli-produit-manager.jpg'
 import IMG3 from '../../images/portfolio3.jpg'
 import IMG4 from '../../images/portfolio4.jpg'
 import IMG5 from '../../images/portfolio5.png'
@@ -18,7 +18,7 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: 'Une application de gestion de produits construite avec React. Elle permet aux utilisateurs de gérer une liste de produits, de filtrer les produits par différentes catégories et de visualiser les détails de chaque produit.',
+    title: 'Application de gestion de Stock construite avec React et Bootstrap. Permettant aux utilisateurs de gérer une liste de produits, de filtrer par catégories et de visualiser les détails.',
     github: "https://mouhamed1003.github.io/produit-manager/",
     demo: "https://github.com/Mouhamed1003/produit-manager"
   },
