@@ -1,5 +1,5 @@
 import React from 'react' 
-import CV from '../../images/CV-Dev-MOHAMADOU-DIOUF.pdf';
+//import CV from '../../images/CV-Dev-MOHAMADOU-DIOUF.pdf';
 import { CgSoftwareDownload } from "react-icons/cg";
 import { BiSolidMessageRounded } from "react-icons/bi";
 
