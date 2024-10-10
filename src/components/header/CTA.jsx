@@ -1,7 +1,7 @@
 import React from 'react' 
 //import CV from '../../images/CV-Dev-MOHAMADOU-DIOUF.pdf';
 //<a href={} className='btn' target='_blank' rel='noreferrer'>My Personal Resume <CgSoftwareDownload className='icon-load'/> </a>
-import { CgSoftwareDownload } from "react-icons/cg";
+//import { CgSoftwareDownload } from "react-icons/cg";
 import { BiSolidMessageRounded } from "react-icons/bi";
 
 const CTA = () => {
