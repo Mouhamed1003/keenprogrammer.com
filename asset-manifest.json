@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/keenprogrammer.com/static/css/main.a6df30d1.css",
-    "main.js": "/keenprogrammer.com/static/js/main.2d60b051.js",
+    "main.js": "/keenprogrammer.com/static/js/main.3d8f5957.js",
     "static/media/maphoto3.png": "/keenprogrammer.com/static/media/maphoto3.c9ae1786ca259f8210c5.png",
+    "static/media/MonCv24.pdf": "/keenprogrammer.com/static/media/MonCv24.fa0d4e373dd918a918d2.pdf",
     "static/media/App_Manager_System.jpg": "/keenprogrammer.com/static/media/App_Manager_System.1cd1e54e4380f7140269.jpg",
     "static/media/moi2.png": "/keenprogrammer.com/static/media/moi2.c4058fabd02bb75c1b65.png",
     "static/media/Appli-produit-manager.jpg": "/keenprogrammer.com/static/media/Appli-produit-manager.6ae48ec379dd95664f7b.jpg",
@@ -17,10 +18,10 @@
     "static/media/undraw_version_control_re_mg66.svg": "/keenprogrammer.com/static/media/undraw_version_control_re_mg66.5d0135ff96ebb64215795e0b94ce9572.svg",
     "index.html": "/keenprogrammer.com/index.html",
     "main.a6df30d1.css.map": "/keenprogrammer.com/static/css/main.a6df30d1.css.map",
-    "main.2d60b051.js.map": "/keenprogrammer.com/static/js/main.2d60b051.js.map"
+    "main.3d8f5957.js.map": "/keenprogrammer.com/static/js/main.3d8f5957.js.map"
   },
   "entrypoints": [
     "static/css/main.a6df30d1.css",
-    "static/js/main.2d60b051.js"
+    "static/js/main.3d8f5957.js"
   ]
 }
