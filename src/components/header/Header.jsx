@@ -59,9 +59,9 @@ useEffect(() => {
     <section id='header'>
     <header>
       <div className="container header_container">
-        <h3>Hello Everyone<FaHandHoldingHeart />, I'm</h3>
+        <h3>Hello Everyone<FaHandHoldingHeart />, Je suis</h3>
         <h1><span><IoSparklesSharp/><FaHandHoldingHeart /> {"{ "}</span>{typedName}<span>{" }"} <FaHandsHelping /> </span></h1>
-        <h5 className="text-light-function">Web Développeur </h5>
+        <h5 className="text-light-function"> Développeur fullstack en FORMATION </h5>
         <div className="icons">
             <FaReact size={80} style={{ transform: `rotate(${rotationDegree}deg)` }} />
             <FaReact size={50} style={{ transform: `rotate(${rotationDegree}deg)` }} />
