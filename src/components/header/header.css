@@ -1,9 +1,3 @@
-/* Force Chrome à bien prendre le CSS en compte */
-* {
-  all: unset; 
-  all: revert-layer;
-}
-
 header {
     height: 100vh;
     padding-top: 0.5rem;
