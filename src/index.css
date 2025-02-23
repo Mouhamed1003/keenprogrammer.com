@@ -7,6 +7,9 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    /* Force Chrome à bien prendre le CSS en compte */
+    all: unset; 
+    all: revert-layer;
 }
 
 /* Variables des couleurs et autres */
